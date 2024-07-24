@@ -12,7 +12,7 @@ export default function Hero() {
                     loop
                     muted
                 >
-                    <source src="assets/bg.mp4" type="video/mp4" />
+                    <source src="assets/Catapult.mp4" type="video/mp4" />
                 </video>
                 <div className='relative text-left z-10'>
                     <p className='tracking-widest px-32 text-xl sm:text-2xl md:text-4xl lg:text-8xl xl:text-8xl font-bold'>
