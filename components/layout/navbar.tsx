@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { Menu, Package2, Search } from 'lucide-react'
+import { Menu, ChevronDown } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -10,6 +10,10 @@ import Logo from '@/public/assets/logo.png'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+ 
+//   window.onbeforeunload = function () {
+//     window.scrollTo(0, 0);
+//   }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,12 +81,12 @@ const Navbar = () => {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button variant='outline' size='icon' className='shrink-0 md:hidden'>
+          <Button  size='icon' className={`shrink-0 md:hidden  ${isScrolled ? 'bg-white text-black hover:bg-[#021836] hover:border-white border-2 hover:shadow-white/50 hover:text-white' : 'bg-[#021836] text-white hover:bg-white hover:text-black'} `}>
             <Menu className='h-5 w-5' />
             <span className='sr-only'>Toggle navigation menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side='right'>
+        <SheetContent side='topLeft'  className='w-full max-w-[10rem] text-white border-0 shadow-lg shadow-white/50 rounded-md bg-[#021836]'>
           <nav className='grid gap-6 text-lg font-medium'>
             <Link
               href='#'

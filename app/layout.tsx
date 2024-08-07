@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={'bg-slate-600'}>
+      <body>
       {/* <body className={'bg-[#021836]'}> */}
         <div className='min-h-screen w-full'>
           <Navbar />
