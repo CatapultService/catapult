@@ -18,7 +18,7 @@ const RoleOfFinance = () => {
           enterprise performance management framework, for financial value
           creation & preservation. The building blocks typically include:
         </p>
-        
+
         <ul className="list-disc list-inside leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl text-[#c6c3c3] ">
           <li>
             <span className="font-semibold text-[#e9e4e4]">
@@ -46,7 +46,7 @@ const RoleOfFinance = () => {
             </span>{" "}
             Businesses that have a clear narrative that distills its positioning
             within a category, growth & profitability drivers and intricacies of
-            it's right to win, in a framework comprehensible by investor
+            it&apos;s right to win, in a framework comprehensible by investor
             community, command superior investor interest.
           </li>
           <li>
@@ -93,7 +93,7 @@ const RoleOfFinance = () => {
             <ul className="list-disc list-inside space-y-4 mt-4 ml-6">
               <li>
                 <span className="font-semibold text-[#e9e4e4]">
-                  "De-averaging" Revenue performance:
+                  &quot;De-averaging&quot; Revenue performance:
                 </span>
                 Averages often conceal the true source of growth & de-growth. It
                 is imperative to get a granular view of trends, future growth
