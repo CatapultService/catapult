@@ -3,15 +3,13 @@ import React from "react";
 
 export default function role() {
   return (
-    <div className=" bg-[#001A40] px-20 text-white flex">
+    <div className=" bg-[#001A40] px-10 md:px-20 text-white flex">
       <div className="mx-auto max-w-6xl my-20 ">
         <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white">
           Role of Finance in Linking Growth to Shareholder Value Creation
         </p>
 
-        <p className="mb-6 text-left leading-relaxed text-lg font-light text-[#c6c4c4]"></p>
-
-        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-light text-[#c6c4c4]">
+        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#c6c4c4]">
           For an organisation to be sustainable and create value, it needs to go
           beyond Product Market Fit & Revenue Growth and build a system that
           Bridges Revenue Growth with Profitability, Capital Efficiency & Free
@@ -60,7 +58,7 @@ const listItems = [
           " Monthly performance reviews should go beyond headlines of Budget vs Actuals and broad brushed averages, to understand granularity of sources & Revenue & Margin growth and misses:",
       },
       {
-        title: "&quot;De-averaging&quot; Revenue performance:",
+        title: "\"De-averaging\" Revenue performance:",
         content:
           " Averages often conceal the true source of growth & de-growth. It is imperative to get a granular view of trends, future growth rates, and market structures. Insights into Use Cases, Customer cohorts, Categories, Channels and Micromarkets are essential building blocks of making the right decisions about where to compete. Agility in where to compete is critical as empirical data suggests a high correlation between outperformance and market growth rates.",
       },
