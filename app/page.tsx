@@ -3,6 +3,7 @@ import Hero from "@/components/layout/hero";
 import FinanceText from "@/components/layout/text/finance";
 import RoleOfFinance from "@/components/layout/text/role";
 import Performance from "@/components/layout/text/performance";
+import Services from "@/components/layout/text/services";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FinanceText />
       <RoleOfFinance />
       <Performance />
+      <Services />
     </main>
   );
 }
