@@ -90,7 +90,7 @@ interface RoleListProps {
 
 const RoleList: React.FC<RoleListProps> = ({ items }) => {
   return (
-    <ul className="list-disc list-inside space-y-6 leading-loose text-xs sm:text-sm md:text-base text-[#c6c3c3]">
+    <ul className="list-disc list-inside space-y-6 leading-loose text-xs sm:text-sm md:text-base text-[#d9d9d9]">
       {items.map((item, index) => (
         <li key={index}>
           <span className="font-semibold text-[#e9e4e4]">{item.title} </span>
