@@ -3,7 +3,7 @@ import React from "react";
 export default function Finance() {
   return (
     <>
-      <div className=" bg-[#021836] px-20 text-white flex items-center">
+      <div className=" bg-[#021836] px-10 md:px-20 text-white flex items-center">
         <div className="mx-auto max-w-6xl my-4">
           <p className="my-16 text-base sm:text-lg md:text-xl leading-relaxed  mx-auto text-center">
             Today&apos;s Founders & CXOs are expected to deliver growth &

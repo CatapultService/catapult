@@ -56,25 +56,25 @@ export default function performance() {
                     {row.activity}
                   </td>
                   <td className="border-t border-r border-white px-2 sm:px-6 py-3 w-1/3">
-                    <div className="flex flex-wrap justify-center items-center">
+                    <div className="grid grid-cols-4 sm:grid-cols-8 gap-1 sm:gap-2 justify-center items-center">
                       {Array(row.current)
                         .fill(0)
                         .map((_, i) => (
                           <span
                             key={i}
-                            className="w-2 h-2 sm:w-4 sm:h-4 bg-white rounded-full mr-1 sm:mr-2 mb-2 sm:mb-4 inline-block"
+                            className="w-2 h-2 sm:w-4 sm:h-4 bg-white rounded-full inline-block"
                           ></span>
                         ))}
                     </div>
                   </td>
                   <td className="border-t border-white px-2 sm:px-6 py-3 w-1/3">
-                    <div className="flex flex-wrap justify-center items-center">
+                    <div className="grid grid-cols-4 sm:grid-cols-8 gap-1 sm:gap-2 justify-center items-center">
                       {Array(row.ideal)
                         .fill(0)
                         .map((_, i) => (
                           <span
                             key={i}
-                            className="w-2 h-2 sm:w-4 sm:h-4 bg-white rounded-full mr-1 sm:mr-2 mb-2 sm:mb-4 inline-block"
+                            className="w-2 h-2 sm:w-4 sm:h-4 bg-white rounded-full inline-block"
                           ></span>
                         ))}
                     </div>
@@ -84,11 +84,13 @@ export default function performance() {
             </tbody>
           </table>
         </div>
-        {/* <p className="mt-8 text-left text-lg font-light ml-10">
+
+        <p className="my-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#c6c4c4]">        
           This is because currently CFO downwards is required to focus on
           processing & controlling fragmented data manually.
-        </p> */}
+        </p>
       </div>
+
       {/* <div style={{ color: "white" }} className="p-8 mx-auto max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 mb-8">
           <div className="flex flex-col items-center">
@@ -182,6 +184,7 @@ export default function performance() {
           </p>
         </div>
       </div> */}
+      
     </div>
   );
 }

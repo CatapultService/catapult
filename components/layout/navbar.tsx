@@ -27,20 +27,20 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 flex justify-between h-28 items-center px-12  w-full transition-colors duration-300 z-20 ${isScrolled ? 'bg-[#021836] ' : 'bg-transparent '}`}>
+    <header className={`fixed top-0 flex justify-between h-20 items-center px-12  w-full transition-colors duration-300 z-20 ${isScrolled ? 'bg-[#021836] ' : 'bg-transparent '}`}>
       <div className='text-white'>
         <Link
           href='#'
           className='flex items-center gap-2 text-lg  font-semibold md:text-base'
         >
           {/* <Package2 className='h-6 w-6' /> */}
-          <Image src={Logo} alt="Logo"  height={40} /> {/* Add the logo image */}
+          <Image src={Logo} alt="Logo"  height={50} /> 
 
           <span className='sr-only'>Acme Inc</span>
         </Link>
       </div>
 
-      <nav className='hidden text-white flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-10 md:text-sm lg:gap-20'>
+      <nav className='hidden text-white flex-col gap-3 text-lg font-medium md:flex md:flex-row md:items-center md:gap-6 md:text-sm lg:gap-14'>
         <Link
           href='#'
           className='transition-colors hover:text-foreground'
