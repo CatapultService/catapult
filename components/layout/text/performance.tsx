@@ -8,7 +8,7 @@ export default function performance() {
         <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white">
           Barriers to achieving Performance Excellence
         </p>
-        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#c6c4c4]">        
+        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#d9d9d9]">        
           The reality is that, finance teams are typically characterised as
           overburdened with manual data crunching and consequently inward
           looking with a rear view orientation. They lack the ability to engage
@@ -85,7 +85,7 @@ export default function performance() {
           </table>
         </div>
 
-        <p className="my-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#c6c4c4]">        
+        <p className="my-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#d9d9d9]">        
           This is because currently CFO downwards is required to focus on
           processing & controlling fragmented data manually.
         </p>
@@ -130,7 +130,7 @@ export default function performance() {
           </div>
         </div>
         <div>
-          <p className="mb-4 ml-8 font-weight-600 leading-relaxed text-[#c6c4c4]">
+          <p className="mb-4 ml-8 font-weight-600 leading-relaxed text-[#d9d9d9]">
             <strong className="font-semibold text-[#f5f1f1]">
               Data Proliferation:
             </strong>{" "}
@@ -148,7 +148,7 @@ export default function performance() {
             of the finance bandwidth being consumed in plumbing of disaggregated
             data using MS Excel. Fragmentation of data is an outcome of:
           </p>
-          <ul className="list-disc list-inside mb-4 leading-relaxed text-[#c6c4c4]">
+          <ul className="list-disc list-inside mb-4 leading-relaxed text-[#d9d9d9]">
             <li className="mb-2 ml-14 text-[#e9e4e4]">
               <strong className="font-semibold text-[#f5f1f1]">
                 Multiple Data Sources:

@@ -9,7 +9,7 @@ export default function role() {
           Role of Finance in Linking Growth to Shareholder Value Creation
         </p>
 
-        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#c6c4c4]">
+        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#d9d9d9]">
           For an organisation to be sustainable and create value, it needs to go
           beyond Product Market Fit & Revenue Growth and build a system that
           Bridges Revenue Growth with Profitability, Capital Efficiency & Free
