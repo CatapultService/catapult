@@ -8,7 +8,7 @@ export default function performance() {
         <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-[#202020]">
           Barriers to achieving Performance Excellence
         </p>
-        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#202020]">
+        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  text-[#202020]">
           The reality is that, finance teams are typically characterised as
           overburdened with manual data crunching and consequently inward
           looking with a rear view orientation. They lack the ability to engage
@@ -16,7 +16,7 @@ export default function performance() {
         </p>
 
         <div className="overflow-x-auto w-full">
-          <table className="rounded-lg border-t-4 border-b-4  border-[#FFE600]  font-light w-full text-[#202020]">
+          <table className="rounded-lg border-t-4 border-b-4  border-[#FFE600] w-full text-[#202020]">
             <thead>
               <tr>
                 <th className="px-2 sm:px-6 py-3 text-left border-b-4 text-xs sm:text-lg font-semibold  border-[#FFE600]  w-1/3">
@@ -58,7 +58,7 @@ export default function performance() {
                 },
               ].map((row, index) => (
                 <tr key={index}>
-                  <td className="border-t border-[#FFE600] px-2 sm:px-6 py-3 w-1/3 text-xs sm:text-lg font-light p-0.5">
+                  <td className="border-t border-[#FFE600] px-2 sm:px-6 py-3 w-1/3 text-xs sm:text-lg  p-0.5">
                     {row.activity}
                   </td>
                   <td className="border-t  border-[#FFE600] px-2 sm:px-6 py-3 w-1/3">
@@ -91,13 +91,13 @@ export default function performance() {
           </table>
         </div>
 
-        <p className="my-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#202020]">
+        <p className="my-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  text-[#202020]">
           This is because currently CFO downwards is required to focus on
           processing & controlling fragmented data manually.
         </p>
       </div>
 
-      <div style={{ color: "white" }} className=" mx-auto max-w-6xl mb-10">
+      <div style={{ color: "white" }} className=" mx-auto max-w-6xl mb-2">
         <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-7 gap-4 items-center justify-center mb-8">
           <div className="flex flex-col items-center col-span-1 lg:col-span-1">
             <div className="w-32 h-32 md:w-48 md:h-48 bg-[#090E4A] text-[#FFE600] flex items-center justify-center text-bold rounded-full mb-2">

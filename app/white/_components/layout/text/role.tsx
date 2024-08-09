@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link';
+import Link from "next/link";
 // import RoleList from './RoleList';
 
 export default function role() {
@@ -27,7 +27,7 @@ export default function role() {
 }
 
 // Define the list items data
-const listItems = [
+const listItems: ListItem[] = [
   {
     title: "Investor Relations:",
     content:
@@ -45,42 +45,94 @@ const listItems = [
   },
   {
     title: "Cash Conversion Excellence:",
-    content:
-      ` Charlie Munger had infamously dismissed EBITDA as an unreliable metric. The reason being, high EBITDA is no assurance of value creation, as capital can be blocked in Receivables and Inventory. Poor Working Capital management chokes up growth, as businesses require additional working capital, but also dilute Enterprise Value. For example an additional 15 Days of Working Capital blocked in Receivables can dilute PBT Margins by 0.75 - 1%. At a typical 15 - 18% PBT across most industries, this means a dilution in Enterprise Valuation by 5-7.5%. So moving your DSO from 75 days to 60 Days cana potentially impact valuation by 5%. Augmenting human effort with the right data architecture & technology, ovrlayed with the proprietory algorithms can enable this. ${<Link href='/cash-conversion' className='text-yellow-500'>Click here</Link>} to know more.`,
+    content: (
+      <>
+        Charlie Munger had infamously dismissed EBITDA as an unreliable metric.
+        The reason being, high EBITDA is no assurance of value creation, as
+        capital can be blocked in Receivables and Inventory. Poor Working
+        Capital management chokes up growth, as businesses require additional
+        working capital, but also dilute Enterprise Value. For example an
+        additional 15 Days of Working Capital blocked in Receivables can dilute
+        PBT Margins by 0.75 - 1%. At a typical 15 - 18% PBT across most
+        industries, this means a dilution in Enterprise Valuation by 5-7.5%. So
+        moving your DSO from 75 days to 60 Days can potentially impact valuation
+        by 5%. Augmenting human effort with the right data architecture &
+        technology, overlayed with the proprietary algorithms can enable this.{" "}
+        <Link href="#" className="text-yellow-500 underline">
+          Click here
+        </Link>{" "}
+        to know more.
+      </>
+    ),
   },
   {
     title: "Capital Efficiency:",
+    content: (
+      <>
+        A growth stagae business is simply a race against time of converting
+        capital raised into free cash before running out of capital. However,
+        our experience suggests that mst of growth stage companines under invest
+        in aa formal capital allocation prcess. This is typically because while
+        most management teams have strong domain knowledge, they are new to
+        capital allocation themselves and customer outreach and sales take
+        preceedence over setting up a formala capital allocation process is both
+        scientific and eliminates biases or intutive decision making. augmenting
+        human effort with the right data architecture & technology, overlayed
+        with the proprietory algorithm can enable this.{" "}
+        <Link href="#" className="text-yellow-500 underline">
+          Click here
+        </Link>{" "}
+        to know more.
+      </>
+    ),
+  },
+  {
+    title: "Steering Performance:",
     content:
-      " A growth stagae business is simply a race against time of converting capital raised into free cash before running out of capital. However, our experience suggests that mst of growth stage companines under invest in aa formal capital allocation prcess. This is typically because while most management teams have strong domain knowledge, they are new to capital allocation themselves and customer outreach and sales take preceedence over setting up a formala capital allocation process is both scientific and eliminates biases or intutive decision making. augmenting human effort with the right data architecture & technology, overlayed with the proprietory algorithm can enable this. <Link href='/capital-efficiency'>Click here</Link> to know more.",
-    subItems: [
-      {
-        title: "Steering Performance:",
-        content:
-          " Monthly performance reviews should go beyond headlines of Budget vs Actuals and broad brushed averages, to understand granularity of sources & Revenue & Margin growth and misses:",
-      },
-      {
-        title: "\"De-averaging\" Revenue performance:",
-        content:
-          " Averages often conceal the true source of growth & de-growth. It is imperative to get a granular view of trends, future growth rates, and market structures. Insights into Use Cases, Customer cohorts, Categories, Channels and Micromarkets are essential building blocks of making the right decisions about where to compete. Agility in where to compete is critical as empirical data suggests a high correlation between outperformance and market growth rates.",
-      },
-      {
-        title: "Customer Life Time Value Analytics:",
-        content:
-          " No business is built by continuous acquisition of new customers. Focus on customer lifetime value by building a loyal customer base is non-negotiable. Building a sustainable process requires leveraging technology to aggregate, mine & analyze data to segment customers into customer personas, vintage, repeat and frequency. <Link href='/customer-lifetime-value'>Click here</Link> to know more.",
-      },
-      {
-        title: " Margin Management:",
-        content:
-          " Breaking data and operational silos and creating an integrated data and analytics architecture for Pricing, Inventory, Discounts & Leakages, overlayed with dimensions of Category, Use Cases, Channels, Customers and Micromarkets can create a 2-3% improvement in margins. <Link href='/margin-management'>Click here</Link> to know more.",
-      },
-    ],
+      " Monthly performance reviews should go beyond headlines of Budget vs Actuals and broad brushed averages, to understand granularity of sources & Revenue & Margin growth and misses:",
+  },
+  {
+    title: '"De-averaging" Revenue performance:',
+    content:
+      " Averages often conceal the true source of growth & de-growth. It is imperative to get a granular view of trends, future growth rates, and market structures. Insights into Use Cases, Customer cohorts, Categories, Channels and Micromarkets are essential building blocks of making the right decisions about where to compete. Agility in where to compete is critical as empirical data suggests a high correlation between outperformance and market growth rates.",
+  },
+  {
+    title: "Customer Life Time Value Analytics:",
+    content: (
+      <>
+        No business is built by continuous acquisition of new customers. Focus
+        on customer lifetime value by building a loyal customer base is
+        non-negotiable. Building a sustainable process requires leveraging
+        technology to aggregate, mine & analyze data to segment customers into
+        customer personas, vintage, repeat and frequency.{" "}
+        <Link href="#" className="text-yellow-500 underline">
+          Click here
+        </Link>{" "}
+        to know more.
+      </>
+    ),
+  },
+  {
+    title: " Margin Management:",
+    content: (
+      <>
+        Breaking data and operational silos and creating an integrated data and
+        analytics architecture for Pricing, Inventory, Discounts & Leakages,
+        overlayed with dimensions of Category, Use Cases, Channels, Customers
+        and Micromarkets can create a 2-3% improvement in margins.{" "}
+        <Link href="#" className="text-yellow-500 underline">
+          Click here
+        </Link>{" "}
+        to know more.
+      </>
+    ),
   },
 ];
 
 // Define the structure of each list item
 interface ListItem {
   title: string;
-  content: string;
+  content: React.ReactNode;
   subItems?: ListItem[]; // Optional for nested lists
 }
 
@@ -91,25 +143,13 @@ interface RoleListProps {
 
 const RoleList: React.FC<RoleListProps> = ({ items }) => {
   return (
-    <ul className="list-disc list-inside space-y-6 leading-loose text-xs sm:text-sm md:text-base ">
+    <div className="list-disc list-inside space-y-6 leading-loose text-xs sm:text-sm md:text-base ">
       {items.map((item, index) => (
-        <li key={index}>
+        <p key={index}>
           <span className="font-semibold text-[#202020]">{item.title} </span>
           {item.content}
-          {item.subItems && (
-            <ul className="list-disc list-inside space-y-4 mt-4 ml-6">
-              {item.subItems.map((subItem, subIndex) => (
-                <li key={subIndex}>
-                  <span className="font-semibold text-[#202020]">
-                    {subItem.title}
-                  </span>
-                  {subItem.content}
-                </li>
-              ))}
-            </ul>
-          )}
-        </li>
+        </p>
       ))}
-    </ul>
+    </div>
   );
 };

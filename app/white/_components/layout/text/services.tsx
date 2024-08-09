@@ -8,8 +8,8 @@ import img3 from "@/public/assets/row_3.png";
 export default function services() {
   return (
     <div className=" bg-white px-10 md:px-20 text-[#202020] flex">
-      <div className="mx-auto max-w-6xl mt-10 mb-20 ">
-        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#202020]">
+      <div className="mx-auto max-w-6xl mb-20 ">
+        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base   text-[#202020]">
           A future & battle ready Finance Organisation needs a new operating
           model, with not only new Finance Talent Capabilities, but a digital
           transformation of how data is collected, recorded, validated,
@@ -19,13 +19,13 @@ export default function services() {
           outcomes.
         </p>
 
-        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  font-light text-[#202020]">
+        <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base   text-[#202020]">
           To know how we can partner, please do explore Our Services, Technology
           & Team Capabilities.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 mb-8 lg:ml-20 mx-8 gap-6 ">
-          <div className="text-left text-xl font-light my-3 ">
+          <div className="text-left text-xl  my-3 ">
             <img
               src={img1.src}
               alt="Our Services"
@@ -33,7 +33,7 @@ export default function services() {
             />
             <p className="font-bold">Our Services</p>
           </div>
-          <div className="text-left text-xl font-light my-3">
+          <div className="text-left text-xl  my-3">
             <img
               src={img2.src}
               alt="Technology"
@@ -41,7 +41,7 @@ export default function services() {
             />
             <p className="font-bold">Technology</p>
           </div>
-          <div className="text-left text-xl font-light my-3">
+          <div className="text-left text-xl  my-3">
             <img
               src={img3.src}
               alt="Team"
