@@ -58,7 +58,7 @@ const listItems: ListItem[] = [
         moving your DSO from 75 days to 60 Days can potentially impact valuation
         by 5%. Augmenting human effort with the right data architecture &
         technology, overlayed with the proprietary algorithms can enable this.{" "}
-        <Link href="#" className="text-yellow-500 underline">
+        <Link href="#" className="text-[#FFE600] underline">
           Click here
         </Link>{" "}
         to know more.
@@ -79,7 +79,7 @@ const listItems: ListItem[] = [
         scientific and eliminates biases or intutive decision making. augmenting
         human effort with the right data architecture & technology, overlayed
         with the proprietory algorithm can enable this.{" "}
-        <Link href="#" className="text-yellow-500 underline">
+        <Link href="#" className="text-[#FFE600] underline">
           Click here
         </Link>{" "}
         to know more.
@@ -105,7 +105,7 @@ const listItems: ListItem[] = [
         non-negotiable. Building a sustainable process requires leveraging
         technology to aggregate, mine & analyze data to segment customers into
         customer personas, vintage, repeat and frequency.{" "}
-        <Link href="#" className="text-yellow-500 underline">
+        <Link href="#" className="text-[#FFE600] underline">
           Click here
         </Link>{" "}
         to know more.
@@ -120,7 +120,7 @@ const listItems: ListItem[] = [
         analytics architecture for Pricing, Inventory, Discounts & Leakages,
         overlayed with dimensions of Category, Use Cases, Channels, Customers
         and Micromarkets can create a 2-3% improvement in margins.{" "}
-        <Link href="#" className="text-yellow-500 underline">
+        <Link href="#" className="text-[#FFE600] underline">
           Click here
         </Link>{" "}
         to know more.
