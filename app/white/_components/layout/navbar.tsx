@@ -36,7 +36,7 @@ const Navbar = () => {
           {/* <Package2 className='h-6 w-6' /> */}
           <Image src={Logo} alt="Logo"  height={50} /> 
 
-          <span className='sr-only'>Acme Inc</span>
+          <span className='sr-only'>Catapult</span>
         </Link>
       </div>
 
