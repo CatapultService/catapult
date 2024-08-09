@@ -25,29 +25,38 @@ export default function services() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 mb-8 lg:ml-20 mx-8 gap-6 ">
-          <div className="text-left text-xl  my-3 ">
+          <div className="relative text-left text-xl my-3">
             <img
               src={img1.src}
               alt="Our Services"
               className="mb-4 object-cover h-full w-full"
+              style={{ filter: "brightness(70%)" }}
             />
-            <p className="font-bold">Our Services</p>
+            <p className="font-bold absolute inset-0 flex items-center justify-center sm:text-5xl md:text-2xl lg:text-4xl text-[#FFE600]">
+              Our Services
+            </p>
           </div>
-          <div className="text-left text-xl  my-3">
+          <div className="relative text-left text-xl my-3">
             <img
               src={img2.src}
               alt="Technology"
               className="mb-4 object-cover h-full w-full"
+              style={{ filter: "brightness(70%)" }}
             />
-            <p className="font-bold">Technology</p>
+            <p className="font-bold absolute inset-0 flex items-center justify-center sm:text-5xl md:text-2xl lg:text-4xl text-[#FFE600]">
+              Technology
+            </p>
           </div>
-          <div className="text-left text-xl  my-3">
+          <div className="relative text-left text-xl my-3">
             <img
               src={img3.src}
               alt="Team"
               className="mb-4 object-cover h-full w-full"
+              style={{ filter: "brightness(70%)" }}
             />
-            <p className="font-bold">Team</p>
+            <p className="font-bold absolute inset-0 flex items-center justify-center sm:text-5xl md:text-2xl lg:text-4xl text-[#FFE600]">
+              Team
+            </p>
           </div>
         </div>
       </div>
