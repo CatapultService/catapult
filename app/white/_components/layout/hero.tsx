@@ -13,8 +13,8 @@ export default function Hero() {
           <source src="assets/Catapult.mp4" type="video/mp4" />
         </video>
         <div className="relative text-left z-10">
-          <p className="tracking-widest px-32 text-xl sm:text-2xl md:text-4xl lg:text-8xl xl:text-8xl font-bold">
-            We make the complex, human
+          <p className="tracking-widest px-10 md:px-32 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#FFE600] md:leading-relaxed xl:leading-relaxed">
+          Enabling Enterprise Performance Excellence
           </p>
         </div>
       </div>

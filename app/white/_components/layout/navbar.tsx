@@ -27,11 +27,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 flex justify-between h-20 items-center px-12  w-full transition-colors duration-300 z-20 ${isScrolled ? 'bg-[#021836] ' : 'bg-transparent '}`}>
+    <header className={`fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-[9rem] ${isScrolled ? 'bg-[#021836] ' : 'bg-transparent '}`}>
       <div className='text-white'>
         <Link
           href='#'
-          className='flex items-center gap-2 text-lg  font-semibold md:text-base'
+          className='flex items-center gap-2 text-lg  font-semibold lg:text-base'
         >
           {/* <Package2 className='h-6 w-6' /> */}
           <Image src={Logo} alt="Logo"  height={50} /> 
@@ -40,7 +40,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <nav className='hidden h-full text-white flex-col gap-3 text-lg font-medium md:flex md:flex-row md:items-center md:gap-6 md:text-sm lg:gap-14'>
+      <nav className='hidden h-full text-white flex-col gap-3 text-lg font-medium lg:flex lg:flex-row lg:items-center lg:gap-6 lg:text-sm xl:gap-14'>
         <Link
           href='#'
           className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full '
@@ -81,7 +81,7 @@ const Navbar = () => {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button  size='icon' className={`shrink-0 md:hidden  ${isScrolled ? 'bg-white text-black hover:bg-[#021836]   border-2 hover:shadow-white/50 hover:text-white' : 'bg-[#021836] text-white hover:bg-white hover:text-black'} `}>
+          <Button  size='icon' className={`shrink-0 lg:hidden  ${isScrolled ? 'bg-white text-black hover:bg-[#021836]   border-2 hover:shadow-white/50 hover:text-white' : 'bg-[#021836] text-white hover:bg-white hover:text-black'} `}>
             <Menu className='h-5 w-5' />
             <span className='sr-only'>Toggle navigation menu</span>
           </Button>

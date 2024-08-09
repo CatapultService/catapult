@@ -51,14 +51,13 @@ export default function performance() {
                   ideal: 7,
                 },
                 {
-                  activity:
-                    "Transactions Processing (AP, AR, T&E, Tax, etc)",
+                  activity: "Transactions Processing (AP, AR, T&E, Tax, etc)",
                   current: 16,
                   ideal: 7,
                 },
               ].map((row, index) => (
                 <tr key={index}>
-                  <td className="border-t border-[#FFE600] px-2 sm:px-6 py-3 w-1/3 text-xs sm:text-lg  p-0.5">
+                  <td className="border-t border-[#FFE600] px-2 sm:px-6 py-3 w-1/3 text-xs sm:text-base  p-0.5">
                     {row.activity}
                   </td>
                   <td className="border-t  border-[#FFE600] px-2 sm:px-6 py-3 w-1/3">
@@ -68,7 +67,7 @@ export default function performance() {
                         .map((_, i) => (
                           <span
                             key={i}
-                            className="w-2 h-2 sm:w-4 sm:h-4 bg-[#202020] rounded-full inline-block mx-auto"
+                            className="w-2 h-2 sm:w-4 sm:h-4 bg-[#090E4A] rounded-full inline-block mx-auto"
                           ></span>
                         ))}
                     </div>
@@ -80,7 +79,7 @@ export default function performance() {
                         .map((_, i) => (
                           <span
                             key={i}
-                            className="w-2 h-2 sm:w-4 sm:h-4 bg-[#202020] rounded-full inline-block mx-auto"
+                            className="w-2 h-2 sm:w-4 sm:h-4 bg-[#090E4A] rounded-full inline-block mx-auto"
                           ></span>
                         ))}
                     </div>
@@ -106,7 +105,9 @@ export default function performance() {
               </strong>
             </div>
           </div>
-          <span className="text-3xl lg:text-5xl  lg:text-5xl col-span-1 text-center text-[#FFE600]">+</span>
+          <span className="text-3xl lg:text-5xl col-span-1 text-center text-[#FFE600]">
+            +
+          </span>
           <div className="flex flex-col items-center col-span-1 lg:col-span-1">
             <div
               className="w-32 h-32 md:w-48 md:h-48 bg-[#090E4A] text-[#FFE600] flex items-center justify-center text-bold rounded-full mb-2"
@@ -117,7 +118,9 @@ export default function performance() {
               </strong>
             </div>
           </div>
-          <span className="text-3xl lg:text-5xl col-span-1 text-center text-[#FFE600]">+</span>
+          <span className="text-3xl lg:text-5xl col-span-1 text-center text-[#FFE600]">
+            +
+          </span>
           <div className="flex flex-col items-center col-span-1 lg:col-span-1">
             <div
               className="w-32 h-32 md:w-48 md:h-48 bg-[#090E4A] text-[#FFE600] flex items-center justify-center text-bold rounded-full mb-2"
@@ -128,7 +131,9 @@ export default function performance() {
               </strong>
             </div>
           </div>
-          <span className="text-3xl lg:text-5xl col-span-1 text-center text-[#FFE600]">=</span>
+          <span className="text-3xl lg:text-5xl col-span-1 text-center text-[#FFE600]">
+            =
+          </span>
           <div className="flex flex-col items-center col-span-1 lg:col-span-1">
             <div
               className="w-32 h-32 md:w-48 md:h-48 bg-[#090E4A] text-[#FFE600] flex items-center justify-center text-bold rounded-full mb-2"
@@ -160,30 +165,28 @@ export default function performance() {
             of the finance bandwidth being consumed in plumbing of disaggregated
             data using MS Excel. Fragmentation of data is an outcome of:
           </p>
-          <ul className="list-disc ml-5 list-inside mb-4 leading-relaxed text-xs sm:text-sm md:text-base text-[#202020]">
-            <li className="mb-2 text-[#202020]">
-              <strong className="font-semibold text-[#202020]">
-                Multiple Data Sources:
-              </strong>{" "}
-              Today enterprise data resides in multiple systems, both within the
-              organisation (HRMS, Inventory, ERP, etc) and outside such as
-              Marketplaces, Payment Gateways, Social Media, etc.
-            </li>
-            <li className="mb-2 text-[#202020]">
-              <strong className="font-semibold text-[#202020]">
-                Unstructured Data:
-              </strong>{" "}
-              A substantial part of the data still is unstructured (invoices,
-              delivery challans, contracts, e-mail confirmations, etc).
-            </li>
-            <li className="mb-2 text-[#202020]">
-              <strong className="font-semibold text-[#202020]">
-                Broken processes & conversations:
-              </strong>{" "}
-              Processes are executed using e-mails, phone conversations,
-              what&apos;sapp, etc, creating fragmentation.
-            </li>
-          </ul>
+          <p className="mb-2 text-[#202020]">
+            <strong className="font-semibold text-[#202020]">
+              Multiple Data Sources:
+            </strong>{" "}
+            Today enterprise data resides in multiple systems, both within the
+            organisation (HRMS, Inventory, ERP, etc) and outside such as
+            Marketplaces, Payment Gateways, Social Media, etc.
+          </p>
+          <p className="mb-2 text-[#202020]">
+            <strong className="font-semibold text-[#202020]">
+              Unstructured Data:
+            </strong>{" "}
+            A substantial part of the data still is unstructured (invoices,
+            delivery challans, contracts, e-mail confirmations, etc).
+          </p>
+          <p className="mb-2 text-[#202020]">
+            <strong className="font-semibold text-[#202020]">
+              Broken processes & conversations:
+            </strong>{" "}
+            Processes are executed using e-mails, phone conversations,
+            what&apos;sapp, etc, creating fragmentation.
+          </p>
           <p className="mb-4 text-xs sm:text-sm md:text-base font-weight-200 text-[#202020]">
             <strong className="font-semibold text-[#202020]">
               Rule Based Work executed Manually-MS Excel Proliferation :
