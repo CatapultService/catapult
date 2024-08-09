@@ -73,7 +73,7 @@ export default function services() {
               className="flex items-center gap-2 text-lg  font-semibold md:text-base"
             >
               {/* <Package2 className='h-6 w-6' /> */}
-              <Image src={Logo} alt="Logo" height={35} />
+              <Image src={Logo} alt="Logo" height={50} />
 
               <span className="sr-only">Catapult</span>
             </Link>

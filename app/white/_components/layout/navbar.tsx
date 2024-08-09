@@ -27,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-[9rem] ${isScrolled ? 'bg-[#021836] ' : 'bg-transparent '}`}>
+    <header className={`fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-[9rem] ${isScrolled ? 'bg-[#090E4A] ' : 'bg-transparent '}`}>
       <div className='text-white'>
         <Link
           href='#'

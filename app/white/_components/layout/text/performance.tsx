@@ -5,7 +5,7 @@ export default function performance() {
     <div className=" bg-white px-10 md:px-20 text-[#202020] flex flex-col ">
       {/* <div className="bg-[#021836] w-full text-slate-100 p-10 flex flex-col justify-center"> */}
       <div className="mx-auto max-w-6xl mt-10">
-        <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-[#202020]">
+        <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-[#090E4A]">
           Barriers to achieving Performance Excellence
         </p>
         <p className="mb-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  text-[#202020]">
