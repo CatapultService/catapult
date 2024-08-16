@@ -20,7 +20,7 @@ import RecommendationBlack from "@/public/assets/howWorks/Recommendation-black.s
 
 export default function howWorks() {
   return (
-    <div className=" mx-10 md:mx-20 text-[#202020] flex bg-[#051C2C]">
+    <div className=" mx-10 md:mx-20  flex bg-[#090E4A]">
       <div className="mx-auto max-w-6xl my-10 ">
         <div className="mx-5">
           <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
