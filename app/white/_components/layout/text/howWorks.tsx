@@ -7,6 +7,7 @@ import Link from "next/link";
 import DataLake from "@/public/assets/howWorks/dataLake.svg";
 import Extraction from "@/public/assets/howWorks/extraction.svg";
 import Predictive from "@/public/assets/howWorks/predictive.svg";
+import Action from "@/public/assets/howWorks/action.svg";
 import Arrow1 from "@/public/assets/howWorks/arrow.svg";
 import Arrow2 from "@/public/assets/howWorks/arrow2.svg";
 import ArrowDown from "@/public/assets/howWorks/arrow-down.svg";
@@ -120,7 +121,7 @@ export default function howWorks() {
             </div>
             <div className="= p-4 flex justify-center h-full items-center col-span-3">
               <div className="flex flex-col gap-3">
-                {/* <img src={Action.src} alt="Data Lake" className="w-fit h-16" /> */}
+                <img src={Action.src} alt="Data Lake" className="w-fit h-12" />
 
                 <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
                   4. Action and insight engines
