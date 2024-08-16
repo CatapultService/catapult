@@ -91,7 +91,7 @@ export default function howWorks() {
                   <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
                     3. Predictive scores
                   </p>
-                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-sm  text-white font-light">
+                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
                     Machine Learning algorithm scores every customer by studying
                     relationship between journey features, sentiment, and
                     loyalty.
