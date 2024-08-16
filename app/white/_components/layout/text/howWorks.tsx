@@ -43,7 +43,7 @@ export default function howWorks() {
                     platform.
                   </p>
                   <Link href="#">
-                    <Button className=" px-2 text-base bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                    <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
                       Dive Deeper
                       <span className="ml-1">
                         <ArrowRight />
@@ -66,7 +66,7 @@ export default function howWorks() {
                     platform.
                   </p>
                   <Link href="#">
-                    <Button className=" px-2 text-base bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                    <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
                       Dive Deeper
                       <span className="ml-1">
                         <ArrowRight />
@@ -83,14 +83,14 @@ export default function howWorks() {
                   <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
                     3. Predictive scores
                   </p>
-                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
+                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-sm  text-white font-light">
                     Customer, financial and operational data at individual and
                     Machine Learning algorithm scores every customer by studying
                     relationship between journey features, sentiment, and
                     loyalty.
                   </p>
                   <Link href="#">
-                    <Button className=" px-2 text-base bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                    <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
                       Dive Deeper
                       <span className="ml-1">
                         <ArrowRight />
@@ -136,16 +136,16 @@ export default function howWorks() {
             <div className=" p-4 flex justify-center h-full items-center col-span-3">
               <div className="flex flex-col gap-3 w-full">
                 <Link href="#">
-                  <Button className=" px-2 h-16 text-base bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                    Performance Measurement
+                  <Button className=" h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                    <p className="whitespace-normal">Performance Measurement</p>
                     <span className="ml-1">
                       <ArrowRight />
                     </span>
                   </Button>
                 </Link>
                 <Link href="#">
-                  <Button className=" px-2 h-16 text-base bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                    Strategic decision-making
+                  <Button className="  h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                  <p className="whitespace-normal">Strategic decision-making</p>
                     <span className="ml-1">
                       <ArrowRight />
                     </span>
@@ -155,7 +155,7 @@ export default function howWorks() {
             </div>
           </div>
         </div>
-        <div className="mx-5"></div>
+
       </div>
     </div>
   );

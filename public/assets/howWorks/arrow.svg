@@ -1,7 +1,7 @@
-<svg width="26" height="260" viewBox="0 0 26 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="20" height="260" viewBox="0 0 20 260" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="path-1-inside-1_2029_1930" fill="white">
-<path d="M0 0H13V260H0V0Z"/>
+<path d="M0 0L9 0V260H0L0 0Z"/>
 </mask>
-<path d="M13 0H14V-1H13V0ZM13 260V261H14V260H13ZM0 1H13V-1H0V1ZM12 0V260H14V0H12ZM13 259H0V261H13V259Z" fill="#0671A3" mask="url(#path-1-inside-1_2029_1930)"/>
-<path d="M26 130L21 127.113V132.887L26 130ZM13 130.5H21.5V129.5H13V130.5Z" fill="#0671A3"/>
+<path d="M9 0L9.6 0V-0.6H9V0ZM9 260V260.6H9.6V260H9ZM0 0.6H9V-0.6H0L0 0.6ZM8.4 0V260H9.6V0L8.4 0ZM9 259.4H0L0 260.6H9V259.4Z" fill="#0671A3" mask="url(#path-1-inside-1_2029_1930)"/>
+<path d="M20 130L17 128.268V131.732L20 130ZM9 130.3H17.3V129.7H9V130.3Z" fill="#0671A3"/>
 </svg>
