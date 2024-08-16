@@ -10,10 +10,10 @@ import Predictive from "@/public/assets/howWorks/predictive.svg";
 import Arrow1 from "@/public/assets/howWorks/arrow.svg";
 import Arrow2 from "@/public/assets/howWorks/arrow2.svg";
 import ArrowDown from "@/public/assets/howWorks/arrow-down.svg";
-import ReportWhite from "@/public/assets/howWorks/report-white.svg";
-import RecommendationWhite from "@/public/assets/howWorks/recommendation-white.svg";
-import ReportBlack from "@/public/assets/howWorks/report-black.svg";
-import RecommendationBlack from "@/public/assets/howWorks/recommendation-black.svg";
+import ReportWhite from "@/public/assets/howWorks/Report-white.svg";
+import RecommendationWhite from "@/public/assets/howWorks/Recommendation-white.svg";
+import ReportBlack from "@/public/assets/howWorks/Report-black.svg";
+import RecommendationBlack from "@/public/assets/howWorks/Recommendation-black.svg";
 
 
 
