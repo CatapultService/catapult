@@ -1,6 +1,7 @@
 import Navbar from "./_components/layout/navbar";
 import Hero from "./_components/layout/hero";
 import FinanceText from "./_components/layout/text/finance";
+import HowWorks from "./_components/layout/text/howWorks";
 import RoleOfFinance from "./_components/layout/text/role";
 import Performance from "./_components/layout/text/performance";
 import Services from "./_components/layout/text/services";
@@ -11,6 +12,7 @@ export default function WhiteHome() {
       <Navbar />
       <Hero />
       <FinanceText />
+      <HowWorks />
       <RoleOfFinance />
       <Performance />
       <Services />
