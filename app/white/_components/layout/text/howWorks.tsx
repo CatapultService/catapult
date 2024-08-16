@@ -4,11 +4,19 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-import DataLake from "@/public/assets/howWorks/dataLake.png";
-import Action from "@/public/assets/howWorks/action.png";
+import DataLake from "@/public/assets/howWorks/dataLake.svg";
+import Extraction from "@/public/assets/howWorks/extraction.svg";
+import Predictive from "@/public/assets/howWorks/predictive.svg";
 import Arrow1 from "@/public/assets/howWorks/arrow.svg";
 import Arrow2 from "@/public/assets/howWorks/arrow2.svg";
 import ArrowDown from "@/public/assets/howWorks/arrow-down.svg";
+
+import ReportWhite from "@/public/assets/howWorks/report-white.svg";
+import RecommendationWhite from "@/public/assets/howWorks/recommendation-white.svg";
+import ReportBlack from "@/public/assets/howWorks/report-black.svg";
+import RecommendationBlack from "@/public/assets/howWorks/recommendation-black.svg";
+
+
 
 export default function howWorks() {
   return (
@@ -30,7 +38,7 @@ export default function howWorks() {
               <div className="flex flex-row lg:flex-col gap-10">
                 <div className="flex-1 flex flex-col gap-3">
                   <img
-                    src={DataLake.src}
+                    src={Extraction.src}
                     alt="Data Lake"
                     className="w-fit h-12"
                   />
@@ -76,7 +84,7 @@ export default function howWorks() {
                 </div>
                 <div className="flex-1 flex flex-col gap-3">
                   <img
-                    src={DataLake.src}
+                    src={Predictive.src}
                     alt="Data Lake"
                     className="w-fit h-12"
                   />
@@ -84,7 +92,6 @@ export default function howWorks() {
                     3. Predictive scores
                   </p>
                   <p className="text-left leading-relaxed text-xs sm:text-sm md:text-sm  text-white font-light">
-                    Customer, financial and operational data at individual and
                     Machine Learning algorithm scores every customer by studying
                     relationship between journey features, sentiment, and
                     loyalty.
@@ -114,7 +121,8 @@ export default function howWorks() {
             </div>
             <div className="= p-4 flex justify-center h-full items-center col-span-3">
               <div className="flex flex-col gap-3">
-                <img src={Action.src} alt="Data Lake" className="w-fit h-16" />
+                {/* <img src={Action.src} alt="Data Lake" className="w-fit h-16" /> */}
+
                 <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
                   4. Action and insight engines
                 </p>
@@ -136,16 +144,36 @@ export default function howWorks() {
             <div className=" p-4 flex justify-center h-full items-center col-span-3">
               <div className="flex flex-col gap-3 w-full">
                 <Link href="#">
-                  <Button className=" h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                    <p className="whitespace-normal">Performance Measurement</p>
+                  <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                    <img
+                      src={RecommendationWhite.src}
+                      alt="Data Lake"
+                      className="h-8 w-fit mr-2 block group-hover:hidden"
+                    />
+                    <img
+                      src={RecommendationBlack.src}
+                      alt="Data Lake"
+                      className="h-8 w-fit mr-2 hidden group-hover:block"
+                    />
+                    <p className="whitespace-normal">Recommendation engine</p>
                     <span className="ml-1">
                       <ArrowRight />
                     </span>
                   </Button>
                 </Link>
                 <Link href="#">
-                  <Button className="  h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                  <p className="whitespace-normal">Strategic decision-making</p>
+                  <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                  <img
+                      src={ReportWhite.src}
+                      alt="Data Lake"
+                      className="h-8 w-fit mr-2 block group-hover:hidden"
+                    />
+                    <img
+                      src={ReportBlack.src}
+                      alt="Data Lake"
+                      className="h-8 w-fit mr-2 hidden group-hover:block"
+                    />
+                    <p className="hitespace-normal">Report builder</p>
                     <span className="ml-1">
                       <ArrowRight />
                     </span>
@@ -155,7 +183,6 @@ export default function howWorks() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
