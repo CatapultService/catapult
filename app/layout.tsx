@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className='min-h-screen w-full'>
-          <main className='flex grow'>{children}</main>
+          <main className='overflow-x-hidden'>{children}</main>
         </div>
 
       </body>

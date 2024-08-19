@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Hero from "@/components/layout/hero";
 import FinanceText from "@/components/layout/text/finance";
+import HowWorks from "@/components/layout/text/howWorks";
 import RoleOfFinance from "@/components/layout/text/role";
-import Performance from "@/components/layout/text/performance";
+import Approach from "@/components/layout/text/approach";
 import Services from "@/components/layout/text/services";
 import Navbar from "@/components/layout/navbar";
-
+import HowHelp from "@/components/layout/text/howHelp";
 export default function Home() {
   return (
     <main className="flex  flex-col justify-between w-full">
@@ -15,7 +16,9 @@ export default function Home() {
       <Hero />
       <FinanceText />
       <RoleOfFinance />
-      <Performance />
+      <HowHelp />
+      <Approach />
+      <HowWorks />
       <Services />
     </main>
   );
