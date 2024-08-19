@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect, useRef } from "react";
 
 export default function Performance() {
@@ -41,11 +41,31 @@ export default function Performance() {
     if (!dotsContainer) return; // Add this null check
     dotsContainer.innerHTML = "";
 
+    const texts = [
+      "Decision Support",
+      "Advanced insights",
+      "Enterprise Data Cloud ",
+      "Catapult  Capability Center",
+      `Client Software Landscape`,
+    ];
+    const textPositions = [
+      { x: 35, y: 0 },
+      { x: 5, y: -25 },
+      { x: -105, y: -25 },
+      { x: -270, y: -25 },
+      { x: -320, y: 0 },
+    ];
+
     for (let i = 0; i < numberOfDots; i++) {
-      const point = path.getPointAtLength((totalLength / (numberOfDots - 1)) * i);
-      
+      const point = path.getPointAtLength(
+        (totalLength / (numberOfDots - 1)) * i
+      );
+
       // Create the first dot
-      const dot1 = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+      const dot1 = document.createElementNS(
+        "http://www.w3.org/2000/svg",
+        "circle"
+      );
       dot1.setAttribute("cx", point.x.toString());
       dot1.setAttribute("cy", point.y.toString());
       dot1.setAttribute("r", dotRadius);
@@ -54,19 +74,46 @@ export default function Performance() {
       dotsContainer.appendChild(dot1);
 
       // Create the second overlapping dot
-      const dot2 = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+      const dot2 = document.createElementNS(
+        "http://www.w3.org/2000/svg",
+        "circle"
+      );
       dot2.setAttribute("cx", point.x.toString());
       dot2.setAttribute("cy", point.y.toString());
       dot2.setAttribute("r", "10");
       dot2.setAttribute("fill", "#090E4A");
       // dot2.setAttribute("class", "animate-ping-dot");
       dotsContainer.appendChild(dot2);
+
+      // Add text near each dot
+      const text = document.createElementNS(
+        "http://www.w3.org/2000/svg",
+        "text"
+      );
+      text.setAttribute("x", (point.x + textPositions[i].x).toString()); // Adjust x position as needed
+      text.setAttribute("y", (point.y + textPositions[i].y).toString()); // Adjust y position as needed
+      text.setAttribute("font-size", "24"); // Set font size
+      text.setAttribute("font-width", "bold");
+      text.setAttribute("fill", "black"); // Set text color
+      text.textContent = texts[i];
+      dotsContainer.appendChild(text);
     }
+  }, []);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      const animatedDiv = document.querySelector(".animated-div");
+      if (animatedDiv) {
+        animatedDiv.classList.add("show");
+      }
+    }, 5000);
+
+    return () => clearTimeout(timeoutId);
   }, []);
 
   return (
     <div className=" bg-white px-10 md:px-20 text-[#202020] flex flex-col ">
-      <div className="mx-auto max-w-6xl mt-10">
+      <div className="mx-auto max-w-6xl mt-10 mb-28">
         <div className="flex flex-col items-center mt-16 mb-6">
           <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
             OUR APPROACH
@@ -91,12 +138,21 @@ export default function Performance() {
           .curtain-slide {
             animation: curtainSlide 4s ease-out forwards;
           }
+
+          .animated-div {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+          }
+
+          .animated-div.show {
+            opacity: 1;
+          }
         `}</style>
         <div
           ref={sectionRef}
-          className="flex justify-center items-center py-10 relative"
+          className="flex justify-center items-center pb-10 pt-28 relative"
         >
-           <svg
+          <svg
             ref={svgRef}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 993 317"
@@ -114,14 +170,8 @@ export default function Performance() {
                 x2="50%"
                 y2="0%"
               >
-                <stop
-                  offset="0%"
-                  stopColor="#d1d1d1"
-                ></stop>
-                <stop
-                  offset="100%"
-                  stopColor="#d1d1d1"
-                ></stop>
+                <stop offset="0%" stopColor="#d1d1d1"></stop>
+                <stop offset="100%" stopColor="#d1d1d1"></stop>
               </linearGradient>
               <linearGradient></linearGradient>
             </defs>
@@ -135,8 +185,18 @@ export default function Performance() {
             ></path>
             <g id="dotsContainer"></g>
           </svg>
+
+          <div className="flex flex-col items-center absolute bottom-12 animated-div">
+            <p className="text-center text-xl font-bold">
+              A comprehensive approach
+              <br />
+              <span className="text-sm font-normal">enables</span>
+            </p>
+            <p className="text-5xl font-bold text-[#090E4A]">20 - 30% </p>
+            <p className="text-sm font-normal">Margin Uplift</p>
+          </div>
+          
         </div>
-        
       </div>
     </div>
   );
