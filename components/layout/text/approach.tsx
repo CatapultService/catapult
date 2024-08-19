@@ -49,11 +49,11 @@ export default function Performance() {
       `Client Software Landscape`,
     ];
     const textPositions = [
-      { x: 35, y: 0 },
-      { x: 5, y: -25 },
-      { x: -105, y: -25 },
-      { x: -270, y: -25 },
-      { x: -320, y: 0 },
+      { x: 35, y: -25 },
+      { x: 20, y: -45 },
+      { x: -100, y: -45 },
+      { x: -200, y: -45 },
+      { x: -200, y: -25 },
     ];
 
     for (let i = 0; i < numberOfDots; i++) {
@@ -90,12 +90,36 @@ export default function Performance() {
         "http://www.w3.org/2000/svg",
         "text"
       );
-      text.setAttribute("x", (point.x + textPositions[i].x).toString()); // Adjust x position as needed
-      text.setAttribute("y", (point.y + textPositions[i].y).toString()); // Adjust y position as needed
-      text.setAttribute("font-size", "24"); // Set font size
-      text.setAttribute("font-width", "bold");
-      text.setAttribute("fill", "black"); // Set text color
-      text.textContent = texts[i];
+      text.setAttribute("x", (point.x + textPositions[i].x).toString());
+      text.setAttribute("y", (point.y + textPositions[i].y).toString());
+      text.setAttribute("font-size", "24");
+      text.setAttribute("font-weight", "bold");
+      text.setAttribute("fill", "black");
+
+      // Split text into two lines if it exceeds 10px width
+      const words = texts[i].split(" ");
+      const firstLine = words.slice(0, Math.ceil(words.length / 2)).join(" ");
+      const secondLine = words.slice(Math.ceil(words.length / 2)).join(" ");
+
+      const tspan1 = document.createElementNS(
+        "http://www.w3.org/2000/svg",
+        "tspan"
+      );
+      tspan1.setAttribute("x", (point.x + textPositions[i].x).toString());
+      tspan1.setAttribute("dy", "0");
+      tspan1.textContent = firstLine;
+
+      const tspan2 = document.createElementNS(
+        "http://www.w3.org/2000/svg",
+        "tspan"
+      );
+      tspan2.setAttribute("x", (point.x + textPositions[i].x).toString());
+      tspan2.setAttribute("dy", "1.2em");
+      tspan2.textContent = secondLine;
+
+      text.appendChild(tspan1);
+      text.appendChild(tspan2);
+
       dotsContainer.appendChild(text);
     }
   }, []);
@@ -112,8 +136,9 @@ export default function Performance() {
   }, []);
 
   return (
+    <>
     <div className=" bg-white px-10 md:px-20 text-[#202020] flex flex-col ">
-      <div className="mx-auto max-w-6xl mt-10 mb-28">
+      <div className="mx-auto max-w-6xl mt-10">
         <div className="flex flex-col items-center mt-16 mb-6">
           <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
             OUR APPROACH
@@ -124,8 +149,10 @@ export default function Performance() {
             capability-centres, to drive business outcomes.
           </p>
         </div>
+      </div>
+    </div>
 
-        <style jsx>{`
+    <style jsx>{`
           @keyframes curtainSlide {
             from {
               clip-path: inset(0 100% 0 0);
@@ -150,7 +177,7 @@ export default function Performance() {
         `}</style>
         <div
           ref={sectionRef}
-          className="flex justify-center items-center pb-10 pt-28 relative"
+          className="hidden lg:flex justify-center items-center pb-10 pt-28 mb-20 relative"
         >
           <svg
             ref={svgRef}
@@ -197,7 +224,6 @@ export default function Performance() {
           </div>
           
         </div>
-      </div>
-    </div>
+    </>
   );
 }

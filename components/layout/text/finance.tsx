@@ -4,7 +4,7 @@ export default function Finance() {
   return (
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-6xl my-5">
           <p className="my-16 text-base sm:text-lg md:text-xl leading-relaxed mx-auto text-center">
             We help clients optimize operations and transform businesses through
             Catapult Capability Centres that harness the power of analytics,
