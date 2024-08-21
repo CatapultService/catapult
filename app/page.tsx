@@ -4,11 +4,12 @@ import FinanceText from "@/components/layout/text/finance";
 import HowWorks from "@/components/layout/text/howWorks";
 import RoleOfFinance from "@/components/layout/text/role";
 import Approach from "@/components/layout/text/approach";
-import Services from "@/components/layout/text/services";
+import Insights from "@/components/layout/text/insights";
 import Navbar from "@/components/layout/navbar";
 import HowHelp from "@/components/layout/text/howHelp";
 import Impact from "@/components/layout/text/impact";
 import People from "@/components/layout/people";
+import Footer from "@/components/layout/footer";
 export default function Home() {
   return (
     <main className="flex flex-col justify-between w-full">
@@ -23,7 +24,8 @@ export default function Home() {
       <HowWorks />
       <Impact />
       <People />
-      <Services />
+      <Insights />
+      <Footer />
     </main>
   );
 }
