@@ -7,9 +7,11 @@ import Approach from "@/components/layout/text/approach";
 import Services from "@/components/layout/text/services";
 import Navbar from "@/components/layout/navbar";
 import HowHelp from "@/components/layout/text/howHelp";
+import Impact from "@/components/layout/text/impact";
+import People from "@/components/layout/people";
 export default function Home() {
   return (
-    <main className="flex  flex-col justify-between w-full">
+    <main className="flex flex-col justify-between w-full">
       <Navbar />
 
       {/* <main className="flex min-h-screen flex-col items-center justify-between p-24"> */}
@@ -19,7 +21,9 @@ export default function Home() {
       <HowHelp />
       <Approach />
       <HowWorks />
-      <Services />
+      <Impact />
+      <People />
+      {/* <Services /> */}
     </main>
   );
 }

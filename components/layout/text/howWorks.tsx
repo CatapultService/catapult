@@ -4,23 +4,23 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-import DataLake from "@/public/assets/howWorks/dataLake.svg";
-import Extraction from "@/public/assets/howWorks/extraction.svg";
-import Predictive from "@/public/assets/howWorks/predictive.svg";
-import Action from "@/public/assets/howWorks/action.svg";
-import Arrow1 from "@/public/assets/howWorks/arrow.svg";
-import Arrow2 from "@/public/assets/howWorks/arrow2.svg";
-import ArrowDown from "@/public/assets/howWorks/arrow-down.svg";
-import ReportWhite from "@/public/assets/howWorks/Report-white.svg";
-import RecommendationWhite from "@/public/assets/howWorks/Recommendation-white.svg";
-import ReportBlack from "@/public/assets/howWorks/Report-black.svg";
-import RecommendationBlack from "@/public/assets/howWorks/Recommendation-black.svg";
+import DataLake from "@/public/assets/homePage/howWorks/dataLake.svg";
+import Extraction from "@/public/assets/homePage/howWorks/extraction.svg";
+import Predictive from "@/public/assets/homePage/howWorks/predictive.svg";
+import Action from "@/public/assets/homePage/howWorks/action.svg";
+import Arrow1 from "@/public/assets/homePage/howWorks/arrow.svg";
+import Arrow2 from "@/public/assets/homePage/howWorks/arrow2.svg";
+import ArrowDown from "@/public/assets/homePage/howWorks/arrow-down.svg";
+import ReportWhite from "@/public/assets/homePage/howWorks/Report-white.svg";
+import RecommendationWhite from "@/public/assets/homePage/howWorks/Recommendation-white.svg";
+import ReportBlack from "@/public/assets/homePage/howWorks/Report-black.svg";
+import RecommendationBlack from "@/public/assets/homePage/howWorks/Recommendation-black.svg";
 
 
 
 export default function howWorks() {
   return (
-    <div className=" mx-10 md:mx-20  flex bg-[#090E4A]">
+    <div className="  flex bg-[#090E4A]">
       <div className="mx-auto max-w-6xl my-10 ">
         <div className="mx-5">
           <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
