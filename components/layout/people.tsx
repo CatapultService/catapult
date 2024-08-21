@@ -6,7 +6,7 @@ export default function people() {
   return (
     <div className=" bg-white px-10 md:px-20 text-black items-center">
       <div className="mx-auto min-w-6xl mb-16  md:px-14">
-        <div className="flex flex-col mt-16 mb-2">
+        <div className="flex flex-col mt-10 mb-2">
           <p className="text-sm text-left sm:text-lg md:text-2xl lg:text-3xl font-bold text-[#090E4A] ">
             OUR PEOPLE
           </p>

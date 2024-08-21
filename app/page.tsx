@@ -23,7 +23,7 @@ export default function Home() {
       <HowWorks />
       <Impact />
       <People />
-      {/* <Services /> */}
+      <Services />
     </main>
   );
 }
