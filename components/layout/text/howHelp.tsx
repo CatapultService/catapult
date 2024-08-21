@@ -9,7 +9,7 @@ export default function howHelp() {
   return (
     <div className="w-full bg-[#090E4A]">
       <div className="my-16">
-        <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white text-center">
+        <p className="mb-6 text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white text-center">
           How We Help Clients
         </p>
       </div>
