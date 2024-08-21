@@ -16,8 +16,6 @@ import RecommendationWhite from "@/public/assets/homePage/howWorks/Recommendatio
 import ReportBlack from "@/public/assets/homePage/howWorks/Report-black.svg";
 import RecommendationBlack from "@/public/assets/homePage/howWorks/Recommendation-black.svg";
 
-
-
 export default function howWorks() {
   return (
     <div className="  flex bg-[#090E4A]">
@@ -35,79 +33,84 @@ export default function howWorks() {
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-11 gap-1 lg:gap-4">
             <div className=" p-4 col-span-3">
-              <div className="flex flex-row lg:flex-col gap-10">
-                <div className="flex-1 flex flex-col gap-3">
-                  <img
-                    src={Extraction.src}
-                    alt="Data Lake"
-                    className="w-fit h-12"
-                  />
-                  <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
-                    1. Data Extraction
-                  </p>
-                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                    Customer, financial and operational data at individual and
-                    aggregate level are processed and stored in a cloud-based
-                    platform.
-                  </p>
-                  <Link href="#">
-                    <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                      Dive Deeper
-                      <span className="ml-1">
-                        <ArrowRight />
-                      </span>
-                    </Button>
-                  </Link>
+              <div className="flex flex-col gap-10">
+                <div className="flex-1 flex flex-row lg:flex-col gap-10">
+                  <div className="flex-1 flex flex-col gap-3">
+                    <img
+                      src={Extraction.src}
+                      alt="Data Lake"
+                      className="w-fit h-12"
+                    />
+                    <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
+                      1. Data Extraction
+                    </p>
+                    <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
+                      Customer, financial and operational data at individual and
+                      aggregate level are processed and stored in a cloud-based
+                      platform.
+                    </p>
+                    <Link href="#">
+                      <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                        Dive Deeper
+                        <span className="ml-1">
+                          <ArrowRight />
+                        </span>
+                      </Button>
+                    </Link>
+                  </div>
+                  <div className="flex-1 flex flex-col gap-3">
+                    <img
+                      src={DataLake.src}
+                      alt="Data Lake"
+                      className="w-fit h-12"
+                    />
+                    <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
+                      2. Data lake
+                    </p>
+                    <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
+                      Customer, financial and operational data at individual and
+                      aggregate level are processed and stored in a cloud-based
+                      platform.
+                    </p>
+                    <Link href="#">
+                      <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                        Dive Deeper
+                        <span className="ml-1">
+                          <ArrowRight />
+                        </span>
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <div className="flex-1 flex flex-col gap-3">
-                  <img
-                    src={DataLake.src}
-                    alt="Data Lake"
-                    className="w-fit h-12"
-                  />
-                  <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
-                    2. Data lake
-                  </p>
-                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                    Customer, financial and operational data at individual and
-                    aggregate level are processed and stored in a cloud-based
-                    platform.
-                  </p>
-                  <Link href="#">
-                    <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                      Dive Deeper
-                      <span className="ml-1">
-                        <ArrowRight />
-                      </span>
-                    </Button>
-                  </Link>
-                </div>
-                <div className="flex-1 flex flex-col gap-3">
-                  <img
-                    src={Predictive.src}
-                    alt="Data Lake"
-                    className="w-fit h-12"
-                  />
-                  <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
-                    3. Predictive scores
-                  </p>
-                  <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                    Machine Learning algorithm scores every customer by studying
-                    relationship between journey features, sentiment, and
-                    loyalty.
-                  </p>
-                  <Link href="#">
-                    <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                      Dive Deeper
-                      <span className="ml-1">
-                        <ArrowRight />
-                      </span>
-                    </Button>
-                  </Link>
+
+                <div className="flex flex-col ">
+                  <div className="flex-1 flex flex-col gap-3">
+                    <img
+                      src={Predictive.src}
+                      alt="Data Lake"
+                      className="w-fit h-12"
+                    />
+                    <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
+                      3. Predictive scores
+                    </p>
+                    <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
+                      Machine Learning algorithm scores every customer by
+                      studying relationship between journey features, sentiment,
+                      and loyalty.
+                    </p>
+                    <Link href="#">
+                      <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
+                        Dive Deeper
+                        <span className="ml-1">
+                          <ArrowRight />
+                        </span>
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="flexitems-center col-span-1">
+            <div className="flex items-center col-span-1">
               <img
                 src={Arrow1.src}
                 alt="arrow"
@@ -163,7 +166,7 @@ export default function howWorks() {
                 </Link>
                 <Link href="#">
                   <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                  <img
+                    <img
                       src={ReportWhite.src}
                       alt="Data Lake"
                       className="h-8 w-fit mr-2 block group-hover:hidden"
