@@ -1,4 +1,6 @@
-import React from 'react';
+/* eslint-disable @next/next/no-img-element */
+import React from "react";
+import People from "@/public/assets/people/people.png";
 
 export default function people() {
   return (
@@ -12,35 +14,47 @@ export default function people() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 mb-8 gap-6 ">
           <div className="">
-            <div className="flex flex-col items-center my-6">
-              <p className="text-4xl sm:text-3xl lg:text-5xl font-bold text-[#090E4A]">
-                15 - 30%
-              </p>
-              <p className="py-2 text-xs lg:text-sm font-normal">Marketing-spend Reduction</p>
+            <div className="flex flex-col lg:flex-row items-center my-6 gap-4">
+              <img src={People.src} alt="people" className="w-40 h-full" />
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-4xl sm:text-xl md:text-2xl font-bold text-[#090E4A]">
+                  {" "}
+                  Ashish Khanna
+                </p>
+                <p className="py-2 text-xs lg:text-sm font-normal">
+                  Co-founder & Chaiperson
+                </p>
+              </div>
             </div>
           </div>
-          <div className=" ">
-            <div className="flex flex-col items-center my-6">
-              <p className="text-4xl sm:text-3xl lg:text-5xl font-bold text-[#090E4A]">
-              &gt;30%
-              </p>
-              <p className="py-2 text-xs lg:text-sm font-normal">Revenue-uplift</p>
-            </div>
-            <div>
-                <p className="text-lg font-bold pb-2">Title</p>
-                <p className="text-sm">Summary with hyper Link</p>
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row items-center my-6 gap-4">
+              <img src={People.src} alt="people" className="w-40 h-full" />
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-4xl sm:text-xl md:text-2xl font-bold text-[#090E4A]">
+                  {" "}
+                  Nikunj Gupta
+                </p>
+                <p className="py-2 text-xs lg:text-sm font-normal">
+                  Co-founder & CEO
+                </p>
+              </div>
             </div>
           </div>
-          <div className=" ">
-            <div className="flex flex-col items-center my-6">
-              <p className="text-4xl sm:text-3xl lg:text-5xl font-bold text-[#090E4A]">
-              &gt;30%
-              </p>
-              <p className="py-2 text-xs lg:text-sm font-normal">Revenue-uplift</p>
-            </div>
-            <div>
-                <p className="text-lg font-bold pb-2">Title</p>
-                <p className="text-sm">Summary with hyper Link</p>
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row items-center my-6 gap-4">
+              <img src={People.src} alt="people" className="w-40 h-full" />
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-4xl sm:text-xl md:text-2xl font-bold text-[#090E4A]">
+                  {" "}
+                  Anand Shetty
+                </p>
+                <p className="py-2 text-xs lg:text-sm font-normal">
+                  Co-founder & COO
+                </p>
+              </div>
             </div>
           </div>
         </div>
