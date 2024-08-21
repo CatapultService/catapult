@@ -4,17 +4,17 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-import DataLake from "@/public/assets/howWorks/dataLake.svg";
-import Extraction from "@/public/assets/howWorks/extraction.svg";
-import Predictive from "@/public/assets/howWorks/predictive.svg";
-import Action from "@/public/assets/howWorks/action.svg";
-import Arrow1 from "@/public/assets/howWorks/arrow.svg";
-import Arrow2 from "@/public/assets/howWorks/arrow2.svg";
-import ArrowDown from "@/public/assets/howWorks/arrow-down.svg";
-import ReportWhite from "@/public/assets/howWorks/Report-white.svg";
-import RecommendationWhite from "@/public/assets/howWorks/Recommendation-white.svg";
-import ReportBlack from "@/public/assets/howWorks/Report-black.svg";
-import RecommendationBlack from "@/public/assets/howWorks/Recommendation-black.svg";
+import DataLake from "@/public/assets/homePage/howWorks/dataLake.svg";
+import Extraction from "@/public/assets/homePage/howWorks/extraction.svg";
+import Predictive from "@/public/assets/homePage/howWorks/predictive.svg";
+import Action from "@/public/assets/homePage/howWorks/action.svg";
+import Arrow1 from "@/public/assets/homePage/howWorks/arrow.svg";
+import Arrow2 from "@/public/assets/homePage/howWorks/arrow2.svg";
+import ArrowDown from "@/public/assets/homePage/howWorks/arrow-down.svg";
+import ReportWhite from "@/public/assets/homePage/howWorks/Report-white.svg";
+import RecommendationWhite from "@/public/assets/homePage/howWorks/Recommendation-white.svg";
+import ReportBlack from "@/public/assets/homePage/howWorks/Report-black.svg";
+import RecommendationBlack from "@/public/assets/homePage/howWorks/Recommendation-black.svg";
 
 
 
