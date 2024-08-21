@@ -12,8 +12,8 @@ export default function Impact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 mb-8 gap-20 ">
-          <div className="lg:mx-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 mb-8 md:gap-16 lg:gap-32 xl:gap-60 ">
+          <div className="">
             <div className="flex flex-col items-center my-6">
               <p className="text-4xl sm:text-3xl lg:text-5xl font-bold text-[#090E4A]">
                 15 - 30%
@@ -25,7 +25,7 @@ export default function Impact() {
                 <p className="text-sm">Summary with hyper Link</p>
             </div>
           </div>
-          <div className="lg:mx-16">
+          <div className="">
             <div className="flex flex-col items-center my-6">
               <p className="text-4xl sm:text-3xl lg:text-5xl font-bold text-[#090E4A]">
               &gt;30%
@@ -37,7 +37,7 @@ export default function Impact() {
                 <p className="text-sm">Summary with hyper Link</p>
             </div>
           </div>
-          <div className="lg:mx-16">
+          <div className="">
             <div className="flex flex-col items-center my-6">
               <p className="text-4xl sm:text-3xl lg:text-5xl font-bold text-[#090E4A]">
               &gt;30%
