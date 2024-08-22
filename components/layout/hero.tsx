@@ -1,8 +1,8 @@
 import React from "react";
-
 export default function Hero() {
   return (
     <>
+
       <div className="relative w-full text-white h-[60vh] sm:h-[80vh] md:h-[90vh] lg:h-[88vh] xl:h-[100vh] flex items-center justify-center">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"

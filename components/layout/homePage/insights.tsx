@@ -26,7 +26,7 @@ export default function insights() {
                 className="mb-2 object-cover h-full w-full"
                 style={{ filter: "brightness(70%)" }}
               />
-              <p className="font-semibold  justify-center text-lg">
+              <p className="font-semibold  justify-center text-lg md:text-base lg:text-lg">
               Future of Finance is autonomous
               </p>
             </div>
@@ -38,8 +38,8 @@ export default function insights() {
                 className="mb-2 object-cover h-full w-full"
                 style={{ filter: "brightness(70%)" }}
               />
-              <p className="font-semibold  justify-center text-lg">
-              Future of Finance is autonomous
+              <p className="font-semibold  justify-center  text-lg md:text-base lg:text-lg">
+              Future of Finance is to be Data & Insights provider
               </p>
             </div>
 
@@ -50,8 +50,8 @@ export default function insights() {
                 className="mb-2 object-cover h-full w-full"
                 style={{ filter: "brightness(70%)" }}
               />
-              <p className="font-semibold  justify-center text-lg">
-              Future of Finance is autonomous
+              <p className="font-semibold  justify-center  text-lg md:text-base lg:text-lg">
+              What can the SMEs learn from the GCC strategy of Large Corporations
               </p>
             </div>
            

@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Hero from "@/components/layout/hero";
-import FinanceText from "@/components/layout/text/finance";
-import HowWorks from "@/components/layout/text/howWorks";
-import RoleOfFinance from "@/components/layout/text/role";
-import Approach from "@/components/layout/text/approach";
-import Insights from "@/components/layout/text/insights";
+import FinancehomePage from "@/components/layout/homePage/finance";
+import HowWorks from "@/components/layout/homePage/howWorks";
+import RoleOfFinance from "@/components/layout/homePage/role";
+import Approach from "@/components/layout/homePage/approach";
+import Insights from "@/components/layout/homePage/insights";
 import Navbar from "@/components/layout/navbar";
-import HowHelp from "@/components/layout/text/howHelp";
-import Impact from "@/components/layout/text/impact";
+import HowHelp from "@/components/layout/homePage/howHelp";
+import Impact from "@/components/layout/homePage/impact";
 import People from "@/components/layout/people";
 import Footer from "@/components/layout/footer";
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
 
       {/* <main className="flex min-h-screen flex-col items-center justify-between p-24"> */}
       <Hero />
-      <FinanceText />
+      <FinancehomePage />
       <RoleOfFinance />
       <HowHelp />
       <Approach />

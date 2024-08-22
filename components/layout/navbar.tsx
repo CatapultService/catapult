@@ -51,13 +51,7 @@ const Navbar = () => {
           href='#'
           className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
         >
-          Our Services
-        </Link>
-        <Link
-          href='#'
-          className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
-        >
-          Technology
+          How We Help Clients
         </Link>
         <Link
           href='#'
@@ -98,13 +92,7 @@ const Navbar = () => {
               href='#'
               className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
             >
-              Our Services
-            </Link>
-            <Link
-              href='#'
-              className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
-            >
-              Technology
+              How We Help Clients
             </Link>
             <Link
               href='#'
