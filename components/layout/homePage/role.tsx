@@ -45,7 +45,7 @@ export default function role() {
                 <td className="py-2 "></td>
               </tr>
               <tr className="">
-                <td className="pb-2 text-sm">Data Fragmentation</td>
+                <td className="pb-2 text-xs md:text-sm">Data Fragmentation</td>
                 <td className="pb-2 text-center">
                   <ProgressBar
                     completed={100}
@@ -68,7 +68,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="py-2 text-sm">Unstructured Data</td>
+                <td className="py-2 text-xs md:text-sm">Unstructured Data</td>
                 <td className="py-2 text-center">
                   <ProgressBar
                     completed={50}
@@ -91,7 +91,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="pt-2 pb-4 text-sm">Enterprise Data Cloud</td>
+                <td className="pt-2 pb-4 text-xs md:text-sm">Enterprise Data Cloud</td>
                 <td className="pt-2 pb-4 text-center">
                   <ProgressBar
                     completed={0}
@@ -121,7 +121,7 @@ export default function role() {
                 <td className="py-2 "></td>
               </tr>
               <tr className="">
-                <td className="pb-2 text-sm">Manual Analysis & Excel Dependency</td>
+                <td className="pb-2 text-xs md:text-sm">Manual Analysis & Excel Dependency</td>
                 <td className="pb-2 text-center">
                   <ProgressBar
                     completed={80}
@@ -144,7 +144,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="py-2 text-sm">Inward looking & rear view orientation</td>
+                <td className="py-2 text-xs md:text-sm">Inward looking & rear view orientation</td>
                 <td className="py-2 text-center">
                   <ProgressBar
                     completed={75}
@@ -167,7 +167,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="py-2 text-sm">Real-time actionable insights linking KPIs to Operations Drivers</td>
+                <td className="py-2 text-xs md:text-sm">Real-time actionable insights linking KPIs to Operations Drivers</td>
                 <td className="py-2 text-center">
                   <ProgressBar
                     completed={25}
@@ -197,7 +197,7 @@ export default function role() {
                 <td className="py-2 "></td>
               </tr>
               <tr className="">
-                <td className="pb-2 text-sm">Employer of Choice for the domain</td>
+                <td className="pb-2 text-xs md:text-sm">Employer of Choice for the domain</td>
                 <td className="pb-2 text-center">
                   <ProgressBar
                     completed={60}
@@ -220,7 +220,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="pb-2 text-sm">Domain Expertise & Process Maturity</td>
+                <td className="pb-2 text-xs md:text-sm">Domain Expertise & Process Maturity</td>
                 <td className="pb-2 text-center">
                   <ProgressBar
                     completed={80}
@@ -243,7 +243,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="py-2 text-sm">KPIs drive morale-Data Plumber vs Biz Partner</td>
+                <td className="py-2 text-xs md:text-sm">KPIs drive morale-Data Plumber vs Biz Partner</td>
                 <td className="py-2 text-center">
                   <ProgressBar
                     completed={75}
@@ -266,7 +266,7 @@ export default function role() {
                 </td>
               </tr>
               <tr className="">
-                <td className="py-2 text-sm">Incentive Structures</td>
+                <td className="py-2 text-xs md:text-sm">Incentive Structures</td>
                 <td className="py-2 text-center">
                   <ProgressBar
                     completed={40}
