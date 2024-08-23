@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import Food from "@/public/assets/aboutUs/food.png";
 import People from "@/public/assets/aboutUs/people.png";
 import Work from "@/public/assets/aboutUs/work.png";
+import Image from 'next/image'; // Import the Image component
 
 export default function TextPage() {
   return (
@@ -192,20 +192,29 @@ export default function TextPage() {
                 Building sustainable communities
               </p>
               <div className="flex flex-row gap-4">
-                <img
-                  src={Food.src}
+                <Image
+                  src={Food}
                   alt="food"
-                  className="w-20 sm:w-40 h-full"
+                  width={160}
+                  height={160}
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, 20vw"
+                  className="h-full"
                 />
-                <img
-                  src={People.src}
+                <Image
+                  src={People}
                   alt="people"
-                  className="w-20 sm:w-40 h-full"
+                  width={160}
+                  height={160}
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, 20vw"
+                  className="h-full"
                 />
-                <img
-                  src={Work.src}
+                <Image
+                  src={Work}
                   alt="work"
-                  className="w-20 sm:w-40 h-full"
+                  width={160}
+                  height={160}
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, 20vw"
+                  className="h-full"
                 />
               </div>
             </div>

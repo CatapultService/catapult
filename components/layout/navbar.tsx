@@ -54,7 +54,7 @@ const Navbar = () => {
           How We Help Clients
         </Link>
         <Link
-          href='#'
+          href='/catapult-advantage'
           className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
         >
           The Catapult Advantage
@@ -95,7 +95,7 @@ const Navbar = () => {
               How We Help Clients
             </Link>
             <Link
-              href='#'
+              href='/catapult-advantage'
               className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
             >
               The Catapult Advantage
