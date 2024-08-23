@@ -42,7 +42,7 @@ const Navbar = () => {
 
       <nav className='hidden h-full text-white flex-col gap-3 text-lg font-medium lg:flex lg:flex-row lg:items-center lg:gap-6 lg:text-sm xl:gap-14'>
         <Link
-          href='#'
+          href='/'
           className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full '
         >
           Home
@@ -83,7 +83,7 @@ const Navbar = () => {
         <SheetContent side='topLeft'  className='w-full max-w-[10rem] text-white border-0 shadow-lg shadow-white/50 rounded-md bg-[#021836]'>
           <nav className='grid gap-6 text-lg font-medium'>
             <Link
-              href='#'
+              href='/'
               className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
             >
               Home
@@ -107,7 +107,7 @@ const Navbar = () => {
               Insights
             </Link>
             <Link
-              href='#'
+              href='/aboutus'
               className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
             >
               About Us

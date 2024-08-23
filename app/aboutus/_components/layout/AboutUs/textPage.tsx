@@ -1,7 +1,7 @@
-"use client";
+// "use client";
 import React, { useEffect, useRef } from "react";
 
-export default function Performance() {
+export default function TextPage() {
   const sectionRef = useRef(null);
   const svgRef = useRef(null);
 
