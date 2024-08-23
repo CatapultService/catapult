@@ -66,7 +66,7 @@ const Navbar = () => {
           Insights
         </Link>
         <Link
-          href='/aboutus'
+          href='/about-us'
           className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
         >
           About Us
@@ -107,7 +107,7 @@ const Navbar = () => {
               Insights
             </Link>
             <Link
-              href='/aboutus'
+              href='/about-us'
               className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
             >
               About Us
