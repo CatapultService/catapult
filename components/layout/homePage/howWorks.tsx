@@ -21,9 +21,11 @@ export default function howWorks() {
     <div className="  flex bg-[#090E4A]">
       <div className="mx-auto max-w-6xl my-10 ">
         <div className="mx-5">
-          <p className="mb-6 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
-            How it works
-          </p>
+          <div className="my-16">
+            <p className="mb-6 text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
+              How it works - Adding the Value Beyond The Hype
+            </p>
+          </div>
           <p className="mb-6 mr-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
             Experience DNA is powered by cloud-based data lakes, predictive
             machine learning algorithms, and an API insight and action engine.
@@ -31,6 +33,7 @@ export default function howWorks() {
             performance, improve decision-making, and fortify real-time
             engagement.
           </p>
+          
           <div className="grid grid-cols-1 lg:grid-cols-11 gap-1 lg:gap-4">
             <div className=" p-4 col-span-3">
               <div className="flex flex-col gap-10">

@@ -18,7 +18,7 @@ export default function howHelp() {
           className="flex-1 p-6 h-[35rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
           style={{ backgroundImage: `url(${FirstImg.src})` }}
         >
-          <div className="absolute inset-0 bg-black/10 "></div>
+          {/* <div className="absolute inset-0 bg-black/10 "></div> */}
           <h3 className="text-3xl font-bold text-[#FFE600]">
             Capability Centres
           </h3>

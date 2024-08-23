@@ -27,7 +27,7 @@ export default function insights() {
                 style={{ filter: "brightness(70%)" }}
               />
               <p className="font-semibold  justify-center text-lg md:text-base lg:text-lg">
-              Future of Finance is autonomous
+              Future of Finance is <span className="text-[#FFE600]">autonomous</span>
               </p>
             </div>
 

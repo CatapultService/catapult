@@ -7,7 +7,7 @@ export default function role() {
   return (
     <>
       <div className="px-10 md:px-20 bg-[#090E4A]">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-6xl text-center">
           <p className="my-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed  text-white  ">
             Role of Finance in Linking Growth to Shareholder Value Creation
           </p>
@@ -61,7 +61,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="pb-2 text-center">
@@ -71,7 +73,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -84,7 +88,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="py-2 text-center ">
@@ -94,7 +100,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -109,7 +117,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="pt-2 pb-4 text-center ">
@@ -119,7 +129,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -143,7 +155,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="pb-2 text-center">
@@ -153,7 +167,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -168,7 +184,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="py-2 text-center ">
@@ -178,7 +196,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -194,7 +214,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto w-full"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="py-2 text-center text">
@@ -204,7 +226,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto w-full"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -228,7 +252,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="pb-2 text-center">
@@ -238,7 +264,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -253,7 +281,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="pb-2 text-center">
@@ -263,7 +293,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -278,7 +310,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="py-2 text-center ">
@@ -288,7 +322,9 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
@@ -303,19 +339,21 @@ export default function role() {
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
-                    className="max-w-60 mx-auto w-full"
+                    labelAlignment="outside"
+                    labelColor="black"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
                 <td className="py-2 text-center text">
                   <ProgressBar
-                    completed={100}
+                    completed={75}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
                     bgColor="#090E4A"
                     labelAlignment="outside"
                     labelColor="black"
-                    className="max-w-60 mx-auto w-full flex"
+                    className="max-w-60 mx-auto w-full flex "
                   />
                 </td>
               </tr>
