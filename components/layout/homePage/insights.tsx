@@ -2,9 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "@/public/assets/row_1.png";
-import img2 from "@/public/assets/row_2.png";
-import img3 from "@/public/assets/row_3.png";
+import img1 from "@/public/assets/homePage/insights/row_1.png";
+import img2 from "@/public/assets/homePage/insights/row_2.png";
+import img3 from "@/public/assets/homePage/insights/row_3.png";
 import Logo from "@/public/assets/logo.png";
 
 export default function insights() {
