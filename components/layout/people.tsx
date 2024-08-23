@@ -25,7 +25,7 @@ export default function people() {
                   Ashish Khanna
                 </p>
                 <p className="py-2 text-xs lg:text-sm font-normal">
-                  Co-founder & Chaiperson
+                  Co-founder & Chairperson
                 </p>
                 <Link href="#" className="hover:text-yellow-500">
                   <FaLinkedin className="w-6 h-6" />
