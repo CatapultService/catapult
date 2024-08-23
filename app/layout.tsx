@@ -18,7 +18,6 @@ export default function RootLayout({
         <div className='min-h-screen w-full'>
           <main className='overflow-x-hidden'>{children}</main>
         </div>
-
       </body>
     </html>
   );

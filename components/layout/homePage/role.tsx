@@ -8,8 +8,8 @@ export default function role() {
     <>
       <div className="px-10 md:px-20 bg-[#090E4A]">
         <div className="mx-auto max-w-6xl text-center">
-          <p className="my-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed  text-white  ">
-            Role of Finance in Linking Growth to Shareholder Value Creation
+          <p className="my-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed  text-[#FFE600] ">
+            Catapult Enterprise Performance Management - Maturity Framework
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={30}
+                    completed={10}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -95,7 +95,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center ">
                   <ProgressBar
-                    completed={20}
+                    completed={10}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -150,7 +150,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={80}
+                    completed={100}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -162,7 +162,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={50}
+                    completed={10}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -179,7 +179,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center">
                   <ProgressBar
-                    completed={75}
+                    completed={100}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -191,7 +191,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center ">
                   <ProgressBar
-                    completed={44}
+                    completed={10}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -209,7 +209,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center">
                   <ProgressBar
-                    completed={25}
+                    completed={10}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -221,7 +221,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center text">
                   <ProgressBar
-                    completed={90}
+                    completed={80}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -247,7 +247,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={60}
+                    completed={40}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -259,7 +259,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={99}
+                    completed={75}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -276,7 +276,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={80}
+                    completed={40}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -288,7 +288,7 @@ export default function role() {
                 </td>
                 <td className="pb-2 text-center">
                   <ProgressBar
-                    completed={50}
+                    completed={75}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -305,7 +305,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center">
                   <ProgressBar
-                    completed={75}
+                    completed={40}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender
@@ -317,7 +317,7 @@ export default function role() {
                 </td>
                 <td className="py-2 text-center ">
                   <ProgressBar
-                    completed={30}
+                    completed={75}
                     maxCompleted={100}
                     borderRadius="0"
                     animateOnRender

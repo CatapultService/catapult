@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/layout/hero";
-import FinancehomePage from "@/components/layout/homePage/finance";
+import Opportunity from "@/components/layout/homePage/opportunity";
 import HowWorks from "@/components/layout/homePage/howWorks";
 import RoleOfFinance from "@/components/layout/homePage/role";
 import Approach from "@/components/layout/homePage/approach";
@@ -17,7 +17,7 @@ export default function Home() {
 
       {/* <main className="flex min-h-screen flex-col items-center justify-between p-24"> */}
       <Hero />
-      <FinancehomePage />
+      <Opportunity />
       <RoleOfFinance />
       <HowHelp />
       <Approach />

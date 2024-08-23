@@ -11,9 +11,9 @@ import Logo from '@/public/assets/logo.png'
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
  
-//   window.onbeforeunload = function () {
-//     window.scrollTo(0, 0);
-//   }
+  // window.onbeforeunload = function () {
+  //   window.scrollTo(0, 0);
+  // }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,7 +66,7 @@ const Navbar = () => {
           Insights
         </Link>
         <Link
-          href='#'
+          href='/aboutus'
           className='transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  '
         >
           About Us

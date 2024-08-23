@@ -155,7 +155,7 @@ export default function Performance() {
             <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
               OUR APPROACH
             </p>
-            <p className=" text-base leading-relaxed mx-auto text-left">
+            <p className=" text-base sm:text-lg md:text-xl leading-relaxed mx-auto text-left">
               Catapult combines the tech application eco system of clients with
               it&apos;s proprietary data cloud, Ai co-pilots and catapult
               capability-centres, to drive business outcomes.
