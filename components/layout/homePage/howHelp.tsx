@@ -15,7 +15,7 @@ export default function howHelp() {
       </div>
       <div className="hidden text-white lg:flex ">
         <div
-          className="flex-1 p-6 h-[35rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
+          className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
           style={{ backgroundImage: `url(${FirstImg.src})` }}
         >
           {/* <div className="absolute inset-0 bg-black/10 "></div> */}
@@ -29,7 +29,7 @@ export default function howHelp() {
           </p>
         </div>
         <div
-          className="flex-1 p-6 h-[35rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
+          className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
           style={{ backgroundImage: `url(${SecondImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600]">
@@ -42,7 +42,7 @@ export default function howHelp() {
           </p>
         </div>
         <div
-          className="flex-1 p-6 h-[35rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
+          className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
           style={{ backgroundImage: `url(${ThirdImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600]">
@@ -55,7 +55,7 @@ export default function howHelp() {
           </p>
         </div>
         <div
-          className="flex-1 p-6 h-[35rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
+          className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
           style={{ backgroundImage: `url(${FourthImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600]">
@@ -71,7 +71,7 @@ export default function howHelp() {
 
       <div className="grid grid-cols-1  sm:grid-cols-2 text-white lg:hidden">
         <div
-          className="flex-1 p-6 h-[35rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
+          className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
           style={{ backgroundImage: `url(${FirstImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
@@ -84,7 +84,7 @@ export default function howHelp() {
           </p>
         </div>
         <div
-          className="flex-1 p-6 h-[35rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
+          className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
           style={{ backgroundImage: `url(${SecondImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
@@ -97,7 +97,7 @@ export default function howHelp() {
           </p>
         </div>
         <div
-          className="flex-1 p-6 h-[35rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
+          className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
           style={{ backgroundImage: `url(${ThirdImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
@@ -110,7 +110,7 @@ export default function howHelp() {
           </p>
         </div>
         <div
-          className="flex-1 p-6 h-[35rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
+          className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
           style={{ backgroundImage: `url(${FourthImg.src})` }}
         >
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
