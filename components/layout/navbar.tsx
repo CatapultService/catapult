@@ -73,28 +73,29 @@ const Navbar = () => {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="bg-[#090F4A] text-white border-none py-4 px-6">
                   <div className="flex flex-col gap-4 w-60">
-                  <div className="hover:border-yellow-500 hover:border-b-4 ">
-                    <Link href="/catapult-capability">Capbility Centres</Link>
-                  </div>
-                  <div className="hover:border-yellow-500 hover:border-b-4 ">
-                    <Link href="/m&a">
-                      M&A, Private Equity & Investor Relations
-                    </Link>
-                  </div>
-                  <div className="hover:border-yellow-500 hover:border-b-4 ">
-                    <Link href="/data-cloud">Enterprise Data Cloud & Ai</Link>
-                  </div>
-                  <div className="hover:border-yellow-500 hover:border-b-4 ">
-                    <Link href="/performance-improvement">
-                      Performance Improvement
-                    </Link>
-                  </div>
+                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                      <Link href="/catapult-capability">Capbility Centres</Link>
+                    </div>
+                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                      <Link href="/m&a">
+                        M&A, Private Equity & Investor Relations
+                      </Link>
+                    </div>
+                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                      <Link href="/data-cloud">Enterprise Data Cloud & Ai</Link>
+                    </div>
+                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                      <Link href="/performance-improvement">
+                        Performance Improvement
+                      </Link>
+                    </div>
                   </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </div>
+
         <Link
           href="/catapult-advantage"
           className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
@@ -131,7 +132,7 @@ const Navbar = () => {
         </SheetTrigger>
         <SheetContent
           side="topLeft"
-          className="w-full max-w-[10rem] text-white border-0 shadow-lg shadow-white/50 rounded-md bg-[#021836]"
+          className="w-full max-w-[20rem] text-white border-0 shadow-lg shadow-white/50 rounded-md bg-[#090F4A]"
         >
           <nav className="grid gap-6 text-lg font-medium">
             <Link
@@ -140,12 +141,42 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              href="#"
-              className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
-            >
-              How We Help Clients
-            </Link>
+            <div className="transition-colors flex items-center hover:border-b-4 hover:border-yellow-500 h-full">
+              {/* How We Help Clients */}
+              <NavigationMenu className="bg-transparent border-none">
+                <NavigationMenuList>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger className="text-lg p-0">
+                      How We Help Clients
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent className="bg-[#090F4A] text-white border-none py-4 px-6">
+                      <div className="flex flex-col gap-4 w-60">
+                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                          <Link href="/catapult-capability">
+                            Capbility Centres
+                          </Link>
+                        </div>
+                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                          <Link href="/m&a">
+                            M&A, Private Equity & Investor Relations
+                          </Link>
+                        </div>
+                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                          <Link href="/data-cloud">
+                            Enterprise Data Cloud & Ai
+                          </Link>
+                        </div>
+                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                          <Link href="/performance-improvement">
+                            Performance Improvement
+                          </Link>
+                        </div>
+                      </div>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
+            </div>
             <Link
               href="/catapult-advantage"
               className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
