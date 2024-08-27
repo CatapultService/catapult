@@ -103,7 +103,7 @@ const Navbar = () => {
           The Catapult Advantage
         </Link>
         <Link
-          href="#"
+          href="/insights"
           className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
         >
           Insights
@@ -184,7 +184,7 @@ const Navbar = () => {
               The Catapult Advantage
             </Link>
             <Link
-              href="#"
+              href="/insights"
               className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
             >
               Insights
