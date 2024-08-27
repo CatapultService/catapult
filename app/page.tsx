@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
 
       {/* <main className="flex min-h-screen flex-col items-center justify-between p-24"> */}
-      <Hero />
+      <Hero heroText="Enterprise Performance Transformation Powered by Data, Ai & Inclusivity"/>
       <Opportunity />
       <RoleOfFinance />
       <HowHelp />

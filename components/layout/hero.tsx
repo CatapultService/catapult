@@ -1,5 +1,11 @@
 import React from "react";
-export default function Hero() {
+
+interface HeroProps {
+  heroText: string;
+}
+
+
+export default function Hero({ heroText }: HeroProps) {
   return (
     <>
 
@@ -15,9 +21,10 @@ export default function Hero() {
         <div className="relative text-left z-10  ">
           <p className="text-balance px-10 md:px-36 tracking-widest text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#FFE600] md:leading-relaxed lg:leading-relaxed xl:leading-relaxed">
           {/* <p className="tracking-widest text-left px-10 md:px-36 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#FFE600] md:leading-relaxed lg:leading-relaxed xl:leading-relaxed"> */}
-          Enterprise Performance Transformation Powered by Data, Ai & Inclusivity
+          {heroText}
           </p>
         </div>
+
       </div>
     </>
   );
