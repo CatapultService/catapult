@@ -1,7 +1,9 @@
+"use client";
 import Food from "@/public/assets/aboutUs/food.png";
 import People from "@/public/assets/aboutUs/people.png";
 import Work from "@/public/assets/aboutUs/work.png";
-import Image from 'next/image'; // Import the Image component
+import Image from "next/image";
+import { CircularProgress } from "@nextui-org/react";
 
 export default function TextPage() {
   return (
@@ -59,6 +61,17 @@ export default function TextPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
               <div className=" px-6 py-2 rounded-lg">
+                <CircularProgress
+                  classNames={{
+                    svg: "w-36 h-36 drop-shadow-md",
+                    indicator: "stroke-[#FFE600]",
+                    track: "stroke-[#E5E5E5]",
+                    value: "text-3xl font-semibold text-white",
+                  }}
+                  value={25}
+                  strokeWidth={4}
+                  showValueLabel={true}
+                />
                 <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
                   Hiring Criteria
                 </h2>
@@ -77,7 +90,19 @@ export default function TextPage() {
                   </li>
                 </ul>
               </div>
+
               <div className=" px-6 py-2 rounded-lg">
+                <CircularProgress
+                  classNames={{
+                    svg: "w-36 h-36 drop-shadow-md",
+                    indicator: "stroke-[#FFE600]",
+                    track: "stroke-[#E5E5E5]",
+                    value: "text-3xl font-semibold text-white",
+                  }}
+                  value={50}
+                  strokeWidth={4}
+                  showValueLabel={true}
+                />
                 <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
                   Level: Process Executive & Delivery Manager
                 </h2>
@@ -98,7 +123,19 @@ export default function TextPage() {
                   </li>
                 </ul>
               </div>
+
               <div className=" px-6 py-2 rounded-lg">
+                <CircularProgress
+                  classNames={{
+                    svg: "w-36 h-36 drop-shadow-md",
+                    indicator: "stroke-[#FFE600]",
+                    track: "stroke-[#E5E5E5]",
+                    value: "text-3xl font-semibold text-white",
+                  }}
+                  value={75}
+                  strokeWidth={4}
+                  showValueLabel={true}
+                />
                 <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
                   Level: Account Delivery Manager
                 </h2>
@@ -119,7 +156,19 @@ export default function TextPage() {
                   </li>
                 </ul>
               </div>
+
               <div className=" px-6 py-2 rounded-lg">
+                <CircularProgress
+                  classNames={{
+                    svg: "w-36 h-36 drop-shadow-md",
+                    indicator: "stroke-[#FFE600]",
+                    track: "stroke-[#E5E5E5]",
+                    value: "text-3xl font-semibold text-white",
+                  }}
+                  value={100}
+                  strokeWidth={4}
+                  showValueLabel={true}
+                />
                 <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
                   Level: Pod Leader
                 </h2>
