@@ -98,20 +98,20 @@ export default function TextPage() {
               Examples of Our Work
             </p>
             <ul className="list-disc list-outside pl-5">
-              <li className="text-base leading-relaxed text-left mb-3">
+              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 Set up A Global Accounting Capability Centre to support global
                 operations & expansion for a global advertising and marketing
                 services provider.
               </li>
 
-              <li className="text-base leading-relaxed text-left mb-3">
+              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 Helped a Fortune 10 company clear accounting backlog due to
                 employee turnover & ERP implementation. This was critical to
                 stabilises accounting operations and meet it’s internal &
                 external reporting and audit timelines.
               </li>
 
-              <li className="text-base leading-relaxed text-left mb-3">
+              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 For a listed company set up and operated a month & quarter close
                 & reporting process, including managing the Big 4 audit.
               </li>
@@ -197,19 +197,19 @@ export default function TextPage() {
             <ul className="list-disc list-outside pl-5">
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="#">Capbility Centres</Link>
+                <Link href="/catapult-capability">Capbility Centres</Link>
               </li>
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="#">M&A, Private Equity & Investor Relations</Link>
+                <Link href="/m&a">M&A, Private Equity & Investor Relations</Link>
               </li>
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="#">Enterprise Data Cloud & Ai</Link>
+                <Link href="/data-cloud">Enterprise Data Cloud & Ai</Link>
               </li>
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="#">Performance Improvement</Link>
+                <Link href="/performance-improvement">Performance Improvement</Link>
               </li>
 
 
