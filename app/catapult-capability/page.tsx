@@ -11,7 +11,6 @@ export default function WhiteHome() {
       <Navbar />
       <Hero />
       <Content />
-      <HowWorks />
       <Footer />
     </main>
   );
