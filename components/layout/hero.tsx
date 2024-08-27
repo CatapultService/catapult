@@ -12,14 +12,13 @@ export default function Hero() {
         >
           <source src="assets/Catapult.mp4" type="video/mp4" />
         </video>
-        <div className="relative text-left z-10">
-          <p className="tracking-widest text-left px-10 md:px-36 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#FFE600] md:leading-relaxed lg:leading-relaxed xl:leading-relaxed">
+        <div className="relative text-left z-10  ">
+          <p className="text-balance px-10 md:px-36 tracking-widest text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#FFE600] md:leading-relaxed lg:leading-relaxed xl:leading-relaxed">
+          {/* <p className="tracking-widest text-left px-10 md:px-36 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#FFE600] md:leading-relaxed lg:leading-relaxed xl:leading-relaxed"> */}
           Enterprise Performance Transformation Powered by Data, Ai & Inclusivity
           </p>
         </div>
       </div>
-
-
     </>
   );
 }
