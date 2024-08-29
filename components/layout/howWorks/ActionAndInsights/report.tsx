@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 import { ArrowRight, ChevronRight, ChevronLeft } from "lucide-react";
-import DataLakePng from "@/public/assets/homePage/howWorks/dataLake/dataLakeDesign.svg";
+import Dashboard from "@/public/assets/homePage/howWorks/actionAndInsights/dashboard.svg";
 import ReportWhite from "@/public/assets/homePage/howWorks/Report-white.svg";
 import RecommendationWhite from "@/public/assets/homePage/howWorks/Recommendation-white.svg";
 import ReportBlack from "@/public/assets/homePage/howWorks/Report-black.svg";
@@ -84,7 +84,7 @@ export default function ReportBuilder({ setPage }: ReportBuilderProps) {
 
             <div className="flex justify-center h-full items-center ">
               <div className="flex flex-col gap-3 w-full items-center">
-                <img src={DataLakePng.src} alt="" className="w-[40rem]" />
+                <img src={Dashboard.src} alt="" className="w-[40rem]" />
               </div>
             </div>
           </div>

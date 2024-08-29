@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 import { ArrowRight, ChevronRight, ChevronLeft } from "lucide-react";
-import DataLakePng from "@/public/assets/homePage/howWorks/dataLake/dataLakeDesign.svg";
+import Dashboard from "@/public/assets/homePage/howWorks/actionAndInsights/dashboard.svg";
 import ReportWhite from "@/public/assets/homePage/howWorks/Report-white.svg";
 import RecommendationWhite from "@/public/assets/homePage/howWorks/Recommendation-white.svg";
 import ReportBlack from "@/public/assets/homePage/howWorks/Report-black.svg";
@@ -31,40 +31,44 @@ export default function RecommendationEngine({
       </p>
 
       <div className="flex flex-col lg:flex-row  w-full">
-          <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
-          onClick={() => setPage(4)}>
-            <img
-              src={RecommendationWhite.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 block group-hover:hidden"
-            />
-            <img
-              src={RecommendationBlack.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 hidden group-hover:block"
-            />
-            <p className="whitespace-normal">Recommendation engine</p>
-            <span className="ml-1">
-              <ArrowRight />
-            </span>
-          </Button>
-          <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
-          onClick={() => setPage(5)}>
-            <img
-              src={ReportWhite.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 block group-hover:hidden"
-            />
-            <img
-              src={ReportBlack.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 hidden group-hover:block"
-            />
-            <p className="hitespace-normal">Report builder</p>
-            <span className="ml-1">
-              <ArrowRight />
-            </span>
-          </Button>
+        <Button
+          className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+          onClick={() => setPage(4)}
+        >
+          <img
+            src={RecommendationWhite.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 block group-hover:hidden"
+          />
+          <img
+            src={RecommendationBlack.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 hidden group-hover:block"
+          />
+          <p className="whitespace-normal">Recommendation engine</p>
+          <span className="ml-1">
+            <ArrowRight />
+          </span>
+        </Button>
+        <Button
+          className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+          onClick={() => setPage(5)}
+        >
+          <img
+            src={ReportWhite.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 block group-hover:hidden"
+          />
+          <img
+            src={ReportBlack.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 hidden group-hover:block"
+          />
+          <p className="hitespace-normal">Report builder</p>
+          <span className="ml-1">
+            <ArrowRight />
+          </span>
+        </Button>
       </div>
 
       <div id="data-lake">
@@ -86,7 +90,7 @@ export default function RecommendationEngine({
 
             <div className="flex justify-center h-full items-center ">
               <div className="flex flex-col gap-3 w-full items-center">
-                <img src={DataLakePng.src} alt="" className="w-[40rem]" />
+                <img src={Dashboard.src} alt="" className="w-[40rem]" />
               </div>
             </div>
           </div>

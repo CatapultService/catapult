@@ -7,8 +7,8 @@ import Link from "next/link";
 
 import DataLake from "@/components/layout/howWorks/dataLake";
 import PredictiveScores from "@/components/layout/howWorks/predictiveScores";
-import RecommendationEngine from "@/components/layout/howWorks/ActionAndInsights/recommendation";
-import ReportBuilder from "@/components/layout/howWorks/ActionAndInsights/report";
+import RecommendationEngine from "@/components/layout/howWorks/actionAndInsights/recommendation";
+import ReportBuilder from "@/components/layout/howWorks/actionAndInsights/report";
 
 import DataLakeSvg from "@/public/assets/homePage/howWorks/dataLake.svg";
 import Extraction from "@/public/assets/homePage/howWorks/extraction.svg";
