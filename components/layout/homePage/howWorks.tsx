@@ -7,6 +7,8 @@ import Link from "next/link";
 
 import DataLake from "@/components/layout/howWorks/dataLake";
 import PredictiveScores from "@/components/layout/howWorks/predictiveScores";
+import RecommendationEngine from "@/components/layout/howWorks/ActionAndInsights/recommendation";
+import ReportBuilder from "@/components/layout/howWorks/ActionAndInsights/report";
 
 import DataLakeSvg from "@/public/assets/homePage/howWorks/dataLake.svg";
 import Extraction from "@/public/assets/homePage/howWorks/extraction.svg";
@@ -47,8 +49,8 @@ export default function HowWorks() {
               </p>
 
               <div id="how-it-works">
-                <div className="hidden grid-row gap-1 lg:gap-4 lg:grid">
-                  <div className="px-4 pt-4 pb-6">
+                <div className="hidden grid-row gap-1 lg:gap-0 lg:grid">
+                  <div className="px-4 pt-4 pb-0">
                     <div className="flex flex-row gap-10">
                       <div className="flex-1 flex flex-col gap-3">
                         <img
@@ -79,14 +81,15 @@ export default function HowWorks() {
                           and aggregate level are processed and stored in a
                           cloud-based platform.
                         </p>
-                        <Link href="#">
-                          <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                            Dive Deeper
-                            <span className="ml-1">
-                              <ArrowRight />
-                            </span>
-                          </Button>
-                        </Link>
+                        <Button
+                          className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                          onClick={() => setPage(2)}
+                        >
+                          Dive Deeper
+                          <span className="ml-1">
+                            <ArrowRight />
+                          </span>
+                        </Button>
                       </div>
                       <div className="flex-1 flex-col ">
                         <div className="flex-1 flex flex-col gap-3">
@@ -103,14 +106,16 @@ export default function HowWorks() {
                             studying relationship between journey features,
                             sentiment, and loyalty.
                           </p>
-                          <Link href="#">
-                            <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                              Dive Deeper
-                              <span className="ml-1">
-                                <ArrowRight />
-                              </span>
-                            </Button>
-                          </Link>
+
+                          <Button
+                            className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                            onClick={() => setPage(3)}
+                          >
+                            Dive Deeper
+                            <span className="ml-1">
+                              <ArrowRight />
+                            </span>
+                          </Button>
                         </div>
                       </div>
                     </div>
@@ -125,7 +130,7 @@ export default function HowWorks() {
                   </div>
 
                   <div className="flex flex-row gap-10 justify-center  ">
-                    <div className="p-4 flex justify-center h-full items-center ">
+                    <div className="p-4 pt-0 flex justify-center h-full items-center ">
                       <div className="flex flex-col gap-3 max-w-sm">
                         <img
                           src={Action.src}
@@ -153,44 +158,46 @@ export default function HowWorks() {
                     </div>
                     <div className=" p-4 flex justify-center h-full items-center ">
                       <div className="flex flex-col gap-3 w-full">
-                        <Link href="#">
-                          <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                            <img
-                              src={RecommendationWhite.src}
-                              alt="Data Lake"
-                              className="h-8 w-fit mr-2 block group-hover:hidden"
-                            />
-                            <img
-                              src={RecommendationBlack.src}
-                              alt="Data Lake"
-                              className="h-8 w-fit mr-2 hidden group-hover:block"
-                            />
-                            <p className="whitespace-normal">
-                              Recommendation engine
-                            </p>
-                            <span className="ml-1">
-                              <ArrowRight />
-                            </span>
-                          </Button>
-                        </Link>
-                        <Link href="#">
-                          <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                            <img
-                              src={ReportWhite.src}
-                              alt="Data Lake"
-                              className="h-8 w-fit mr-2 block group-hover:hidden"
-                            />
-                            <img
-                              src={ReportBlack.src}
-                              alt="Data Lake"
-                              className="h-8 w-fit mr-2 hidden group-hover:block"
-                            />
-                            <p className="hitespace-normal">Report builder</p>
-                            <span className="ml-1">
-                              <ArrowRight />
-                            </span>
-                          </Button>
-                        </Link>
+                        <Button
+                          className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                          onClick={() => setPage(4)}
+                        >
+                          <img
+                            src={RecommendationWhite.src}
+                            alt="Data Lake"
+                            className="h-8 w-fit mr-2 block group-hover:hidden"
+                          />
+                          <img
+                            src={RecommendationBlack.src}
+                            alt="Data Lake"
+                            className="h-8 w-fit mr-2 hidden group-hover:block"
+                          />
+                          <p className="whitespace-normal">
+                            Recommendation engine
+                          </p>
+                          <span className="ml-1">
+                            <ArrowRight />
+                          </span>
+                        </Button>
+                        <Button
+                          className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                          onClick={() => setPage(5)}
+                        >
+                          <img
+                            src={ReportWhite.src}
+                            alt="Data Lake"
+                            className="h-8 w-fit mr-2 block group-hover:hidden"
+                          />
+                          <img
+                            src={ReportBlack.src}
+                            alt="Data Lake"
+                            className="h-8 w-fit mr-2 hidden group-hover:block"
+                          />
+                          <p className="hitespace-normal">Report builder</p>
+                          <span className="ml-1">
+                            <ArrowRight />
+                          </span>
+                        </Button>
                       </div>
                     </div>
                   </div>
@@ -229,14 +236,16 @@ export default function HowWorks() {
                             individual and aggregate level are processed and
                             stored in a cloud-based platform.
                           </p>
-                          <Link href="#">
-                            <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                              Dive Deeper
-                              <span className="ml-1">
-                                <ArrowRight />
-                              </span>
-                            </Button>
-                          </Link>
+
+                          <Button
+                            className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                            onClick={() => setPage(3)}
+                          >
+                            Dive Deeper
+                            <span className="ml-1">
+                              <ArrowRight />
+                            </span>
+                          </Button>
                         </div>
                       </div>
 
@@ -255,14 +264,16 @@ export default function HowWorks() {
                             studying relationship between journey features,
                             sentiment, and loyalty.
                           </p>
-                          <Link href="#">
-                            <Button className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                              Dive Deeper
-                              <span className="ml-1">
-                                <ArrowRight />
-                              </span>
-                            </Button>
-                          </Link>
+
+                          <Button
+                            className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                            onClick={() => setPage(3)}
+                          >
+                            Dive Deeper
+                            <span className="ml-1">
+                              <ArrowRight />
+                            </span>
+                          </Button>
                         </div>
                       </div>
                     </div>
@@ -313,44 +324,46 @@ export default function HowWorks() {
 
                       <div className=" p-4 flex justify-center h-full items-center w-full">
                         <div className="flex flex-col gap-3 w-full">
-                          <Link href="#">
-                            <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                              <img
-                                src={RecommendationWhite.src}
-                                alt="Data Lake"
-                                className="h-8 w-fit mr-2 block group-hover:hidden"
-                              />
-                              <img
-                                src={RecommendationBlack.src}
-                                alt="Data Lake"
-                                className="h-8 w-fit mr-2 hidden group-hover:block"
-                              />
-                              <p className="whitespace-normal">
-                                Recommendation engine
-                              </p>
-                              <span className="ml-1">
-                                <ArrowRight />
-                              </span>
-                            </Button>
-                          </Link>
-                          <Link href="#">
-                            <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none">
-                              <img
-                                src={ReportWhite.src}
-                                alt="Data Lake"
-                                className="h-8 w-fit mr-2 block group-hover:hidden"
-                              />
-                              <img
-                                src={ReportBlack.src}
-                                alt="Data Lake"
-                                className="h-8 w-fit mr-2 hidden group-hover:block"
-                              />
-                              <p className="hitespace-normal">Report builder</p>
-                              <span className="ml-1">
-                                <ArrowRight />
-                              </span>
-                            </Button>
-                          </Link>
+                          <Button
+                            className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                            onClick={() => setPage(4)}
+                          >
+                            <img
+                              src={RecommendationWhite.src}
+                              alt="Data Lake"
+                              className="h-8 w-fit mr-2 block group-hover:hidden"
+                            />
+                            <img
+                              src={RecommendationBlack.src}
+                              alt="Data Lake"
+                              className="h-8 w-fit mr-2 hidden group-hover:block"
+                            />
+                            <p className="whitespace-normal">
+                              Recommendation engine
+                            </p>
+                            <span className="ml-1">
+                              <ArrowRight />
+                            </span>
+                          </Button>
+                          <Button
+                            className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+                            onClick={() => setPage(5)}
+                          >
+                            <img
+                              src={ReportWhite.src}
+                              alt="Data Lake"
+                              className="h-8 w-fit mr-2 block group-hover:hidden"
+                            />
+                            <img
+                              src={ReportBlack.src}
+                              alt="Data Lake"
+                              className="h-8 w-fit mr-2 hidden group-hover:block"
+                            />
+                            <p className="hitespace-normal">Report builder</p>
+                            <span className="ml-1">
+                              <ArrowRight />
+                            </span>
+                          </Button>
                         </div>
                       </div>
                     </div>
@@ -359,8 +372,11 @@ export default function HowWorks() {
               </div>
             </div>
             <div className="flex justify-end">
-              <button onClick={() => setPage(2)} className="flex flex-row items-center text-white hover:text-blue-500 text-lg">
-                Data Lake  <ChevronRight className="ml-2 text-lg" />
+              <button
+                onClick={() => setPage(2)}
+                className="flex flex-row items-center text-white hover:text-blue-500 text-lg"
+              >
+                Data Lake <ChevronRight className="ml-2 text-lg" />
               </button>
             </div>
           </>
@@ -368,6 +384,10 @@ export default function HowWorks() {
           <DataLake setPage={setPage} />
         ) : currentPage == 3 ? (
           <PredictiveScores setPage={setPage} />
+        ) : currentPage == 4 ? (
+          <RecommendationEngine setPage={setPage} />
+        ) : currentPage == 5 ? (
+          <ReportBuilder setPage={setPage} />
         ) : null}
       </div>
     </div>

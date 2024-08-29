@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import PredictiveImg from "@/public/assets/homePage/howWorks/predictiveScores/bgImg.jpeg";
+import PredictiveImg from "@/public/assets/homePage/howWorks/predictiveScores/bgImg.svg";
 import { ArrowRight, ChevronRight, ChevronLeft } from "lucide-react";
 
 interface PredictiveScoresProps {
@@ -53,21 +53,21 @@ export default function PredictiveScores({ setPage }: PredictiveScoresProps) {
         </div>
       </div> */}
       <div>
-        <img src={PredictiveImg.src} alt="" className="w-full" />
+        <img src={PredictiveImg.src} alt="" className="w-full px-0 md:px-5 lg:px-10" />
       </div>
 
       <div className="flex justify-between mt-10">
         <button
           onClick={() => setPage(2)}
-          className="flex flex-row items-center text-white hover:text-blue-500 text-lg"
+          className="flex flex-row items-center text-left text-white hover:text-blue-500 text-lg"
         >
           <ChevronLeft className="mr-2 text-lg" /> Data Lake
         </button>
         <button
           onClick={() => setPage(4)}
-          className="flex flex-row items-center text-white hover:text-blue-500 text-lg"
+          className="flex flex-row items-center text-right text-white hover:text-blue-500 text-lg"
         >
-          Action and insight engines <ChevronRight className="ml-2 text-lg" />
+          Action and insight engines: <br/>Recommendations engine <ChevronRight className="ml-2 text-lg" />
         </button>
       </div>
     </div>
