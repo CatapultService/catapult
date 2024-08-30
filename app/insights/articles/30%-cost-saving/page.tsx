@@ -21,11 +21,22 @@ export default function WhiteHome() {
               </button>
             </Link>
           </div>
-          <div className="flex flex-col w-full">
-            <p className="text-3xl sm:text-3xl md:text-5xl mb-6 font-bold text-[#090E4A] text-center">
+          <div className="flex justify-center items-center w-full mt-5 mb-16">
+            <p className="text-3xl sm:text-3xl md:text-5xl font-bold text-[#090E4A] text-center">
               30% Cost Savings
             </p>
           </div>
+
+          <div className="flex flex-col md:flex-row w-full">
+            <div className="flex-1">
+              <p>hello</p>
+            </div>
+            <div className="flex-1">
+              <p>world</p>
+            </div>
+          </div>
+
+          <div></div>
 
           {/* <p className="mt-0 mb-16 text-base  leading-relaxed mx-auto text-left">
             At the core how companies organise their data and teams can
