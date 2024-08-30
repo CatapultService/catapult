@@ -26,7 +26,6 @@ export default function DataLake({ setPage }: DataLakeProps) {
       <div id="data-lake">
         <div className=" grid-row gap-1 lg:gap-4 pt-5 lg:pt-8">
           <div className="flex lg:flex-row flex-col gap-10 justify-center ">
-            
             <div className=" flex justify-center h-full items-start ">
               <div className="flex flex-col gap-5 lg:max-w-sm ">
                 {/* <img src={Action.src} alt="Data Lake" className="w-fit h-12" /> */}
@@ -48,7 +47,11 @@ export default function DataLake({ setPage }: DataLakeProps) {
 
             <div className="flex justify-center h-full items-center ">
               <div className="flex flex-col gap-3 w-full items-center">
-                <img src={DataLakePng.src} alt="" className="w-[45rem] md:w-[40rem]" />
+                <img
+                  src={DataLakePng.src}
+                  alt=""
+                  className="w-[45rem] md:w-[40rem]"
+                />
               </div>
             </div>
           </div>
@@ -56,13 +59,19 @@ export default function DataLake({ setPage }: DataLakeProps) {
       </div>
 
       <div className="flex justify-between mt-10">
-              <button onClick={() => setPage(1)} className="flex flex-row text-left items-center text-white hover:text-blue-500 text-lg">
-              <ChevronLeft className="mr-2 text-lg" /> Home  
-              </button>
-              <button onClick={() => setPage(3)} className="flex flex-row text-right items-center text-white hover:text-blue-500 text-lg">
-              Predictive scores  <ChevronRight className="ml-2 text-lg" />
-              </button>
-            </div>
+        <button
+          onClick={() => setPage(1)}
+          className="flex flex-row text-left items-center text-white hover:text-blue-500 text-lg"
+        >
+          <ChevronLeft className="mr-2 text-lg" /> Home
+        </button>
+        <button
+          onClick={() => setPage(3)}
+          className="flex flex-row text-right items-center text-white hover:text-blue-500 text-lg"
+        >
+          Predictive scores <ChevronRight className="ml-2 text-lg" />
+        </button>
+      </div>
     </div>
   );
 }

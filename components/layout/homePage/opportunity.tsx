@@ -9,6 +9,8 @@ export default function Opportunity() {
             We help clients optimize operations and transform businesses through
             Catapult Capability Centres that harness the power of analytics,
             data and AI. Our unique delivery model empowers our teams to
+            contribute to their local communities whilst helping our clients
+            achieve their ESG goals.
           </p>
           {/* <Separator className="max-w-xl mx-auto" /> */}
           <div className="flex flex-col  mt-16 mb-6">
@@ -23,7 +25,8 @@ export default function Opportunity() {
           </div>
 
           <p className="mt-0 mb-16 text-base  leading-relaxed mx-auto text-left">
-          At the core how companies organise their data and teams can transform business outcomes. 
+            At the core how companies organise their data and teams can
+            transform business outcomes.
           </p>
         </div>
       </div>

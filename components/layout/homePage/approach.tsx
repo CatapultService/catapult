@@ -150,12 +150,12 @@ export default function Performance() {
   return (
     <>
       <div className=" bg-white px-10 md:px-20 text-[#202020] flex flex-col ">
-        <div className="mx-auto max-w-8xl mt-10">
+        <div className="max-w-8xl mt-10">
           <div className="flex flex-col  mt-16 mb-6">
             <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
               OUR APPROACH
             </p>
-            <p className=" text-base leading-relaxed mx-auto text-left">
+            <p className=" text-base leading-relaxed text-left">
               Catapult combines the tech application eco system of clients with
               it&apos;s proprietary data cloud, Ai co-pilots and catapult
               capability-centres, to drive business outcomes.
@@ -191,12 +191,13 @@ export default function Performance() {
         ref={sectionRef}
         className="hidden sm:flex justify-center items-center pb-10 pt-28 mb-20 relative"
       >
+        <div className="hover:shadow-lg">
         <svg
           ref={svgRef}
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 993 317"
           aria-hidden="true"
-          className="w-full h-32 md:h-40 lg:h-52 block overflow-visible"
+          className=" h-32 md:h-40 lg:h-52 block overflow-visible"
         >
           <defs>
             <linearGradient
@@ -224,7 +225,7 @@ export default function Performance() {
           ></path>
           <g id="dotsContainer"></g>
         </svg>
-
+        </div>
         <div className="flex flex-col items-center absolute sm:bottom-10 md:bottom-8 lg:bottom-12 animated-div">
           <p className="text-center sm:text-sm md:text-base lg:text-xl font-bold">
             A comprehensive approach

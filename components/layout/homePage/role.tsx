@@ -1,20 +1,22 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
 import Link from "next/link";
 import ProgressBar from "@ramonak/react-progress-bar";
+import TableImg from "@/public/assets//homePage/role/table.svg"
 
 export default function role() {
   return (
     <>
-      <div className="px-10 md:px-20 bg-[#090E4A]">
+      {/* <div className="px-10 md:px-20 bg-[#090E4A]">
         <div className="mx-auto max-w-8xl text-center">
           <p className="my-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed  text-[#FFE600] ">
             Catapult Enterprise Performance Management - Maturity Framework
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="px-10 md:px-20 mb-6">
+      {/* <div className="px-10 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl my-10">
           <table className="w-full text-sm text-left">
             <thead className="">
@@ -44,7 +46,6 @@ export default function role() {
               </tr>
             </thead>
             <tbody className="text-black">
-              {/* 1st row */}
               <tr className="">
                 <td className="py-2 text-base md:text-lg font-bold">DATA</td>
                 <td className="py-2 "></td>
@@ -136,7 +137,6 @@ export default function role() {
                 </td>
               </tr>
 
-              {/* 2nd row */}
               <tr className="">
                 <td className="py-2 text-base md:text-lg font-bold">
                   ANALYTICS & DECISION MAKING
@@ -233,7 +233,6 @@ export default function role() {
                 </td>
               </tr>
 
-              {/* 3rd row */}
               <tr className="">
                 <td className="py-2 text-base md:text-lg font-bold">
                   TEAM STRUCTURE
@@ -359,6 +358,12 @@ export default function role() {
               </tr>
             </tbody>
           </table>
+        </div>
+      </div> */}
+
+      <div className="px-10 md:px-20 mb-6">
+        <div className="mx-auto max-w-8xl my-10">
+          <img src={TableImg.src} alt="table" className="w-full" />
         </div>
       </div>
     </>

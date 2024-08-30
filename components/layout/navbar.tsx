@@ -39,11 +39,11 @@ const Navbar = () => {
 
   return (
     <header
-      className="fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-[9rem] bg-[#090E4A]"
+      className="fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-20 bg-[#090E4A]"
     >
       <div className="text-white">
         <Link
-          href="#"
+          href="/"
           className="flex items-center gap-2 text-lg  font-semibold lg:text-base"
         >
           {/* <Package2 className='h-6 w-6' /> */}
