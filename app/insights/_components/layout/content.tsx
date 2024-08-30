@@ -57,7 +57,7 @@ const Card = [
     description:
       "Business Challenge: A global advertising and marketing services provider wanted to establish a centralized accounting to support it’s global operations and expansion.",
     image: Article1.src,
-    link: "insights/articles/30%-cost-saving",
+    link: "insights/articles/30-cost-saving",
   },
   {
     title: "Workday 7 Month close",
