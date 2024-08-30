@@ -9,9 +9,7 @@ import Article1 from "@/public/assets/insights/Article_1.png";
 import Article2 from "@/public/assets/insights/Article_2.png";
 import Article3 from "@/public/assets/insights/Article_3.png";
 
-// import Square from "./square.png";
-
-export default function CostSaving() {
+export default function Over40GlobalVat() {
   return (
     <main className="flex  flex-col justify-between w-full">
       <Navbar />
@@ -28,7 +26,7 @@ export default function CostSaving() {
           </div>
           <div className="flex justify-center items-center w-full mt-5 mb-10">
             <p className="text-3xl sm:text-3xl md:text-5xl font-bold text-[#090E4A] text-center">
-              30% Cost Savings
+              Over 40+ Global VAT I GST audits
             </p>
           </div>
         </div>
@@ -48,9 +46,9 @@ export default function CostSaving() {
             <div className="text-black px-10 md:px-20 py-10">
               <h3 className="text-4xl font-bold mb-4">Business Challenge</h3>
               <p className="text-base text-pretty">
-                A global advertising and marketing services provider wanted to
-                establish a centralized accounting to support it’s global
-                operations and expansion.
+                Globally, passing GST I VAT audits for finance teams poses
+                significant challenges due to the complexity of data
+                requirements.
               </p>
             </div>
           </div>
@@ -71,7 +69,6 @@ export default function CostSaving() {
               className="w-full h-full object-cover"
             />
           </div>
-
           <div className="flex-1 md:block hidden">
             <div
               className="w-full h-full bg-cover bg-center"
@@ -81,54 +78,33 @@ export default function CostSaving() {
 
           <div className="flex-1">
             <div className="text-black px-10 md:px-20 py-10">
-              <h3 className="text-4xl font-bold mb-4">Solution Implemented</h3>
-              <p className="text-base text-pretty">
-                Designed and successfully implemented the solution in 3 months.
-                The scope of work included :
-              </p>
+              <h3 className="text-4xl font-bold mb-4">
+                Catapult VAT Compliance framework ensure compliance and minimize
+                the risk of adjustments and penalties.
+              </h3>
 
               <ul className="list-square marker:text-[#FFF600] ml-4 text-base">
                 <li>
-                  <span className="font-semibold">
-                    Accounts Payable I Accounts Receivable I Payroll:
-                  </span>{" "}
-                  End to end management of the processes, including the exchange
-                  of information from onsite to India.
+                  Based on the business model of client – GST I VAT framework is
+                  drawn and implemented.
                 </li>
                 <li>
-                  <span className="font-semibold">Month close :</span> A complex
-                  Revenue Recognition process involving tracking Deferred
-                  income, accruals and release to revenue, Bank reconciliation,
-                  inter-co reconciliation, VAT returns & other compliance.
+                  Checklist for data entry for the maker and checker roles
+                  tailored for each clients business model.
                 </li>
                 <li>
-                  <span className="font-semibold">Other activities:</span>{" "}
-                  Treasury management including a weekly cash management system.
+                  Top down QC for VAT I GST Audit readiness: Pivoting of each
+                  transactions by transaction type, country of supplier /
+                  client, GL code so that unusuals transactions are flagged.
                 </li>
                 <li>
-                  <span className="font-semibold">Consolidated reporting:</span>{" "}
-                  Preparation of a comprehensive monthly reporting comprising
-                  of:
-                  <ul className="list-disc  text-base ml-5">
-                    <li>
-                      Board Pack including budgets vs. actual for the board at
-                      individual entity level and consolidated group level.
-                    </li>
-                    <li>Ageing analysis of payables & receivables</li>
-                    <li>Accruals / Prepayments analysis</li>
-                    <li>Deferred Income tracker</li>
-                    <li>P&L and Balance sheet schedules.</li>
-                  </ul>
+                  Reconciliation Template: Reconciliation of VAT returns with
+                  the financial statements before filing.
                 </li>
                 <li>
-                  <span className="font-semibold">
-                    Multi-Dimensional Financial book-keeping and analysis:
-                  </span>
-                  <ul className="list-disc text-base ml-5">
-                    <li>Sales Person</li>
-                    <li>Service Line</li>
-                    <li>Geography</li>
-                  </ul>
+                  Rollforward Template: Rationalise the movement in VAT GL
+                  balances are arising only from previously filed returned to
+                  current period return.
                 </li>
               </ul>
             </div>
@@ -150,35 +126,7 @@ export default function CostSaving() {
 
               <ul className="list-square text-base  ml-4 marker:text-[#FFF600]">
                 <li>
-                  <span className="font-semibold">Reduced costs:</span>{" "}
-                  Estimated savings of 30%
-                </li>
-                <li>
-                  <span className="font-semibold">
-                    CFO’s ability to focus on business requirements:
-                  </span>{" "}
-                  Being freed up from daily accounting operations, the CFO was
-                  able to focus more on business partnership.
-                </li>
-                <li>
-                  <span className="font-semibold">Improved processes:</span>{" "}
-                  Implemented various processes/templates that ensured improved
-                  visibility & granularity, plugging revenue leakages/errors.
-                </li>
-                <li>
-                  <span className="font-semibold">
-                    Successful remote transition:
-                  </span>{" "}
-                  Our experienced leadership ensured that the transition was
-                  carried out remotely without having visited the client site.
-                </li>
-                <li>
-                  <span className="font-semibold">Improved analytics:</span> In
-                  the process of implementing an online management reporting
-                  tool which will enable better analytics by the ability to
-                  slice/dice data in an improved manner, online access to
-                  reporting templates to all stakeholders, reduced reporting
-                  timelines.
+                  40+ VAT I GST audits carried out without any adjustments.
                 </li>
               </ul>
             </div>

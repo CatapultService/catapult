@@ -81,6 +81,10 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "ping-dot": "ping-dot 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       },
+      listStyleType: {
+        square: 'square',
+      }
+
     },
   },
   plugins: [require("tailwindcss-animate"), nextui()],

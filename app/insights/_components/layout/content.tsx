@@ -71,21 +71,21 @@ const Card = [
     description:
       "Business Challenge: A Fortune 10 company was unable to meet it's internal / external reporting / audit timelines due to a backlog of almost 5 months in accounting due to high mployee turnover and an ERP implementation.",
     image: Article3.src,
-    link: "https://www.google.com",
+    link: "insights/articles/big-4-audit-readiness",
   },
   {
     title: "Over 40+ Global VAT I GST audits",
     description:
       "Business Challenge: Globally, passing GST I VAT audits for finance teams poses significant challenges due to the complexity of data requirements.",
     image: Article4.src,
-    link: "https://www.google.com",
+    link: "insights/articles/over-40-global-vat",
   },
   {
     title: "5% Margin Improvement",
     description:
       "Business Challenge: A leading contact center with headcount in excess of 2,000 and operations in 3 cities was facing intense pricing pressure.",
     image: Article5.src,
-    link: "https://www.google.com",
+    link: "insights/articles/5-margin-improvement",
   },
   {
     title: "15+ DSO improvement",

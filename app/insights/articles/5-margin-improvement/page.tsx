@@ -9,9 +9,7 @@ import Article1 from "@/public/assets/insights/Article_1.png";
 import Article2 from "@/public/assets/insights/Article_2.png";
 import Article3 from "@/public/assets/insights/Article_3.png";
 
-// import Square from "./square.png";
-
-export default function CostSaving() {
+export default function FiveMarginImprovement() {
   return (
     <main className="flex  flex-col justify-between w-full">
       <Navbar />
@@ -28,7 +26,7 @@ export default function CostSaving() {
           </div>
           <div className="flex justify-center items-center w-full mt-5 mb-10">
             <p className="text-3xl sm:text-3xl md:text-5xl font-bold text-[#090E4A] text-center">
-              30% Cost Savings
+              5% Margin Improvement
             </p>
           </div>
         </div>
@@ -48,9 +46,8 @@ export default function CostSaving() {
             <div className="text-black px-10 md:px-20 py-10">
               <h3 className="text-4xl font-bold mb-4">Business Challenge</h3>
               <p className="text-base text-pretty">
-                A global advertising and marketing services provider wanted to
-                establish a centralized accounting to support it’s global
-                operations and expansion.
+                A leading contact center with headcount in excess of 2,000 and
+                operations in 3 cities was facing intense pricing pressure.
               </p>
             </div>
           </div>
@@ -71,7 +68,6 @@ export default function CostSaving() {
               className="w-full h-full object-cover"
             />
           </div>
-
           <div className="flex-1 md:block hidden">
             <div
               className="w-full h-full bg-cover bg-center"
@@ -83,52 +79,18 @@ export default function CostSaving() {
             <div className="text-black px-10 md:px-20 py-10">
               <h3 className="text-4xl font-bold mb-4">Solution Implemented</h3>
               <p className="text-base text-pretty">
-                Designed and successfully implemented the solution in 3 months.
-                The scope of work included :
+                Activity Based Costing analysis to enable the client to get a
+                360 degree view of its service offering and costs structure,
+                including :
               </p>
-
               <ul className="list-square marker:text-[#FFF600] ml-4 text-base">
                 <li>
-                  <span className="font-semibold">
-                    Accounts Payable I Accounts Receivable I Payroll:
-                  </span>{" "}
-                  End to end management of the processes, including the exchange
-                  of information from onsite to India.
+                  Cost / minute of operations given billing on a per minute
+                  rate.
                 </li>
                 <li>
-                  <span className="font-semibold">Month close :</span> A complex
-                  Revenue Recognition process involving tracking Deferred
-                  income, accruals and release to revenue, Bank reconciliation,
-                  inter-co reconciliation, VAT returns & other compliance.
-                </li>
-                <li>
-                  <span className="font-semibold">Other activities:</span>{" "}
-                  Treasury management including a weekly cash management system.
-                </li>
-                <li>
-                  <span className="font-semibold">Consolidated reporting:</span>{" "}
-                  Preparation of a comprehensive monthly reporting comprising
-                  of:
-                  <ul className="list-disc  text-base ml-5">
-                    <li>
-                      Board Pack including budgets vs. actual for the board at
-                      individual entity level and consolidated group level.
-                    </li>
-                    <li>Ageing analysis of payables & receivables</li>
-                    <li>Accruals / Prepayments analysis</li>
-                    <li>Deferred Income tracker</li>
-                    <li>P&L and Balance sheet schedules.</li>
-                  </ul>
-                </li>
-                <li>
-                  <span className="font-semibold">
-                    Multi-Dimensional Financial book-keeping and analysis:
-                  </span>
-                  <ul className="list-disc text-base ml-5">
-                    <li>Sales Person</li>
-                    <li>Service Line</li>
-                    <li>Geography</li>
-                  </ul>
+                  Created internal costs for each component such as training
+                  cost per recruit / level, cost of hr support / employee, etc.
                 </li>
               </ul>
             </div>
@@ -147,38 +109,18 @@ export default function CostSaving() {
           <div className="flex-1">
             <div className="text-black px-10 md:px-20 py-10">
               <h3 className="text-4xl font-bold mb-4">Our Impact</h3>
-
-              <ul className="list-square text-base  ml-4 marker:text-[#FFF600]">
+              <ul className="list-square text-base ml-4 marker:text-[#FFF600]">
                 <li>
-                  <span className="font-semibold">Reduced costs:</span>{" "}
-                  Estimated savings of 30%
+                  <span className="font-semibold">Margin improvement:</span> 5% cost reduction opportunities were identified within 3 months of the implementation.
                 </li>
                 <li>
-                  <span className="font-semibold">
-                    CFO’s ability to focus on business requirements:
-                  </span>{" "}
-                  Being freed up from daily accounting operations, the CFO was
-                  able to focus more on business partnership.
+                <span className="font-semibold">Improved execution through better integration with plans:</span> Availability of objective data for each department / profit center enabled in an objective linkage between incentives and strategy thus having a direct impact on business performance.
                 </li>
                 <li>
-                  <span className="font-semibold">Improved processes:</span>{" "}
-                  Implemented various processes/templates that ensured improved
-                  visibility & granularity, plugging revenue leakages/errors.
+                <span className="font-semibold">Better capital management:</span> Better monitoring of capacity utilization resulted in more revenue for every $ of capital invested.
                 </li>
                 <li>
-                  <span className="font-semibold">
-                    Successful remote transition:
-                  </span>{" "}
-                  Our experienced leadership ensured that the transition was
-                  carried out remotely without having visited the client site.
-                </li>
-                <li>
-                  <span className="font-semibold">Improved analytics:</span> In
-                  the process of implementing an online management reporting
-                  tool which will enable better analytics by the ability to
-                  slice/dice data in an improved manner, online access to
-                  reporting templates to all stakeholders, reduced reporting
-                  timelines.
+                <span className="font-semibold">Better planning and forecasting:</span> Identification and understanding of costs and revenue drivers resulted in a more accurate planning and forecasting process.
                 </li>
               </ul>
             </div>
