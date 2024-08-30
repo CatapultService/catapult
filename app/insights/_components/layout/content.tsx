@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight, ChevronRight, ChevronLeft } from "lucide-react";
+import {ChevronRight, ChevronLeft } from "lucide-react";
 
 import Article1 from "@/public/assets/insights/Article_1.png";
 import Article2 from "@/public/assets/insights/Article_2.png";
