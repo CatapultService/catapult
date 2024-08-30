@@ -64,7 +64,7 @@ const Card = [
     description:
       "Business Challenge: The client faced significant challenges in meeting it's Month Close deadline with the process extending beyond the group deadline of Workday 7.",
     image: Article2.src,
-    link: "https://www.google.com",
+    link: "insights/articles/workday-7-month-close",
   },
   {
     title: "Big 4 Audit readiness",
