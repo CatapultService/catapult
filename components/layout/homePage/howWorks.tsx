@@ -31,7 +31,7 @@ export default function HowWorks() {
 
   return (
     <div className="  flex bg-[#090E4A]">
-      <div className="mx-auto max-w-8xl my-10 w-full">
+      <div className="mx-auto max-w-7xl my-10 w-full">
         {currentPage == 1 ? (
           <>
             <div className="mx-5">
@@ -40,7 +40,7 @@ export default function HowWorks() {
                   How it works - Adding the Value Beyond The Hype
                 </p>
               </div>
-              <p className="mb-6 mr-6 text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
+              <p className="mb-6 mr-6 text-left leading-relaxed text-xs sm:text-sm md:text-base text-white font-light">
                 Experience DNA is powered by cloud-based data lakes, predictive
                 machine learning algorithms, and an API insight and action
                 engine. Click on each of the elements below to learn how they
