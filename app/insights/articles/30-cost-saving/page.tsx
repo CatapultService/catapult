@@ -56,22 +56,28 @@ export default function WhiteHome() {
           </div>
 
           <div className="flex-1 md:block hidden">
-            <img
-              src={Article3.src}
-              alt="Article 1"
-              className="w-full h-full lg:h-52 object-cover"
-            />
+            <div
+              className="w-full h-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${Article3.src})` }}
+            ></div>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row w-full">
-          <div className="flex-1">
+          <div className="flex-1 md:hidden block">
             <img
               src={Article1.src}
               alt="Article 1"
               className="w-full h-full object-cover"
             />
           </div>
+          <div className="flex-1 md:block hidden">
+            <div
+              className="w-full h-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${Article1.src})` }}
+            ></div>
+          </div>
+
           <div className="flex-1">
             <div className="text-black px-10 md:px-20 py-10">
               <h3 className="text-4xl font-bold mb-4">Solution Implemented</h3>
@@ -124,15 +130,14 @@ export default function WhiteHome() {
         </div>
 
         <div className="flex flex-col md:flex-row w-full">
-         
-        <div className="flex-1 md:hidden block">
+          <div className="flex-1 md:hidden block">
             <img
               src={Article2.src}
               alt="Article 1"
               className="w-full h-full object-cover"
             />
           </div>
-         
+
           <div className="flex-1">
             <div className="text-black px-10 md:px-20 py-10">
               <h3 className="text-4xl font-bold mb-4">Our Impact</h3>
@@ -166,11 +171,10 @@ export default function WhiteHome() {
           </div>
 
           <div className="flex-1 md:block hidden">
-            <img
-              src={Article2.src}
-              alt="Article 1"
-              className="w-full h-full object-cover"
-            />
+          <div
+              className="w-full h-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${Article2.src})` }}
+            ></div>
           </div>
         </div>
       </div>
