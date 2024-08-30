@@ -5,7 +5,7 @@ export default function TextPage() {
   return (
     <>
       <div className="px-10 md:px-20 mb-6">
-        <div className="mx-auto max-w-6xl my-5">
+        <div className="mx-auto max-w-8xl my-5">
           <div className="mt-16">
             <p className="text-xl sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
               Overview

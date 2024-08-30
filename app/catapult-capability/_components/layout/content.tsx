@@ -5,7 +5,7 @@ export default function TextPage() {
   return (
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
-        <div className="mx-auto max-w-6xl my-5">
+        <div className="mx-auto max-w-8xl my-5">
           <p className="mt-16 mb-8 text-base leading-relaxed text-left">
             In an increasingly compeitive world, with accentuated war for
             talent, thoughtful choices on structuring your teams for excellence,
@@ -19,7 +19,7 @@ export default function TextPage() {
       </div>
 
       <div className="px-0 md:px-20 mb-6">
-        <div className="mx-auto max-w-6xl overflow-x-auto">
+        <div className="mx-auto max-w-8xl overflow-x-auto">
           <table className="w-full h-full text-sm text-center ">
             <thead className="bg-[#090F4A] text-white ">
               <tr className="">
@@ -73,7 +73,7 @@ export default function TextPage() {
       </div>
 
       <div className="px-10 md:px-20 mb-6">
-        <div className="mx-auto max-w-6xl my-5">
+        <div className="mx-auto max-w-8xl my-5">
           <div>
             <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
               What We Do

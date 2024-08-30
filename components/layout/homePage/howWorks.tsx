@@ -31,7 +31,7 @@ export default function HowWorks() {
 
   return (
     <div className="  flex bg-[#090E4A]">
-      <div className="mx-auto max-w-6xl my-10 w-full">
+      <div className="mx-auto max-w-8xl my-10 w-full">
         {currentPage == 1 ? (
           <>
             <div className="mx-5">

@@ -7,7 +7,7 @@ export default function TextPage() {
   return (
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
-        <div className="mx-auto max-w-6xl my-5">
+        <div className="mx-auto max-w-8xl my-5">
           <p className="mt-16 mb-8 text-base leading-relaxed text-left">
             Our Unique Insights as a Service Model for Digital Transformation
             solves for the typical barriers to startng this journey :

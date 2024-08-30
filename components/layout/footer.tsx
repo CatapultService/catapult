@@ -8,7 +8,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 export default function footer() {
   return (
     <div className="w-full px-10 md:px-20 bg-white border-t border-black">
-      <div className=" flex flex-col sm:flex-row justify-center items-center mx-auto max-w-6xl">
+      <div className=" flex flex-col sm:flex-row justify-center items-center mx-auto max-w-8xl">
         <p className="ml-0 text-center font-roobertProMedium text-sm text-black mt-6 mb-2 sm:my-6">
           <Link
             href="#"

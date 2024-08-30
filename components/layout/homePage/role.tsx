@@ -7,7 +7,7 @@ export default function role() {
   return (
     <>
       <div className="px-10 md:px-20 bg-[#090E4A]">
-        <div className="mx-auto max-w-6xl text-center">
+        <div className="mx-auto max-w-8xl text-center">
           <p className="my-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed  text-[#FFE600] ">
             Catapult Enterprise Performance Management - Maturity Framework
           </p>
@@ -15,7 +15,7 @@ export default function role() {
       </div>
 
       <div className="px-10 md:px-20 mb-6">
-        <div className="mx-auto max-w-6xl my-10">
+        <div className="mx-auto max-w-8xl my-10">
           <table className="w-full text-sm text-left">
             <thead className="">
               <tr>

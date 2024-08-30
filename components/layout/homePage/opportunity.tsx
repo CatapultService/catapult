@@ -4,7 +4,7 @@ export default function Opportunity() {
   return (
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
-        <div className="mx-auto max-w-6xl my-5">
+        <div className="mx-auto max-w-8xl my-5">
           <p className="my-16 text-base leading-relaxed mx-auto text-left">
             We help clients optimize operations and transform businesses through
             Catapult Capability Centres that harness the power of analytics,

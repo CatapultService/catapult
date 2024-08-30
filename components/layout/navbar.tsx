@@ -20,28 +20,26 @@ import {
 } from "@/components/ui/navigation-menu";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  // const [isScrolled, setIsScrolled] = useState(false);
 
   // window.onbeforeunload = function () {
   //   window.scrollTo(0, 0);
   // }
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setIsScrolled(window.scrollY > 0);
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <header
-      className={`fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-[9rem] ${
-        isScrolled ? "bg-[#090E4A] " : "bg-transparent "
-      }`}
+      className="fixed top-0 flex justify-between h-20 items-center w-full transition-colors duration-300 z-20  px-12 lg:px-[9rem] bg-[#090E4A]"
     >
       <div className="text-white">
         <Link
@@ -58,12 +56,12 @@ const Navbar = () => {
       <nav className="hidden h-full text-white flex-col gap-3 text-lg font-medium lg:flex lg:flex-row lg:items-center lg:gap-6 lg:text-sm xl:gap-14">
         <Link
           href="/"
-          className="transition-colors flex items-center hover:border-b-4 hover:border-yellow-500 h-full"
+          className="transition-colors flex items-center hover:border-b-4 hover:border-[#FFE600] h-full"
         >
           Home
         </Link>
 
-        <div className="transition-colors flex items-center hover:border-b-4 hover:border-yellow-500 h-full">
+        <div className="transition-colors flex items-center hover:border-b-4 hover:border-[#FFE600] h-full">
           {/* How We Help Clients */}
           <NavigationMenu className="bg-transparent border-none">
             <NavigationMenuList>
@@ -73,18 +71,18 @@ const Navbar = () => {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="bg-[#090F4A] text-white border-none py-4 px-6">
                   <div className="flex flex-col gap-4 w-60">
-                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                    <div className="hover:border-[#FFE600] hover:border-b-4 ">
                       <Link href="/catapult-capability">Capbility Centres</Link>
                     </div>
-                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                    <div className="hover:border-[#FFE600] hover:border-b-4 ">
                       <Link href="/m&a">
                         M&A, Private Equity & Investor Relations
                       </Link>
                     </div>
-                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                    <div className="hover:border-[#FFE600] hover:border-b-4 ">
                       <Link href="/data-cloud">Enterprise Data Cloud & Ai</Link>
                     </div>
-                    <div className="hover:border-yellow-500 hover:border-b-4 ">
+                    <div className="hover:border-[#FFE600] hover:border-b-4 ">
                       <Link href="/performance-improvement">
                         Performance Improvement
                       </Link>
@@ -98,19 +96,19 @@ const Navbar = () => {
 
         <Link
           href="/catapult-advantage"
-          className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+          className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
         >
           The Catapult Advantage
         </Link>
         <Link
           href="/insights"
-          className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+          className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
         >
           Insights
         </Link>
         <Link
           href="/about-us"
-          className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+          className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
         >
           About Us
         </Link>
@@ -120,11 +118,7 @@ const Navbar = () => {
         <SheetTrigger asChild>
           <Button
             size="icon"
-            className={`shrink-0 lg:hidden  ${
-              isScrolled
-                ? "bg-white text-black hover:bg-[#021836]   border-2 hover:shadow-white/50 hover:text-white"
-                : "bg-[#021836] text-white hover:bg-white hover:text-black"
-            } `}
+            className="shrink-0 lg:hidden bg-white text-black hover:bg-[#021836]   border-2 hover:shadow-white/50 hover:text-white"
           >
             <Menu className="h-5 w-5" />
             <span className="sr-only">Toggle navigation menu</span>
@@ -137,36 +131,36 @@ const Navbar = () => {
           <nav className="grid gap-6 text-lg font-medium">
             <Link
               href="/"
-              className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+              className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
             >
               Home
             </Link>
-            <div className="transition-colors flex items-center hover:border-b-4 hover:border-yellow-500 h-full">
+            <div className="transition-colors flex items-center hover:border-b-4 hover:border-[#FFE600] h-full">
               {/* How We Help Clients */}
               <NavigationMenu className="bg-transparent border-none">
                 <NavigationMenuList>
-                  <NavigationMenuItem>
+                  <NavigationMenuItem className=" border-none">
                     <NavigationMenuTrigger className="text-lg p-0">
                       How We Help Clients
                     </NavigationMenuTrigger>
-                    <NavigationMenuContent className="bg-[#090F4A] text-white border-none py-4 px-6">
-                      <div className="flex flex-col gap-4 w-60">
-                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                    <NavigationMenuContent className="bg-[#090F4A] text-white border-0 py-4 px-6">
+                      <div className="flex flex-col gap-4 w-60 border-none">
+                        <div className="hover:border-[#FFE600] hover:border-b-4 ">
                           <Link href="/catapult-capability">
                             Capbility Centres
                           </Link>
                         </div>
-                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                        <div className="hover:border-[#FFE600] hover:border-b-4 ">
                           <Link href="/m&a">
                             M&A, Private Equity & Investor Relations
                           </Link>
                         </div>
-                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                        <div className="hover:border-[#FFE600] hover:border-b-4 ">
                           <Link href="/data-cloud">
                             Enterprise Data Cloud & Ai
                           </Link>
                         </div>
-                        <div className="hover:border-yellow-500 hover:border-b-4 ">
+                        <div className="hover:border-[#FFE600] hover:border-b-4 ">
                           <Link href="/performance-improvement">
                             Performance Improvement
                           </Link>
@@ -179,19 +173,19 @@ const Navbar = () => {
             </div>
             <Link
               href="/catapult-advantage"
-              className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+              className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
             >
               The Catapult Advantage
             </Link>
             <Link
               href="/insights"
-              className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+              className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
             >
               Insights
             </Link>
             <Link
               href="/about-us"
-              className="transition-colors flex items-center  hover:border-b-4 hover:border-yellow-500 h-full  "
+              className="transition-colors flex items-center  hover:border-b-4 hover:border-[#FFE600] h-full  "
             >
               About Us
             </Link>

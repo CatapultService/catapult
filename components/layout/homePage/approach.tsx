@@ -150,7 +150,7 @@ export default function Performance() {
   return (
     <>
       <div className=" bg-white px-10 md:px-20 text-[#202020] flex flex-col ">
-        <div className="mx-auto max-w-6xl mt-10">
+        <div className="mx-auto max-w-8xl mt-10">
           <div className="flex flex-col  mt-16 mb-6">
             <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
               OUR APPROACH
