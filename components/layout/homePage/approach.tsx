@@ -191,7 +191,7 @@ export default function Performance() {
         ref={sectionRef}
         className="hidden sm:flex justify-center items-center pb-10 pt-28 mb-20 relative"
       >
-        <div className="hover:shadow-lg">
+       
         <svg
           ref={svgRef}
           xmlns="http://www.w3.org/2000/svg"
@@ -199,6 +199,10 @@ export default function Performance() {
           aria-hidden="true"
           className=" h-32 md:h-40 lg:h-52 block overflow-visible"
         >
+          <text x="-50" y="190" fill="black" font-size="20" transform="rotate(-48 80,90)">0 to 3 months</text>
+          <text x="280" y="100" fill="black" font-size="20" transform="rotate(-15 180, 50)">4 to 6 months</text>
+          <text x="580" y="0" fill="black" font-size="20" transform="rotate(15 435, 0)">7 to 8 months</text>
+
           <defs>
             <linearGradient
               className="cerosgradient"
@@ -224,18 +228,21 @@ export default function Performance() {
             transform="translate(3 3)"
           ></path>
           <g id="dotsContainer"></g>
+
         </svg>
-        </div>
-        <div className="flex flex-col items-center absolute sm:bottom-10 md:bottom-8 lg:bottom-12 animated-div">
-          <p className="text-center sm:text-sm md:text-base lg:text-xl font-bold">
+
+        
+        
+        <div className="flex flex-col items-center justify-center absolute sm:bottom-10 md:bottom-8 lg:bottom-12 animated-div">
+          <p className="text-center sm:text-sm md:text-base lg:text-xl font-bold w-full">
             A comprehensive approach
             <br />
-            <span className="text-xs lg:text-sm font-normal">enables</span>
+            <span className="text-xs lg:text-sm font-normal w-full text-center">Enables</span>
           </p>
-          <p className="md:text-3xl lg:text-5xl font-bold text-[#090E4A]">
-            20 - 30%
+          <p className="md:text-3xl lg:text-5xl font-bold text-[#090E4A] w-full text-center">
+            20-30%
           </p>
-          <p className="text-xs lg:text-sm font-normal">Margin Uplift</p>
+          <p className="text-xs lg:text-sm font-normal w-full text-center">Margin uplift</p>
         </div>
       </div>
 
