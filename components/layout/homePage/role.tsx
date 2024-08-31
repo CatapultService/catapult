@@ -362,7 +362,7 @@ export default function role() {
       </div> */}
 
       <div className="px-10 md:px-20 mb-6">
-        <div className="mx-auto max-w-8xl mt-5 mb-10">
+        <div className="mx-auto max-w-8xl mt-1 mb-10">
           <img src={TableImg.src} alt="table" className="w-full" />
         </div>
       </div>
