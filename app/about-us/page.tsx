@@ -1,5 +1,5 @@
 import Navbar from "@/components/layout/navbar";
-import Hero from "@/components/layout/hero";
+import Hero from "./hero";
 import TextPage from "./_components/layout/textPage";
 import People from "@/components/layout/people";
 import Footer from "@/components/layout/footer";
