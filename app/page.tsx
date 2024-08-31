@@ -4,7 +4,7 @@ import Opportunity from "@/components/layout/homePage/opportunity";
 import HowWorks from "@/components/layout/homePage/howWorks";
 import RoleOfFinance from "@/components/layout/homePage/role";
 import Approach from "@/components/layout/homePage/approach";
-import Insights from "@/components/layout/homePage/insights";
+import Testimonials from "@/components/layout/homePage/testimonials";
 import Navbar from "@/components/layout/navbar";
 import HowHelp from "@/components/layout/homePage/howHelp";
 import Impact from "@/components/layout/homePage/impact";
@@ -24,7 +24,7 @@ export default function Home() {
       <HowWorks />
       <Impact />
       <People />
-      <Insights />
+      <Testimonials />
       <Footer />
     </main>
   );

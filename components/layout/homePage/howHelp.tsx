@@ -22,11 +22,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600]">
             Capability Centres
           </h3>
-          <p className="text-lg max-w-sm font-medium hidden group-hover:block">
+          {/* <p className="text-lg max-w-sm font-medium hidden group-hover:block">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
@@ -35,11 +35,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600]">
             M&A, Private Equity & Investor Relations
           </h3>
-          <p className="text-lg max-w-sm font-medium hidden group-hover:block">
+          {/* <p className="text-lg max-w-sm font-medium hidden group-hover:block">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
@@ -48,11 +48,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600]">
             Enterprise Data Cloud & Ai
           </h3>
-          <p className="text-lg max-w-sm font-medium hidden group-hover:block">
+          {/* <p className="text-lg max-w-sm font-medium hidden group-hover:block">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
@@ -61,11 +61,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600]">
             Performance Improvement
           </h3>
-          <p className="text-lg max-w-sm font-medium hidden group-hover:block">
+          {/* <p className="text-lg max-w-sm font-medium hidden group-hover:block">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -77,11 +77,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
             Capability Centres
           </h3>
-          <p className="text-lg max-w-sm font-medium">
+          {/* <p className="text-lg max-w-sm font-medium">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
@@ -90,11 +90,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
             M&A, Private Equity & Investor Relations
           </h3>
-          <p className="text-lg max-w-sm font-medium">
+          {/* <p className="text-lg max-w-sm font-medium">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
@@ -103,11 +103,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
           Enterprise Data Cloud & Ai{" "}
           </h3>
-          <p className="text-lg max-w-sm font-medium">
+          {/* <p className="text-lg max-w-sm font-medium">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
@@ -116,11 +116,11 @@ export default function howHelp() {
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
           Performance Improvement
           </h3>
-          <p className="text-lg max-w-sm font-medium">
+          {/* <p className="text-lg max-w-sm font-medium">
             Catapult combines the tech application eco system of clients with
             it&apos;s proprietary data cloud, Ai co-pilots and catapult
             capability-centres, to drive business outcomes.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

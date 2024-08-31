@@ -5,7 +5,7 @@ export default function Opportunity() {
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
-          <p className="my-16 text-base leading-relaxed mx-auto text-left">
+          <p className="mt-6 mb-0 text-base leading-relaxed mx-auto text-left">
             We help clients optimize operations and transform businesses through
             Catapult Capability Centres that harness the power of analytics,
             data and AI. Our unique delivery model empowers our teams to
@@ -13,9 +13,9 @@ export default function Opportunity() {
             achieve their ESG goals.
           </p>
           {/* <Separator className="max-w-xl mx-auto" /> */}
-          <div className="flex flex-col  mt-16 mb-6">
+          <div className="flex flex-col my-6">
             <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
-              THE OPPORTUNITY
+              The Opportunity
             </p>
             <p className=" text-base leading-relaxed mx-auto text-left">
               Data & Ai powered teams can be transformed into Capability Centres
@@ -24,7 +24,7 @@ export default function Opportunity() {
             </p>
           </div>
 
-          <p className="mt-0 mb-16 text-base  leading-relaxed mx-auto text-left">
+          <p className="mt-0 mb-6 text-base  leading-relaxed mx-auto text-left">
             At the core how companies organise their data and teams can
             transform business outcomes.
           </p>
