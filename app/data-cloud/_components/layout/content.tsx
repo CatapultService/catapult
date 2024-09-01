@@ -6,7 +6,7 @@ export default function TextPage() {
     <>
       <div className="px-10 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl my-5">
-          <div className="mt-16">
+          <div className="mt-6">
             <p className="text-xl sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
               Overview
             </p>
@@ -29,44 +29,19 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row mb-5 items-start"
+                className="flex flex-col md:flex-row bg-[#D9D9D9] w-full h-full "
               >
-                <p className="w-full md:w-3/12 text-base font-semibold text-black text-left text-pretty">
+                <p className="w-full md:w-3/12 text-base py-3 px-2 font-semibold text-black text-left  h-full">
                   {item.title}
                 </p>
-                <div className="w-full md:w-9/12 text-base leading-relaxed text-left">
+
+                <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-pretty text-left bg-[#090E4A] text-[#D9D9D9] ">
                   {item.description}
-                </div>
+                </p>
               </div>
             ))}
           </div>
 
-          <div className="mt-10">
-            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
-              How We Help Clients
-            </p>
-            <ul className="list-disc list-outside pl-5">
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/catapult-capability">Capbility Centres</Link>
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/m&a">
-                  M&A, Private Equity & Investor Relations
-                </Link>
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/data-cloud">Enterprise Data Cloud & Ai</Link>
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/performance-improvement">
-                  Performance Improvement
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </>

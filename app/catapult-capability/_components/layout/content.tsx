@@ -4,7 +4,7 @@ import { Check, X } from "lucide-react";
 import Link from "next/link";
 import HowHelp from "@/components/layout/homePage/howHelp";
 
-import { ChevronRight, ChevronLeft } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 import Article1 from "@/public/assets/insights/Article_3.png";
 import Article2 from "@/public/assets/insights/Article_6.png";
@@ -15,7 +15,7 @@ export default function TextPage() {
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
-          <p className="mt-16 mb-8 text-base leading-relaxed text-left">
+          <p className="mt-6 mb-8 text-base leading-relaxed text-left">
             In an increasingly compeitive world, with accentuated war for
             talent, thoughtful choices on structuring your teams for excellence,
             has a substantial impact on business & financial outcomes. Making
@@ -93,19 +93,15 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row bg-[#D9D9D9] w-full h-full"
+                className="flex flex-col md:flex-row bg-[#D9D9D9] w-full h-full"
               >
-                {/* <div className="flex-row flex w-full  h-full"> */}
                 <p className="w-full md:w-3/12 text-base py-3 px-2 font-semibold text-black text-left  h-full">
                   {item.title}
                 </p>
-                {/* </div> */}
 
-                {/* <div className="md:w-9/12"> */}
                 <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-left bg-[#090E4A] text-[#D9D9D9] ">
                   {item.description}
                 </p>
-                {/* </div> */}
               </div>
             ))}
           </div>
@@ -114,48 +110,28 @@ export default function TextPage() {
             <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-0 font-bold text-[#090E4A] text-left">
               Examples of Our Work
             </p>
-            {/* <ul className="list-disc list-outside pl-5">
-              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
-                Set up A Global Accounting Capability Centre to support global
-                operations & expansion for a global advertising and marketing
-                services provider.
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
-                Helped a Fortune 10 company clear accounting backlog due to
-                employee turnover & ERP implementation. This was critical to
-                stabilises accounting operations and meet it’s internal &
-                external reporting and audit timelines.
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
-                For a listed company set up and operated a month & quarter close
-                & reporting process, including managing the Big 4 audit.
-              </li>
-            </ul> */}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 ">
-            {Card.map((card, index) => (
-              <div
-                key={index}
-                className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
-              >
-                <img src={card.image} alt="blog" className="w-full mb-2" />
-                <p className="text-sm my-2">Case Study</p>
-                <Link href={card.link} className="">
-                  <h2 className=" flex items-center text-2xl font-bold mb-2 hover:text-[#2251FF] hover:underline">
-                    {card.title}
-                    <span>
-                      <ChevronRight className="w-6  text-[#2251FF]" />
-                    </span>
-                  </h2>
-                </Link>
-                <p className="text-base leading-relaxed text-left line-clamp-4">
-                  {card.description}
-                </p>
-              </div>
-            ))}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 ">
+              {Card.map((card, index) => (
+                <div
+                  key={index}
+                  className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
+                >
+                  <img src={card.image} alt="blog" className="w-full mb-2" />
+                  <p className="text-sm my-2">Case Study</p>
+                  <Link href={card.link} className="">
+                    <h2 className=" flex items-center text-2xl font-bold mb-2 hover:text-[#2251FF] hover:underline">
+                      {card.title}
+                      <span>
+                        <ChevronRight className="w-6  text-[#2251FF]" />
+                      </span>
+                    </h2>
+                  </Link>
+                  <p className="text-base leading-relaxed text-left line-clamp-4">
+                    {card.description}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="mt-10">

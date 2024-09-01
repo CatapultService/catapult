@@ -10,7 +10,7 @@ export default function TextPage() {
     <>
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
-          <p className="mt-16 mb-8 text-base leading-relaxed text-left">
+          <p className="mt-6 mb-8 text-base leading-relaxed text-left">
             Catapult is a &quot;Social Enterprise Platform&quot; that is
             committed to both sides of the equation. We want to build lasting
             customer relationships by driving change & creating value. Equally
@@ -59,8 +59,8 @@ export default function TextPage() {
               Tier 2 - 3 towns and are led by talent internally developed.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-              <div className=" px-6 py-2 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+              <div className=" px-2 py-2 rounded-lg">
                 <CircularProgress
                   classNames={{
                     svg: "w-36 h-36 drop-shadow-md",
@@ -91,7 +91,7 @@ export default function TextPage() {
                 </ul>
               </div>
 
-              <div className=" px-6 py-2 rounded-lg">
+              <div className=" px-2 py-2 rounded-lg">
                 <CircularProgress
                   classNames={{
                     svg: "w-36 h-36 drop-shadow-md",
@@ -124,7 +124,7 @@ export default function TextPage() {
                 </ul>
               </div>
 
-              <div className=" px-6 py-2 rounded-lg">
+              <div className=" px-2 py-2 rounded-lg">
                 <CircularProgress
                   classNames={{
                     svg: "w-36 h-36 drop-shadow-md",
@@ -157,7 +157,7 @@ export default function TextPage() {
                 </ul>
               </div>
 
-              <div className=" px-6 py-2 rounded-lg">
+              <div className=" px-2 py-2 rounded-lg">
                 <CircularProgress
                   classNames={{
                     svg: "w-36 h-36 drop-shadow-md",

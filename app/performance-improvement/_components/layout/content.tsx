@@ -1,12 +1,21 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Check, X } from "lucide-react";
 import Link from "next/link";
+
+import HowHelp from "@/components/layout/homePage/howHelp";
+
+import { ChevronRight } from "lucide-react";
+import Article1 from "@/public/assets/insights/Article_7.png";
+import Article2 from "@/public/assets/insights/Article_5.png";
+import Article3 from "@/public/assets/insights/Article_11.png";
+
 export default function TextPage() {
   return (
     <>
       <div className="px-10 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl my-5">
-          <div className="mt-16">
+          <div className="mt-6">
             <p className="text-xl sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
               Overview
             </p>
@@ -24,12 +33,13 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row mb-5 items-start "
+                className="flex flex-col md:flex-row bg-[#D9D9D9] w-full h-full "
               >
-                <p className="w-full md:w-3/12 text-base font-semibold text-black text-left text-pretty">
+                <p className="w-full md:w-3/12 text-base py-3 px-2 font-semibold text-black text-left  h-full">
                   {item.title}
                 </p>
-                <div className="w-full md:w-9/12 text-base leading-relaxed text-left">
+
+                <div className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-pretty text-left bg-[#090E4A] text-[#D9D9D9] ">
                   {item.description}
                 </div>
               </div>
@@ -37,10 +47,34 @@ export default function TextPage() {
           </div>
 
           <div className="mt-10">
-            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
+            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-0 font-bold text-[#090E4A] text-left">
               Examples of Our Work
             </p>
-            <ul className="list-disc list-outside pl-5">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 ">
+              {Card.map((card, index) => (
+                <div
+                  key={index}
+                  className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
+                >
+                  <img src={card.image} alt="blog" className="w-full mb-2" />
+                  <p className="text-sm my-2">Case Study</p>
+                  <Link href={card.link} className="">
+                    <h2 className=" flex items-center text-2xl font-bold mb-2 hover:text-[#2251FF] hover:underline">
+                      {card.title}
+                      <span>
+                        <ChevronRight className="w-6  text-[#2251FF]" />
+                      </span>
+                    </h2>
+                  </Link>
+                  <p className="text-base leading-relaxed text-left line-clamp-4">
+                    {card.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+            
+            {/* <ul className="list-disc list-outside pl-5">
               <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 DSO Reduction
               </li>
@@ -52,37 +86,13 @@ export default function TextPage() {
               <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 Capital Structure Optimisation
               </li>
-            </ul>
+            </ul> */}
+
           </div>
 
-          <div className="mt-10">
-            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
-              How We Help Clients
-            </p>
-            <ul className="list-disc list-outside pl-5">
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/catapult-capability">Capbility Centres</Link>
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/m&a">
-                  M&A, Private Equity & Investor Relations
-                </Link>
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/data-cloud">Enterprise Data Cloud & Ai</Link>
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/performance-improvement">
-                  Performance Improvement
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
+      <HowHelp />
     </>
   );
 }
@@ -179,5 +189,30 @@ let WhatWeDo = [
         </p>
       </>
     ),
+  },
+];
+
+
+const Card = [
+  {
+    title: "5% Margin Improvement",
+    description:
+      "Business Challenge: A leading contact center with headcount in excess of 2,000 and operations in 3 cities was facing intense pricing pressure.",
+    image: Article1.src,
+    link: "insights/articles/5-margin-improvement",
+  },
+  {
+    title: "15+ DSO improvement",
+    description:
+      "Business Challenge: With rapid expansion of the business from one city operations to 3 cities and 4 partners to 8 and ever expanding, there was no view of profitability per partner, location, line of business, etc. Further at the end of the month significant partner effort on the billing & collection process. Leading to high DSO & Revenue leakage.",
+    image: Article2.src,
+    link: "/insights",
+  },
+  {
+    title: "10% Equity Dilution Avoidance",
+    description:
+      "Business Challenge: The client with an asset heavy business faced continued dilution due to perpetual raising capital raise.",
+    image: Article3.src,
+    link: "/insights",
   },
 ];
