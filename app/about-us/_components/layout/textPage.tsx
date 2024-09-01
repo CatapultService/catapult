@@ -72,7 +72,7 @@ export default function TextPage() {
                   strokeWidth={4}
                   showValueLabel={true}
                 />
-                <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
+                <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Hiring Criteria
                 </h2>
                 <ul className="text-gray-700">
@@ -103,7 +103,7 @@ export default function TextPage() {
                   strokeWidth={4}
                   showValueLabel={true}
                 />
-                <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
+                <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Process Executive & Delivery Manager
                 </h2>
                 <ul className="text-gray-700">
@@ -136,7 +136,7 @@ export default function TextPage() {
                   strokeWidth={4}
                   showValueLabel={true}
                 />
-                <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
+                <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Account Delivery Manager
                 </h2>
                 <ul className="text-gray-700">
@@ -169,7 +169,7 @@ export default function TextPage() {
                   strokeWidth={4}
                   showValueLabel={true}
                 />
-                <h2 className="text-xl font-bold mb-2 text-[#090F4A]">
+                <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Pod Leader
                 </h2>
                 <ul className="text-gray-700">

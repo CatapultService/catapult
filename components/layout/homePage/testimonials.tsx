@@ -30,10 +30,9 @@ export default function Testimonials() {
       <div className="flex bg-white px-10 md:px-20 text-[#202020]">
         <div className="max-w-8xl ">
           <div className="flex flex-col mt-6">
-            <p className="text-sm text-left sm:text-lg md:text-2xl lg:text-3xl font-bold text-[#090E4A] ">
-              Testimonials
+            <p className="text-left text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-bold text-[#090E4A] mb-6">
+              Client Testimonials
             </p>
-
           </div>
         </div>
       </div>
@@ -57,16 +56,16 @@ export function TeamCarousel() {
                 key={index}
                 className="sm:ml-5 md:w-full w-80 ml-4 pl-0 basis-1/1 md:basis-1/2 lg:basis-1/3"
               >
-                <div className="pr-10 md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl">
-                  <p className="text-base leading-relaxed text-left">
+                <div className="pr-10 md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl bg-[#090E4A] text-[#D9D9D9]">
+                  <p className="text-base text-justify leading-relaxed text-left line-clamp-4 hover:line-clamp-none">
                     {card.description}
                   </p>
 
                   <div className="mt-4">
-                    <h2 className=" flex items-center text-lg font-bold mb-2 ">
+                    <h2 className=" flex items-center text-lg font-bold mb-2 text-[#FFE600]">
                       {card.client}
                     </h2>
-                    <p className="text-xs leading-relaxed text-left line-clamp-4">
+                    <p className="text-sm leading-relaxed text-left">
                       {card.clientDesc}
                     </p>
                   </div>

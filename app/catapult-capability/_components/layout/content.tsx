@@ -21,7 +21,7 @@ export default function TextPage() {
       <div className="px-0 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl overflow-x-auto">
           <table className="w-full h-full text-sm text-center ">
-            <thead className="bg-[#090F4A] text-white ">
+            <thead className="bg-[#090E4A] text-white ">
               <tr className="">
                 <th scope="col" className="w-1/5 p-2">
                   <h3 className="text-xs sm:text-sm md:text-base font-bold">
@@ -81,14 +81,19 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row mb-5 items-start text-pretty"
+                className="flex flex-col lg:flex-row bg-yellow-300 w-full h-full"
               >
-                <p className="w-full md:w-3/12 text-base font-semibold text-black text-left">
+                {/* <div className="flex-row flex w-full  h-full"> */}
+                <p className="w-full md:w-3/12 text-base pb-5 font-semibold text-black text-left  h-full">
                   {item.title}
                 </p>
-                <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
+                {/* </div> */}
+
+                {/* <div className="md:w-9/12"> */}
+                <p className="w-full md:w-9/12 text-base pb-5 leading-relaxed text-left bg-blue-300 ">
                   {item.description}
                 </p>
+                {/* </div> */}
               </div>
             ))}
           </div>
@@ -128,7 +133,7 @@ export default function TextPage() {
             </p>
 
             <table className="w-full h-full text-sm text-center ">
-              <thead className="bg-[#090F4A] text-white ">
+              <thead className="bg-[#090E4A] text-white ">
                 <tr className="">
                   <th scope="col" className="w-1/4 p-2">
                     <h3 className="text-xs sm:text-sm md:text-base font-bold"></h3>
@@ -183,7 +188,6 @@ export default function TextPage() {
                         )}
                       </div>
                     </td>
-
                   </tr>
                 ))}
               </tbody>
@@ -195,13 +199,14 @@ export default function TextPage() {
               How We Help Clients
             </p>
             <ul className="list-disc list-outside pl-5">
-
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
                 <Link href="/catapult-capability">Capbility Centres</Link>
               </li>
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/m&a">M&A, Private Equity & Investor Relations</Link>
+                <Link href="/m&a">
+                  M&A, Private Equity & Investor Relations
+                </Link>
               </li>
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
@@ -209,14 +214,14 @@ export default function TextPage() {
               </li>
 
               <li className="text-base leading-relaxed text-left mb-3 text-[#FFE600] hover:underline">
-                <Link href="/performance-improvement">Performance Improvement</Link>
+                <Link href="/performance-improvement">
+                  Performance Improvement
+                </Link>
               </li>
-
-
             </ul>
           </div>
-        </div >
-      </div >
+        </div>
+      </div>
     </>
   );
 }
@@ -306,5 +311,4 @@ let FeaturedCapabilities = [
     dueDilligence: false,
     technicalAccounting: false,
   },
-
 ];

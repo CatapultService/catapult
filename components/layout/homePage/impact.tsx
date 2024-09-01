@@ -13,7 +13,7 @@ export default function Impact() {
       <div className="flex bg-white px-10 md:px-20 mb-10 text-[#202020]">
         <div className="mx-auto max-w-8xl">
           <div className="flex flex-col mt-16 mb-2">
-            <p className="text-sm text-left sm:text-lg md:text-2xl lg:text-3xl font-bold text-[#090E4A] ">
+            <p className="text-left text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-bold text-[#090E4A] ">
               Impact Stories
             </p>
 
@@ -37,18 +37,27 @@ export default function Impact() {
                   <p className="text-base leading-relaxed text-left line-clamp-4">
                     {card.description}
                   </p>
-                  <Link href="/insights" className="">
+                  {/* <Link href="/insights" className="">
                     <p className=" flex items-center text-lg font-bold my-2 hover:text-[#2251FF] hover:underline">
                       More Insights
                       <span>
                         <ChevronRight className="w-6  text-[#2251FF]" />
                       </span>
                     </p>
-                  </Link>
+                  </Link> */}
                 </div>
               ))}
             </div>
-            
+            <div className="flex justify-center">
+              <Link href="/insights" className="">
+                <p className=" flex items-center text-lg font-bold my-2 hover:text-[#2251FF] hover:underline">
+                  More Insights
+                  <span>
+                    <ChevronRight className="w-6  text-[#2251FF]" />
+                  </span>
+                </p>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

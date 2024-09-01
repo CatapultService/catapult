@@ -36,7 +36,7 @@ export default function HowWorks() {
           <>
             <div className="mx-5">
               <div className="my-6">
-                <p className="mb-6 text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
+                <p className="mb-6 text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
                   How it works - Adding the Value Beyond The Hype
                 </p>
               </div>

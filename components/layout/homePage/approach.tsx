@@ -152,7 +152,7 @@ export default function Performance() {
       <div className=" bg-white px-10 md:px-20 text-[#202020] flex flex-col ">
         <div className="max-w-8xl mt-10">
           <div className="flex flex-col  mt-6 mb-6">
-            <p className="text-sm sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
+            <p className="text-2xl sm:text-3xl md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] ">
               Our Approach
             </p>
             <p className=" text-base leading-relaxed text-left">
