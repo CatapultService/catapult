@@ -1,7 +1,14 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Check, X } from "lucide-react";
 import Link from "next/link";
 import HowHelp from "@/components/layout/homePage/howHelp";
+
+import { ChevronRight, ChevronLeft } from "lucide-react";
+
+import Article1 from "@/public/assets/insights/Article_3.png";
+import Article2 from "@/public/assets/insights/Article_6.png";
+import Article3 from "@/public/assets/insights/Article_9.png";
 
 export default function TextPage() {
   return (
@@ -101,10 +108,10 @@ export default function TextPage() {
           </div>
 
           <div className="mt-10">
-            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
+            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-0 font-bold text-[#090E4A] text-left">
               Examples of Our Work
             </p>
-            <ul className="list-disc list-outside pl-5">
+            {/* <ul className="list-disc list-outside pl-5">
               <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 Set up A Global Accounting Capability Centre to support global
                 operations & expansion for a global advertising and marketing
@@ -122,7 +129,22 @@ export default function TextPage() {
                 For a listed company set up and operated a month & quarter close
                 & reporting process, including managing the Big 4 audit.
               </li>
-            </ul>
+            </ul> */}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 ">
+            {Card.map((card, index) => (
+              <div
+                key={index}
+                className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
+              >
+                <img src={card.image} alt="blog" className="w-full mb-2" />
+
+                <p className="text-base leading-relaxed text-left line-clamp-4">
+                  {card.description}
+                </p>
+              </div>
+            ))}
           </div>
 
           <div className="mt-10">
@@ -222,11 +244,9 @@ export default function TextPage() {
               </li>
             </ul>
           </div> */}
-
         </div>
       </div>
       <HowHelp />
-    
     </>
   );
 }
@@ -315,5 +335,23 @@ let FeaturedCapabilities = [
     audit: true,
     dueDilligence: false,
     technicalAccounting: false,
+  },
+];
+
+const Card = [
+  {
+    description:
+      "Set up A Global Accounting Capability Centre to support global operations & expansion for a global advertising and marketing services provider.",
+    image: Article1.src,
+  },
+  {
+    description:
+      "Helped a Fortune 10 company clear accounting backlog due to employee turnover & ERP implementation. This was critical to stabilises accounting operations and meet it’s internal & external reporting and audit timelines.",
+    image: Article2.src,
+  },
+  {
+    description:
+      "For a listed company set up and operated a month & quarter close & reporting process, including managing the Big 4 audit.",
+    image: Article3.src,
   },
 ];
