@@ -1,6 +1,8 @@
 "use client";
 import { Check, X } from "lucide-react";
 import Link from "next/link";
+import HowHelp from "@/components/layout/homePage/howHelp";
+
 export default function TextPage() {
   return (
     <>
@@ -194,7 +196,7 @@ export default function TextPage() {
             </table>
           </div>
 
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
               How We Help Clients
             </p>
@@ -219,9 +221,12 @@ export default function TextPage() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
+
         </div>
       </div>
+      <HowHelp />
+    
     </>
   );
 }

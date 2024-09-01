@@ -57,7 +57,7 @@ export function TeamCarousel() {
                 className="sm:ml-5 md:w-full w-80 ml-4 pl-0 basis-1/1 md:basis-1/2 lg:basis-1/3"
               >
                 <div className="pr-10 md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl bg-[#090E4A] text-[#D9D9D9]">
-                  <p className="text-base text-justify leading-relaxed text-left line-clamp-4 hover:line-clamp-none">
+                  <p className="text-base text-justify leading-relaxed  line-clamp-4 hover:line-clamp-none">
                     {card.description}
                   </p>
 

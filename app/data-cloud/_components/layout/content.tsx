@@ -43,25 +43,6 @@ export default function TextPage() {
 
           <div className="mt-10">
             <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
-              Examples of Our Work
-            </p>
-            <ul className="list-disc list-outside pl-5">
-              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
-                DSO Reduction
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
-                5% Margin improvement
-              </li>
-
-              <li className="text-base leading-relaxed text-left mb-3 text-green-500">
-                Capital Structure Optimisation
-              </li>
-            </ul>
-          </div>
-
-          <div className="mt-10">
-            <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-6 font-bold text-[#090E4A] text-left">
               How We Help Clients
             </p>
             <ul className="list-disc list-outside pl-5">
