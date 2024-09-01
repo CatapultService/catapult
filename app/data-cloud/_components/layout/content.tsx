@@ -29,7 +29,7 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row mb-5 items-start "
+                className="flex flex-col lg:flex-row mb-5 items-start"
               >
                 <p className="w-full md:w-3/12 text-base font-semibold text-black text-left text-pretty">
                   {item.title}

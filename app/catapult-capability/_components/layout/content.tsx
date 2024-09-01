@@ -30,30 +30,30 @@ export default function TextPage() {
       <div className="px-0 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl overflow-x-auto">
           <table className="w-full h-full text-sm text-center ">
-            <thead className="bg-[#090E4A] text-white ">
-              <tr className="">
-                <th scope="col" className="w-1/5 p-2">
-                  <h3 className="text-xs sm:text-sm md:text-base font-bold">
+            <thead className="bg-[#808080] text-white ">
+              <tr className="text-[#FFE600]">
+                <th scope="col" className="w-1/5 px-2 py-1">
+                  <h3 className="text-xs sm:text-sm md:text-base font-semibold text-left pl-4">
                     Insource vs Outsource
                   </h3>
                 </th>
-                <th scope="col" className="w-1/5 p-2">
-                  <h3 className="text-xs sm:text-sm  md:text-base font-bold">
+                <th scope="col" className="w-1/5 px-2 py-1">
+                  <h3 className="text-xs sm:text-sm  md:text-base font-semibold">
                     Employer of Choice
                   </h3>
                 </th>
-                <th scope="col" className="w-1/5 p-2">
-                  <h3 className="text-xs sm:text-sm  md:text-base font-bold">
+                <th scope="col" className="w-1/5 px-2 py-1">
+                  <h3 className="text-xs sm:text-sm  md:text-base font-semibold">
                     Process Maturity & Continious Improvement
                   </h3>
                 </th>
-                <th scope="col" className="w-1/5 p-2">
-                  <h3 className="text-xs sm:text-sm  md:text-base font-bold">
+                <th scope="col" className="w-1/5 px-2 py-1">
+                  <h3 className="text-xs sm:text-sm  md:text-base font-semibold">
                     Process enablement technology
                   </h3>
                 </th>
-                <th scope="col" className="w-1/5 p-2 pr-4">
-                  <h3 className="text-xs sm:text-sm md:text-base font-bold">
+                <th scope="col" className="w-1/5 px-2 py-1 pr-4">
+                  <h3 className="text-xs sm:text-sm md:text-base font-semibold">
                     Key Man Risk <br />
                     (adequate sized teams to create redundancy)
                   </h3>
@@ -61,20 +61,23 @@ export default function TextPage() {
               </tr>
             </thead>
             <tbody className="text-black">
-              {/* 1st row */}
-              <tr className="">
-                <td className="py-2 text-xs md:text-base">Insource</td>
-                <td className="py-2 text-center font-semibold">Y</td>
-                <td className="py-2 text-center font-semibold">Y</td>
-                <td className="py-2 text-center font-semibold">Y</td>
-                <td className="py-2 text-center font-semibold">Y</td>
+              <tr className="border-y-1 border-black bg-[#D9D9D9]">
+                <td className="py-2 text-xs md:text-base text-left pl-6 font-semibold">
+                  Insource
+                </td>
+                <td className="py-2 text-center text-base font-semibold">Y</td>
+                <td className="py-2 text-center text-base font-semibold">Y</td>
+                <td className="py-2 text-center text-base font-semibold">Y</td>
+                <td className="py-2 text-center text-base font-semibold">Y</td>
               </tr>
-              <tr className="">
-                <td className="py-2 text-xs md:text-base">Outsource</td>
-                <td className="py-2 text-center font-semibold">N</td>
-                <td className="py-2 text-center font-semibold">N</td>
-                <td className="py-2 text-center font-semibold">N</td>
-                <td className="py-2 text-center font-semibold">N</td>
+              <tr className="border-y-1 border-black bg-[#D9D9D9]">
+                <td className="py-2 text-xs md:text-base text-left pl-6 font-semibold">
+                  Outsource
+                </td>
+                <td className="py-2 text-center text-base font-semibold">N</td>
+                <td className="py-2 text-center text-base font-semibold">N</td>
+                <td className="py-2 text-center text-base font-semibold">N</td>
+                <td className="py-2 text-center text-base font-semibold">N</td>
               </tr>
             </tbody>
           </table>
@@ -90,7 +93,7 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row bg-[#FFE600] w-full h-full"
+                className="flex flex-col lg:flex-row bg-[#D9D9D9] w-full h-full"
               >
                 {/* <div className="flex-row flex w-full  h-full"> */}
                 <p className="w-full md:w-3/12 text-base py-3 px-2 font-semibold text-black text-left  h-full">
@@ -99,7 +102,7 @@ export default function TextPage() {
                 {/* </div> */}
 
                 {/* <div className="md:w-9/12"> */}
-                <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-left bg-[#090E4A] text-white ">
+                <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-left bg-[#090E4A] text-[#D9D9D9] ">
                   {item.description}
                 </p>
                 {/* </div> */}
@@ -139,7 +142,15 @@ export default function TextPage() {
                 className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
               >
                 <img src={card.image} alt="blog" className="w-full mb-2" />
-
+                <p className="text-sm my-2">Case Study</p>
+                <Link href={card.link} className="">
+                  <h2 className=" flex items-center text-2xl font-bold mb-2 hover:text-[#2251FF] hover:underline">
+                    {card.title}
+                    <span>
+                      <ChevronRight className="w-6  text-[#2251FF]" />
+                    </span>
+                  </h2>
+                </Link>
                 <p className="text-base leading-relaxed text-left line-clamp-4">
                   {card.description}
                 </p>
@@ -157,23 +168,23 @@ export default function TextPage() {
             </p>
 
             <table className="w-full h-full text-sm text-center ">
-              <thead className="bg-[#090E4A] text-white ">
+              <thead className="bg-[#808080] text-[#FFE600] ">
                 <tr className="">
                   <th scope="col" className="w-1/4 p-2">
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold"></h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-semibold"></h3>
                   </th>
                   <th scope="col" className="w-1/4 p-2">
-                    <h3 className="text-xs sm:text-sm  md:text-base font-bold">
+                    <h3 className="text-xs sm:text-sm  md:text-base font-semibold">
                       Audit
                     </h3>
                   </th>
                   <th scope="col" className="w-1/4 p-2">
-                    <h3 className="text-xs sm:text-sm  md:text-base font-bold">
-                      Due Dilligence
+                    <h3 className="text-xs sm:text-sm  md:text-base font-semibold">
+                      Due Diligence
                     </h3>
                   </th>
                   <th scope="col" className="w-1/4 p-2">
-                    <h3 className="text-xs sm:text-sm  md:text-base font-bold">
+                    <h3 className="text-xs sm:text-sm  md:text-base font-semibold">
                       Technical Accounting
                     </h3>
                   </th>
@@ -181,34 +192,37 @@ export default function TextPage() {
               </thead>
               <tbody className="text-black">
                 {FeaturedCapabilities.map((item, index) => (
-                  <tr key={index} className="">
+                  <tr
+                    key={index}
+                    className="border-y-1 border-black bg-[#D9D9D9]"
+                  >
                     <td className="py-3 md:pl-5 pl-1 text-xs md:text-base text-left font-semibold">
                       {item.title}
                     </td>
                     <td className="py-3 text-center font-semibold">
                       <div className="flex justify-center">
                         {item.audit ? (
-                          <Check className="w-5 h-5 text-[#FFE600]" />
+                          <Check className="w-6 h-6 text-black" />
                         ) : (
-                          <X className="w-5 h-5 text-[#FFE600]" />
+                          <X className="w-6 h-6 text-black" />
                         )}
                       </div>
                     </td>
                     <td className="py-3 text-center font-semibold">
                       <div className="flex justify-center">
                         {item.dueDilligence ? (
-                          <Check className="w-5 h-5 text-[#FFE600]" />
+                          <Check className="w-6 h-6 text-black" />
                         ) : (
-                          <X className="w-5 h-5 text-[#FFE600]" />
+                          <X className="w-6 h-6 text-black" />
                         )}
                       </div>
                     </td>
                     <td className="py-3 text-center font-semibold">
                       <div className="flex justify-center">
                         {item.technicalAccounting ? (
-                          <Check className="w-5 h-5 text-[#FFE600]" />
+                          <Check className="w-6 h-6 text-black" />
                         ) : (
-                          <X className="w-5 h-5 text-[#FFE600]" />
+                          <X className="w-6 h-6 text-black" />
                         )}
                       </div>
                     </td>
@@ -298,22 +312,22 @@ let FeaturedCapabilities = [
     title: "PWC India",
     audit: true,
     dueDilligence: true,
-    technicalAccounting: false,
+    technicalAccounting: true,
   },
   {
-    title: "PWC US",
+    title: "EY US",
     audit: true,
     dueDilligence: true,
     technicalAccounting: false,
   },
   {
-    title: "PWC UK",
+    title: "EY UK",
     audit: true,
     dueDilligence: false,
     technicalAccounting: false,
   },
   {
-    title: "PWC India",
+    title: "EY India",
     audit: true,
     dueDilligence: true,
     technicalAccounting: false,
@@ -340,18 +354,24 @@ let FeaturedCapabilities = [
 
 const Card = [
   {
+    title: "30% Cost Saving",
     description:
-      "Set up A Global Accounting Capability Centre to support global operations & expansion for a global advertising and marketing services provider.",
+      "Business Challenge: A global advertising and marketing services provider wanted to establish a centralized accounting to support it’s global operations and expansion.",
     image: Article1.src,
+    link: "insights/articles/30-cost-saving",
   },
   {
+    title: "Workday 7 Month close",
     description:
-      "Helped a Fortune 10 company clear accounting backlog due to employee turnover & ERP implementation. This was critical to stabilises accounting operations and meet it’s internal & external reporting and audit timelines.",
+      "Business Challenge: The client faced significant challenges in meeting it's Month Close deadline with the process extending beyond the group deadline of Workday 7.",
     image: Article2.src,
+    link: "insights/articles/workday-7-month-close",
   },
   {
+    title: "40+ Global VAT I GST audits",
     description:
-      "For a listed company set up and operated a month & quarter close & reporting process, including managing the Big 4 audit.",
+      "Business Challenge: Globally, passing GST I VAT audits for finance teams poses significant challenges due to the complexity of data requirements.",
     image: Article3.src,
+    link: "insights/articles/over-40-global-vat",
   },
 ];

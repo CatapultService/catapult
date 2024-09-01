@@ -74,7 +74,7 @@ const Card = [
     link: "insights/articles/big-4-audit-readiness",
   },
   {
-    title: "Over 40+ Global VAT I GST audits",
+    title: "40+ Global VAT I GST audits",
     description:
       "Business Challenge: Globally, passing GST I VAT audits for finance teams poses significant challenges due to the complexity of data requirements.",
     image: Article4.src,
