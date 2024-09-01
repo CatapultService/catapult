@@ -75,19 +75,11 @@ export default function TextPage() {
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Hiring Criteria
                 </h2>
-                <ul className="text-gray-700">
-                  <li>
-                    <span className="px-2">1.</span>Tier 2 - 3 Cities
-                  </li>
-                  <li>
-                    <span className="px-2">2.</span>Test for drive
-                  </li>
-                  <li>
-                    <span className="px-2">3.</span>Test for Service Orientation
-                  </li>
-                  <li>
-                    <span className="px-2">4.</span>Test for Intelligence
-                  </li>
+                <ul className="text-gray-700 list-square marker:text-[#FFF600] ml-4 text-base">
+                  <li>Tier 2 - 3 Cities</li>
+                  <li>Test for drive</li>
+                  <li>Test for Service Orientation</li>
+                  <li>Test for Intelligence</li>
                 </ul>
               </div>
 
@@ -106,21 +98,14 @@ export default function TextPage() {
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Process Executive & Delivery Manager
                 </h2>
-                <ul className="text-gray-700">
-                  <li>
-                    <p className="font-bold">Internal Certifications:</p>
-                  </li>
-                  <li>
-                    <span className="px-2">1.</span>Process knowledge - Starter
-                  </li>
-                  <li>
-                    <span className="px-2">2.</span>Governance Frameworks -
-                    Starter
-                  </li>
-                  <li>
-                    <span className="px-2">3.</span>Client Communication Skills
-                    - Starter
-                  </li>
+                <p className="font-bold text-gray-700">
+                  Internal Certifications:
+                </p>
+
+                <ul className="text-gray-700 list-square marker:text-[#FFF600] ml-4 text-base">
+                  <li>Process knowledge - Starter</li>
+                  <li>Governance Frameworks - Starter</li>
+                  <li>Client Communication Skills - Starter</li>
                 </ul>
               </div>
 
@@ -139,21 +124,14 @@ export default function TextPage() {
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Account Delivery Manager
                 </h2>
-                <ul className="text-gray-700">
-                  <li>
-                    <p className="font-bold">Internal Certifications:</p>
-                  </li>
-                  <li>
-                    <span className="px-2">1.</span>Process knowledge - Advanced
-                  </li>
-                  <li>
-                    <span className="px-2">2.</span>Governance Frameworks -
-                    Advanced
-                  </li>
-                  <li>
-                    <span className="px-2">3.</span>Client Communication Skills
-                    - Advanced
-                  </li>
+                <p className="font-bold text-gray-700 ">
+                  Internal Certifications:
+                </p>
+
+                <ul className="text-gray-700 list-square marker:text-[#FFF600] ml-4 text-base">
+                  <li>Process knowledge - Advanced</li>
+                  <li>Governance Frameworks - Advanced</li>
+                  <li>Client Communication Skills - Advanced</li>
                 </ul>
               </div>
 
@@ -172,22 +150,17 @@ export default function TextPage() {
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Pod Leader
                 </h2>
-                <ul className="text-gray-700">
+
+                <p className="font-bold text-gray-700">
+                  Criterea: Min 2 Yrs in Account Delivery
+                </p>
+                <p className="font-bold text-gray-700">Added Benefits:</p>
+
+                <ul className="text-gray-700 list-square marker:text-[#FFF600] ml-4 text-base">
                   <li>
-                    <p className="font-bold">
-                      Criterea: Min 2 Yrs in Account Delivery
-                    </p>
+                    Eligible to open Independent office in location of choice
                   </li>
-                  <li>
-                    <p className="font-bold">Added Benefits:</p>
-                  </li>
-                  <li>
-                    <span className="px-2">1.</span>Eligible to open Independent
-                    office in location of choice
-                  </li>
-                  <li>
-                    <span className="px-2">2.</span>Profit share
-                  </li>
+                  <li>Profit share</li>
                 </ul>
               </div>
             </div>
