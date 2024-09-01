@@ -90,16 +90,16 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row bg-yellow-300 w-full h-full"
+                className="flex flex-col lg:flex-row bg-[#FFE600] w-full h-full"
               >
                 {/* <div className="flex-row flex w-full  h-full"> */}
-                <p className="w-full md:w-3/12 text-base pb-5 font-semibold text-black text-left  h-full">
+                <p className="w-full md:w-3/12 text-base py-3 px-2 font-semibold text-black text-left  h-full">
                   {item.title}
                 </p>
                 {/* </div> */}
 
                 {/* <div className="md:w-9/12"> */}
-                <p className="w-full md:w-9/12 text-base pb-5 leading-relaxed text-left bg-blue-300 ">
+                <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-left bg-[#090E4A] text-white ">
                   {item.description}
                 </p>
                 {/* </div> */}
