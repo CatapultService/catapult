@@ -92,42 +92,42 @@ const Card = [
     description:
       "Business Challenge: With rapid expansion of the business from one city operations to 3 cities and 4 partners to 8 and ever expanding, there was no view of profitability per partner, location, line of business, etc. Further at the end of the month significant partner effort on the billing & collection process. Leading to high DSO & Revenue leakage.",
     image: Article6.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/15-dso-improvement",
   },
   {
     title: "10% Equity Dilution Avoidance",
     description:
       "Business Challenge: The client with an asset heavy business faced continued dilution due to perpetual raising capital raise.",
     image: Article7.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/10-equity-dilution",
   },
   {
     title: "US listing readiness",
     description:
       "Business Challenge: In preparation for listing readiness on a US Stock Exchange, client wanted to Implement a SOX complaint book close process for all it's group entities.",
     image: Article8.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/us-listing-readiness",
   },
   {
     title: "Post Merger Integration",
     description:
       "Business Challenge: A large USS Billion plus revenue client had acquired a early stage Ai start up with fit for purpose accounting support. The acquiree needed to be integrated into the parent's financial reporting and policy framework.",
     image: Article9.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/post-merger-integration",
   },
   {
     title: "Data Room for Exit Support",
     description:
       "Business Challenge: Our client, a US$ 15 Mn Crowdsourced Advertising Company with operations across 7 countries wanted support in their exit process.",
     image: Article10.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/data-room-for-exit-support",
   },
   {
     title: "Listing Support on AIM, LSE",
     description:
       "Business Challenge: Our client, an Ai company with no accounting staff wanted support to prepare for a listing in 12 months.",
     image: Article11.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/listing-support-on-aim-lse",
   },
   
 ];
