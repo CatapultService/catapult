@@ -147,21 +147,21 @@ const Card = [
     description:
       "Business Challenge: A large USS Billion plus revenue client had acquired a early stage Ai start up with fit for purpose accounting support. The acquiree needed to be integrated into the parent's financial reporting and policy framework.",
     image: Article1.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/post-merger-integration",
   },
   {
     title: "Data Room for Exit Support",
     description:
       "Business Challenge: Our client, a US$ 15 Mn Crowdsourced Advertising Company with operations across 7 countries wanted support in their exit process.",
     image: Article2.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/data-room-for-exit-support",
   },
   {
     title: "Listing Support on AIM, LSE",
     description:
       "Business Challenge: Our client, an Ai company with no accounting staff wanted support to prepare for a listing in 12 months.",
     image: Article3.src,
-    link: "https://www.google.com",
+    link: "/insights/articles/listing-support-on-aim-lse",
   },
   
 ];

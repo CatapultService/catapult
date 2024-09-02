@@ -31,7 +31,7 @@ export default function people() {
                       {" "}
                       Ashish Khanna
                     </p>
-                    <p className="py-1 text-xs lg:text-sm font-normal">
+                    <p className="py-1 text-sm lg:text-base font-normal">
                       Co-founder & Exec Chair
                     </p>
 
@@ -41,7 +41,7 @@ export default function people() {
                   </div>
                 </div>
 
-                <p className=" text-xs lg:text-sm font-normal">
+                <p className=" text-sm lg:text-base font-normal">
                   Ashish helps clients in managing complex transformation
                   programmes involving new technology adoption, business &
                   operating model transformation & new product launch.
@@ -49,7 +49,7 @@ export default function people() {
                 <p className=" text-lg font-semibold mt-4 mb-1">
                   Key assignments :{" "}
                 </p>
-                <p className=" text-xs lg:text-sm font-normal mb-6">
+                <p className=" text-sm lg:text-base font-normal mb-6">
                   CEO - Global Services, Amongst largest global network for
                   marketing & advertising <br />
                   COO - $1.6B operating P&L of a world leader in Consulintg &
@@ -69,7 +69,7 @@ export default function people() {
                       {" "}
                       Nikunj Gupta
                     </p>
-                    <p className="py-2 text-xs lg:text-sm font-normal">
+                    <p className="py-2 text-xs lg:text-base font-normal">
                       Co-founder & CEO
                     </p>
                     {/* <Link href="#" className="hover:text-yellow-500">
@@ -77,7 +77,7 @@ export default function people() {
                   </Link> */}
                   </div>
                 </div>
-                <p className=" text-xs lg:text-sm font-normal">
+                <p className=" text-xs lg:text-base font-normal">
                   Nikunj has a comprehensive understanding on scaling up
                   businesses incuding Finance Ops, Capital Raise, M&A & Investor
                   relations, Strategy development & Execution, Enterprise
@@ -87,7 +87,7 @@ export default function people() {
                 <p className=" text-lg font-semibold mt-4 mb-1">
                   Key assignments :{" "}
                 </p>
-                <p className=" text-xs lg:text-sm font-normal mb-6">
+                <p className=" text-xs lg:text-base font-normal mb-6">
                   Co-founder & CFO, Beverage platform (150+ Stores & 5,000+
                   Brewing Bot installations) <br />
                   CF0-Largest PE owned Education Chain in India Setting up &
@@ -105,7 +105,7 @@ export default function people() {
                       {" "}
                       Anand Shetty
                     </p>
-                    <p className="py-2 text-xs lg:text-sm font-normal">
+                    <p className="py-2 text-xs lg:text-base font-normal">
                       Co-founder & COO
                     </p>
                     {/* <Link href="#" className="hover:text-yellow-500">
@@ -114,7 +114,7 @@ export default function people() {
                   </div>
                 </div>
 
-                <p className=" text-xs lg:text-sm font-normal">
+                <p className=" text-xs lg:text-base font-normal">
                   Anand specialises in Finance function design & setup, Post
                   Acquisition Integration, Complex Technical accounting,
                   Financial data assurance, Global Tax compliance co-ordination
@@ -124,7 +124,7 @@ export default function people() {
                 <p className=" text-lg font-semibold mt-4 mb-1">
                   Key assignments :{" "}
                 </p>
-                <p className=" text-xs lg:text-sm font-normal mb-6">
+                <p className=" text-xs lg:text-base font-normal mb-6">
                   F&A Bak Office head - Global Media company <br />
                   15+ Years of experience in working working with growth stage
                   companies & Big 4 Auditors across US, UK, Australia & India.

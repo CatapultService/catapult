@@ -205,13 +205,13 @@ const Card = [
     description:
       "Business Challenge: With rapid expansion of the business from one city operations to 3 cities and 4 partners to 8 and ever expanding, there was no view of profitability per partner, location, line of business, etc. Further at the end of the month significant partner effort on the billing & collection process. Leading to high DSO & Revenue leakage.",
     image: Article2.src,
-    link: "/insights",
+    link: "/insights/articles/15-dso-improvement",
   },
   {
     title: "10% Equity Dilution Avoidance",
     description:
       "Business Challenge: The client with an asset heavy business faced continued dilution due to perpetual raising capital raise.",
     image: Article3.src,
-    link: "/insights",
+    link: "/insights/articles/10-equity-dilution",
   },
 ];
