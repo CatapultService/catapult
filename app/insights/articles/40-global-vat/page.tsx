@@ -9,7 +9,7 @@ import Article1 from "@/public/assets/insights/Article_1.png";
 import Article2 from "@/public/assets/insights/Article_2.png";
 import Article3 from "@/public/assets/insights/Article_3.png";
 
-export default function Over40GlobalVat() {
+export default function FourtyGlobalVat() {
   return (
     <main className="flex  flex-col justify-between w-full">
       <Navbar />
@@ -26,7 +26,7 @@ export default function Over40GlobalVat() {
           </div>
           <div className="flex justify-center items-center w-full mt-5 mb-10">
             <p className="text-3xl sm:text-3xl md:text-5xl font-bold text-[#090E4A] text-center">
-              Over 40+ Global VAT I GST audits
+              40+ Global VAT I GST audits
             </p>
           </div>
         </div>

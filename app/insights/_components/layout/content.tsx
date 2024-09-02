@@ -78,7 +78,7 @@ const Card = [
     description:
       "Business Challenge: Globally, passing GST I VAT audits for finance teams poses significant challenges due to the complexity of data requirements.",
     image: Article4.src,
-    link: "insights/articles/over-40-global-vat",
+    link: "insights/articles/40-global-vat",
   },
   {
     title: "5% Margin Improvement",
