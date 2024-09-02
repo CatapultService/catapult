@@ -14,7 +14,7 @@ export default function Hero({ heroText }: HeroProps) {
   return (
     <>
 
-      <div className="relative w-full text-white h-[60vh] sm:h-[80vh] md:h-[70vh] lg:h-[85vh] xl:h-[90vh] flex items-center justify-center">
+      <div className="relative w-full text-white h-[60vh] sm:h-[80vh] md:h-[70vh] xl:h-[75vh] flex items-center justify-center">
         <img
           src={ThirdImg.src}
           alt="Background"
