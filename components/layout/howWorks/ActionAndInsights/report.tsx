@@ -77,10 +77,9 @@ export default function ReportBuilder({ setPage }: ReportBuilderProps) {
                   Report Builder
                 </p>
                 <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                  Organizational leaders can plan changes to operations and
-                  investment in journey re-designs based on improving overall
-                  performance with both an ROI and customer experience lens to
-                  guide decision making
+                  Catapult Capability Centre & client teams can track scores for
+                  their function, region and drill down to understand variables
+                  that are driving performance.
                 </p>
               </div>
             </div>

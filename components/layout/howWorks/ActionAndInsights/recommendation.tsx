@@ -79,9 +79,8 @@ export default function RecommendationEngine({
                   Recommendations engine
                 </p>
                 <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                  Catapult Capability Centre & client teams can track scores for
-                  their function, region and drill down to understand variables
-                  that are driving performance.
+                  Catapult Capability Centre & client teams get recommendations
+                  to drive superior outcomes.
                 </p>
               </div>
             </div>
