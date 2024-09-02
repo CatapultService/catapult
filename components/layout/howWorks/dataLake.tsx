@@ -19,8 +19,8 @@ export default function DataLake({ setPage }: DataLakeProps) {
         </p>
       </div>
       <p className="mb-6 mr-6 max-w-xl text-left leading-relaxed text-xs sm:text-sm md:text-base text-white font-light">
-        Data lake provides integrated, aggregated, predictive insights that go
-        far beyond the standard “360” customer view.
+        Data lake integrates data from multiple sources creating a single source
+        of truth laying the foundation for AI Readiness.
       </p>
 
       <div id="data-lake">
@@ -34,13 +34,10 @@ export default function DataLake({ setPage }: DataLakeProps) {
                   Creating “4D” customer insight
                 </p>
                 <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                  Many organizations are trying to create a “Customer 360” view
-                  by combining surveys, operational KPIs and financial metrics
-                  into aggregated dashboards. Experience DNA turns these
-                  traditional data points into real insight, using machine
-                  learning algorithms to serve up the most critical drivers of
-                  customer behavior with an added 4th dimension of predictive
-                  insight.
+                  Aggregated data adda an additional dimension traditional data
+                  points. This is because aggregated data is essential to
+                  identifying behaviour patterns. Using machine learning
+                  algorithms on this data creates predictive insights.
                 </p>
               </div>
             </div>

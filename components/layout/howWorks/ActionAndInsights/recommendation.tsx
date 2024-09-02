@@ -26,8 +26,7 @@ export default function RecommendationEngine({
         </p>
       </div>
       <p className="mb-6 mr-6 max-w-xl text-left leading-relaxed text-xs sm:text-sm md:text-base text-white font-light">
-        An API layer provides access to customized insights and action
-        recommendations.
+        A report builder that provides insights & recommendations.
       </p>
 
       <div className="flex flex-col lg:flex-row  w-full">
@@ -80,10 +79,9 @@ export default function RecommendationEngine({
                   Recommendations engine
                 </p>
                 <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                  Functional leaders can track Experience DNA scores for their
-                  function, region and specific journeys over time and drill
-                  down to understand the specific journey features that are
-                  driving performance changes.
+                  Catapult Capability Centre & client teams can track scores for
+                  their function, region and drill down to understand variables
+                  that are driving performance.
                 </p>
               </div>
             </div>

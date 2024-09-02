@@ -2,25 +2,24 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import PredictiveImg from "@/public/assets/homePage/howWorks/predictiveScores/bgImg.svg";
+import AlgorithmLibraryImg from "@/public/assets/homePage/howWorks/algorithmLibrary/bgImg.svg";
 import { ArrowRight, ChevronRight, ChevronLeft } from "lucide-react";
 
-interface PredictiveScoresProps {
+interface AlgorithmLibraryProps {
   setPage: (page: number) => void;
 }
 
-export default function PredictiveScores({ setPage }: PredictiveScoresProps) {
+export default function AlgorithmLibrary({ setPage }: AlgorithmLibraryProps) {
   return (
     <div className="mx-5">
       <div className="my-6">
         <p className="text-white text-sm font-thin">How it works</p>
         <p className="mb-6 text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
-          3. Predictive Scores
+          3. Algorithm Library
         </p>
       </div>
       <p className="mb-6 mr-6 max-w-xl text-left leading-relaxed text-xs sm:text-sm md:text-base text-white font-light">
-        The machine learning algorithms predict customer satisfaction at an
-        aggregate and individual level with 80% accuracy.
+      The machine learning algorithms predict customer payment pattern.
       </p>
 
       {/* <div id="data-lake">
@@ -53,7 +52,7 @@ export default function PredictiveScores({ setPage }: PredictiveScoresProps) {
         </div>
       </div> */}
       <div>
-        <img src={PredictiveImg.src} alt="" className="w-full px-0 md:px-5 lg:px-10" />
+        <img src={AlgorithmLibraryImg.src} alt="" className="w-full px-0 md:px-5 lg:px-10" />
       </div>
 
       <div className="flex justify-between mt-10">

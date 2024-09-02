@@ -24,45 +24,48 @@ export default function ReportBuilder({ setPage }: ReportBuilderProps) {
         </p>
       </div>
       <p className="mb-6 mr-6 max-w-xl text-left leading-relaxed text-xs sm:text-sm md:text-base text-white font-light">
-        An API layer provides access to customized insights and action
-        recommendations.
+        A report builder that provides insights & recommendations.
       </p>
 
       <div className="flex flex-col lg:flex-row  w-full">
-          <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
-          onClick={() => setPage(4)}>
-            <img
-              src={RecommendationWhite.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 block group-hover:hidden"
-            />
-            <img
-              src={RecommendationBlack.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 hidden group-hover:block"
-            />
-            <p className="whitespace-normal">Recommendation engine</p>
-            <span className="ml-1">
-              <ArrowRight />
-            </span>
-          </Button>
-          <Button className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
-          onClick={() => setPage(5)}>
-            <img
-              src={ReportWhite.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 block group-hover:hidden"
-            />
-            <img
-              src={ReportBlack.src}
-              alt="Data Lake"
-              className="h-8 w-fit mr-2 hidden group-hover:block"
-            />
-            <p className="hitespace-normal">Report builder</p>
-            <span className="ml-1">
-              <ArrowRight />
-            </span>
-          </Button>
+        <Button
+          className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+          onClick={() => setPage(4)}
+        >
+          <img
+            src={RecommendationWhite.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 block group-hover:hidden"
+          />
+          <img
+            src={RecommendationBlack.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 hidden group-hover:block"
+          />
+          <p className="whitespace-normal">Recommendation engine</p>
+          <span className="ml-1">
+            <ArrowRight />
+          </span>
+        </Button>
+        <Button
+          className="group h-16 text-sm bg-transparent w-full border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
+          onClick={() => setPage(5)}
+        >
+          <img
+            src={ReportWhite.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 block group-hover:hidden"
+          />
+          <img
+            src={ReportBlack.src}
+            alt="Data Lake"
+            className="h-8 w-fit mr-2 hidden group-hover:block"
+          />
+          <p className="hitespace-normal">Report builder</p>
+          <span className="ml-1">
+            <ArrowRight />
+          </span>
+        </Button>
       </div>
 
       <div id="data-lake">
@@ -71,7 +74,7 @@ export default function ReportBuilder({ setPage }: ReportBuilderProps) {
             <div className=" flex justify-center h-full items-start ">
               <div className="flex flex-col gap-5 lg:max-w-sm ">
                 <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white text-pretty pr-5 ">
-                  ReportBuilder
+                  Report Builder
                 </p>
                 <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
                   Organizational leaders can plan changes to operations and

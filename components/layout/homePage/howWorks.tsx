@@ -6,7 +6,7 @@ import { ArrowRight, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 import DataLake from "@/components/layout/howWorks/dataLake";
-import PredictiveScores from "@/components/layout/howWorks/predictiveScores";
+import AlgorithmLibrary from "@/components/layout/howWorks/algorithmLibrary";
 import RecommendationEngine from "@/components/layout/howWorks/ActionAndInsights/recommendation";
 import ReportBuilder from "@/components/layout/howWorks/ActionAndInsights/report";
 
@@ -382,7 +382,7 @@ export default function HowWorks() {
         ) : currentPage == 2 ? (
           <DataLake setPage={setPage} />
         ) : currentPage == 3 ? (
-          <PredictiveScores setPage={setPage} />
+          <AlgorithmLibrary setPage={setPage} />
         ) : currentPage == 4 ? (
           <RecommendationEngine setPage={setPage} />
         ) : currentPage == 5 ? (
