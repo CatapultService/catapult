@@ -37,15 +37,15 @@ export default function HowWorks() {
             <div className="mx-5">
               <div className="my-6">
                 <p className="mb-6 text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-bold leading-relaxed mx-auto text-white ">
-                  How it works - Adding the Value Beyond The Hype
+                  How it works - Adding Value Beyond The Hype
                 </p>
               </div>
               <p className="mb-6 mr-6 text-left leading-relaxed text-xs sm:text-sm md:text-base text-white font-light">
-                Experience DNA is powered by cloud-based data lakes, predictive
-                machine learning algorithms, and an API insight and action
-                engine. Click on each of the elements below to learn how they
-                increase performance, improve decision-making, and fortify
-                real-time engagement.
+                CAT AI extracts unstrcured data and aggregates data into the
+                data cloud. This data when integrated with our machine learning
+                algorithms embedded in our insight and action engine provides
+                real&quot;-time&quot; insights improve decision-making and
+                performance.
               </p>
 
               <div id="how-it-works">
@@ -62,9 +62,9 @@ export default function HowWorks() {
                           1. Data Extraction
                         </p>
                         <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                          Customer, financial and operational data at individual
-                          and aggregate level are processed and stored in a
-                          cloud-based platform.
+                          Unstructured data is a barrier to AI implementation.
+                          Our proprietory models & workflow tools transform
+                          unstructured data.
                         </p>
                       </div>
                       <div className="flex-1 flex flex-col gap-3">
@@ -77,9 +77,9 @@ export default function HowWorks() {
                           2. Data lake
                         </p>
                         <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                          Customer, financial and operational data at individual
-                          and aggregate level are processed and stored in a
-                          cloud-based platform.
+                          Aggregated data is essential for Ai readiness.
+                          Tokenised architecture of our Data Lake allows us to
+                          integrate data from clients in an accelerated fashion.
                         </p>
                         <Button
                           className=" px-2 text-sm bg-transparent w-fit border border-[#00A8F4] text-[#00A8F4] hover:border-[#D9D9D9] hover:bg-[#D9D9D9] hover:text-black rounded-none"
@@ -99,12 +99,12 @@ export default function HowWorks() {
                             className="w-fit h-12"
                           />
                           <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
-                            3. Predictive scores
+                            3. Algorithm Library
                           </p>
                           <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                            Machine Learning algorithm scores every customer by
-                            studying relationship between journey features,
-                            sentiment, and loyalty.
+                            Our Machine Learning algorithm library can be
+                            customised to client specific use case to enable
+                            rapid deployment of Ai-co pilots.
                           </p>
 
                           <Button
@@ -142,10 +142,9 @@ export default function HowWorks() {
                           4. Action and insight engines
                         </p>
                         <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                          API layer provides a single source of truth to fuel
-                          recommendation engines based on the data lake and
-                          customer scores. Insights and recommended actions
-                          deliver three types of value.
+                          Integrated with the data lake and Algorithm Library
+                          Insights and recommendations can be created for
+                          improved outcomes.
                         </p>
                       </div>
                     </div>
@@ -217,9 +216,9 @@ export default function HowWorks() {
                             1. Data Extraction
                           </p>
                           <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                            Customer, financial and operational data at
-                            individual and aggregate level are processed and
-                            stored in a cloud-based platform.
+                            Unstructured data is a barrier to AI implementation.
+                            Our proprietory models & workflow tools transform
+                            unstructured data.
                           </p>
                         </div>
                         <div className="flex-1 flex flex-col gap-3">
@@ -232,9 +231,10 @@ export default function HowWorks() {
                             2. Data lake
                           </p>
                           <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                            Customer, financial and operational data at
-                            individual and aggregate level are processed and
-                            stored in a cloud-based platform.
+                            Aggregated data is essential for Ai readiness.
+                            Tokenised architecture of our Data Lake allows us to
+                            integrate data from clients in an accelerated
+                            fashion.
                           </p>
 
                           <Button
@@ -257,12 +257,12 @@ export default function HowWorks() {
                             className="w-fit h-12"
                           />
                           <p className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-relaxed text-white ">
-                            3. Predictive scores
+                            3. Algorithm Library
                           </p>
                           <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                            Machine Learning algorithm scores every customer by
-                            studying relationship between journey features,
-                            sentiment, and loyalty.
+                            Our Machine Learning algorithm library can be
+                            customised to client specific use case to enable
+                            rapid deployment of Ai-co pilots.
                           </p>
 
                           <Button
@@ -306,10 +306,9 @@ export default function HowWorks() {
                             4. Action and insight engines
                           </p>
                           <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
-                            API layer provides a single source of truth to fuel
-                            recommendation engines based on the data lake and
-                            customer scores. Insights and recommended actions
-                            deliver three types of value.
+                            Integrated with the data lake and Algorithm Library
+                            Insights and recommendations can be created for
+                            improved outcomes.
                           </p>
                         </div>
                       </div>
