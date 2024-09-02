@@ -39,7 +39,7 @@ export default function TextPage() {
                       </span> */}
                     </h2>
                   {/* </Link> */}
-                  <p className="text-base leading-relaxed text-left line-clamp-4">
+                  <p className="text-base leading-relaxed text-left">
                     {card.description}
                   </p>
                 </div>
