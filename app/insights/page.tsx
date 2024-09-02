@@ -9,7 +9,7 @@ export default function WhiteHome() {
   return (
     <main className="flex  flex-col justify-between w-full">
       <Navbar />
-      <Hero heroText="Growth, Marketing & Sales Insights"/>
+      <Hero heroText="Catapult Insights"/>
       <Content />
       <Footer />
     </main>

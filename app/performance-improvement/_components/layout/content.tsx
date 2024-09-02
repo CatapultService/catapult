@@ -73,7 +73,7 @@ export default function TextPage() {
                 </div>
               ))}
             </div>
-            
+
             {/* <ul className="list-disc list-outside pl-5">
               <li className="text-base leading-relaxed text-left mb-3 text-green-500">
                 DSO Reduction
@@ -87,9 +87,7 @@ export default function TextPage() {
                 Capital Structure Optimisation
               </li>
             </ul> */}
-
           </div>
-
         </div>
       </div>
       <HowHelp />
@@ -146,7 +144,8 @@ let WhatWeDo = [
           <span className="font-bold">&quot;Report Builders&quot;</span> from
           the{" "}
           <span className="font-bold">&quot;Enterprise Data Cloud&quot;</span>{" "}
-          to prepare audit schedules concurrently ensuring an observation
+          to prepare audit schedules concurrently ensuring an observation free &
+          on-time Big 4 Audit without dependancy on senior resources.
         </p>
       </>
     ),
@@ -159,7 +158,8 @@ let WhatWeDo = [
           <span className="font-bold">Revenue Growth (&quot;RG&quot;)</span>{" "}
           identification through proprietory algorithims Automated
           &quot;Customer Cohorts&quot; basis interplay across Category ,
-          Ocassions, Channels,
+          Ocassions, Channels, Micromarkets, Vintage, Socio-Economic to generate
+          Growth & Risk insights.
         </p>
         <p>
           <span className="font-bold">
@@ -191,7 +191,6 @@ let WhatWeDo = [
     ),
   },
 ];
-
 
 const Card = [
   {

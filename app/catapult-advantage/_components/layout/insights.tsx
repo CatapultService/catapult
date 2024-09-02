@@ -19,7 +19,7 @@ export default function TextPage() {
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
           <p className="mt-16 mb-8 text-base leading-relaxed text-left">
-            Our Unique Insights as a Service Model for Digital Transformation
+            Our Unique AI as a Service Model for Digital Transformation
             solves for the typical barriers to startng this journey :
           </p>
 
@@ -31,14 +31,14 @@ export default function TextPage() {
                   className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
                 >
                   <img src={card.image} alt="blog" className="w-full mb-2" />
-                  <Link href={card.link} className="">
-                    <h2 className=" flex items-center text-2xl font-bold mb-2 hover:text-[#2251FF] hover:underline">
+                  {/* <Link href={card.link} className=""> */}
+                    <h2 className=" flex items-center text-2xl font-bold mb-2 ">
                       {card.title}
-                      <span>
+                      {/* <span>
                         <ChevronRight className="w-6  text-[#2251FF]" />
-                      </span>
+                      </span> */}
                     </h2>
-                  </Link>
+                  {/* </Link> */}
                   <p className="text-base leading-relaxed text-left line-clamp-4">
                     {card.description}
                   </p>
@@ -56,42 +56,42 @@ const Card = [
   {
     title: "Budget",
     description:
-      "Digital Transformation can cost millions in Upfront implementation costs and ongoing license fees. Our unique Insights as a Service model eliminates cost barriers.",
+      "Digital Transformation can cost millions in Upfront implementation costs and ongoing license fees. Our unique AI as a Service model eliminates cost barriers.",
     image: Article1.src,
     link: "", // Add appropriate link if available
   },
   {
     title: "People",
     description:
-      "Digital Transformations requires client senior management bandwidth for years. Our unique Insights as a Service model eliminates any need for client teams for Project Management.",
+      "Digital Transformations requires client senior management bandwidth for years. Our unique AI as a Service model eliminates any need for client teams for Project Management.",
     image: Article2.src,
     link: "", // Add appropriate link if available
   },
   {
     title: "Expertise",
     description:
-      "Digital Transformation can requires deep domain expertise as well as technology skills. Our unique Insights as a Service model eliminates any need for clients to possess these skills.",
+      "Digital Transformation can requires deep domain expertise as well as technology skills. Our unique AI as a Service model eliminates any need for clients to possess these skills.",
     image: Article3.src,
     link: "", // Add appropriate link if available
   },
   {
     title: "Data",
     description:
-      "Foundation for Ai readiness is data. Substantial resources & expertise are needed to aggregate enterprise data, As part of our unique Insights as a Service model our teams manage the entire process of building your data layer.",
+      "Foundation for Ai readiness is data. Substantial resources & expertise are needed to aggregate enterprise data, As part of our unique AI as a Service model our teams manage the entire process of building your data layer.",
     image: Article4.src,
     link: "", // Add appropriate link if available
   },
   {
     title: "User Adoption",
     description:
-      "Majority of Digital Transformations fail due to failure of User Adoption. This causes loss of investments & competitive advantage. Our unique Insights as a Service model integrates Catapult Capability Centre teams trained & incentivized for smooth implementation.",
+      "Majority of Digital Transformations fail due to failure of User Adoption. This causes loss of investments & competitive advantage. Our unique AI as a Service model integrates Catapult Capability Centre teams trained & incentivized for smooth implementation.",
     image: Article5.src,
     link: "", // Add appropriate link if available
   },
   {
     title: "Speed",
     description:
-      "Digital Transformation can take years to implement allowing competition and large companies an advantage. Our unique Insights as a Service model eliminates this by bringing pre-built assets, frameworks, algorithm libraries & trained teams.",
+      "Digital Transformation can take years to implement allowing competition and large companies an advantage. Our unique AI as a Service model eliminates this by bringing pre-built assets, frameworks, algorithm libraries & trained teams.",
     image: Article6.src,
     link: "", // Add appropriate link if available
   },

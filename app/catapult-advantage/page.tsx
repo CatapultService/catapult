@@ -8,7 +8,7 @@ export default function WhiteHome() {
   return (
     <main className="flex  flex-col justify-between w-full">
       <Navbar />
-      <Hero heroText="Insights as a Service"/>
+      <Hero heroText="AI as a Service"/>
       <Insights />
       <HowWorks />
       <Footer />
