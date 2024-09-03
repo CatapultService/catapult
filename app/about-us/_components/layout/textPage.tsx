@@ -66,10 +66,11 @@ export default function TextPage() {
                     svg: "w-36 h-36 drop-shadow-md",
                     indicator: "stroke-[#FFE600]",
                     track: "stroke-[#E5E5E5]",
-                    value: "text-3xl font-semibold text-white",
+                    value: "text-3xl font-semibold text-[#FFE600]",
                   }}
                   value={25}
                   strokeWidth={4}
+                  valueLabel= "PH1"
                   showValueLabel={true}
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
@@ -89,10 +90,11 @@ export default function TextPage() {
                     svg: "w-36 h-36 drop-shadow-md",
                     indicator: "stroke-[#FFE600]",
                     track: "stroke-[#E5E5E5]",
-                    value: "text-3xl font-semibold text-white",
+                    value: "text-3xl font-semibold text-[#FFE600]",
                   }}
                   value={50}
                   strokeWidth={4}
+                  valueLabel= "PH2"
                   showValueLabel={true}
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
@@ -115,11 +117,12 @@ export default function TextPage() {
                     svg: "w-36 h-36 drop-shadow-md",
                     indicator: "stroke-[#FFE600]",
                     track: "stroke-[#E5E5E5]",
-                    value: "text-3xl font-semibold text-white",
+                    value: "text-3xl font-semibold text-[#FFE600]",
                   }}
                   value={75}
                   strokeWidth={4}
                   showValueLabel={true}
+                  valueLabel= "PH3"
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Account Delivery Manager
@@ -141,11 +144,12 @@ export default function TextPage() {
                     svg: "w-36 h-36 drop-shadow-md",
                     indicator: "stroke-[#FFE600]",
                     track: "stroke-[#E5E5E5]",
-                    value: "text-3xl font-semibold text-white",
+                    value: "text-3xl font-semibold text-[#FFE600]",
                   }}
                   value={100}
                   strokeWidth={4}
                   showValueLabel={true}
+                  valueLabel= "PH4"
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
                   Level: Pod Leader
