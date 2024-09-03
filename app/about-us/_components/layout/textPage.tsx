@@ -71,7 +71,7 @@ export default function TextPage() {
         </div>
       </div>
 
-      <div className="my-6 px-10 md:px-20 py-3 bg-[#FFE600]">
+      <div className="my-6 px-10 md:px-20 py-3 bg-[#FFE600] min-h-20 flex items-center">
         <p className="text-base leading-relaxed text-left">
           <span className="font-semibold">
             &quot;Lend a hand Programme&quot;
@@ -82,7 +82,7 @@ export default function TextPage() {
         </p>
       </div>
 
-      <div className="mb-6 px-10 md:px-20 py-3 bg-[#808080] text-white">
+      <div className="mb-6 px-10 md:px-20 py-3 bg-[#808080] text-white min-h-20 flex items-center">
         <p className="text-base leading-relaxed text-left">
           <span className="font-semibold">
             &quot;Lend an ear Programme&quot;

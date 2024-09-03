@@ -33,13 +33,13 @@ export default function TextPage() {
             {WhatWeDo.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col md:flex-row bg-[#D9D9D9] w-full h-full "
+                className="flex flex-col md:flex-row w-full h-full "
               >
                 <p className="w-full md:w-3/12 text-base py-3 px-2 font-semibold text-black text-left  h-full">
                   {item.title}
                 </p>
 
-                <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-pretty text-left bg-[#090E4A] text-[#D9D9D9] ">
+                <p className="w-full md:w-9/12 text-base py-3 px-2 leading-relaxed text-pretty text-left   ">
                   {item.description}
                 </p>
               </div>
