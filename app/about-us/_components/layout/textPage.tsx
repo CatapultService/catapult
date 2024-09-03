@@ -103,7 +103,7 @@ export default function TextPage() {
               Our People Stories
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 p-4">
               <div className="">
                 <p className=" text-base leading-relaxed  text-justify">
                   <PiQuotesFill className="inline text-[#FFE600] text-lg rotate-180 transform -translate-y-2" />{" "}
