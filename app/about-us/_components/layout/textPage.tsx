@@ -12,11 +12,8 @@ export default function TextPage() {
       <div className=" bg-white px-10 md:px-20 text-black items-center">
         <div className="mx-auto max-w-8xl my-5">
           <p className="mt-6 mb-8 text-base leading-relaxed text-left">
-            Catapult is a &quot;Social Enterprise Platform&quot; that is
-            committed to both sides of the equation. We want to build lasting
-            customer relationships by driving change & creating value. Equally
-            we are committed to nurtuting talent in an inclusive way that
-            creates a sustainable growth model.
+          Our ethos is to nurture leaders who have missed out on the Ovarian Lottery by leveraging our  proprietary operating 
+          model powered by AI to help deliver superior client outcomes and build lasting relationships.
           </p>
 
           <div className="flex flex-col mb-8">
@@ -288,7 +285,7 @@ export default function TextPage() {
 
           <div>
             <div className="flex flex-col md:flex-row mb-8 items-center">
-              <p className="w-full md:w-3/12 text-sm sm:text-lg md:text-2xl  font-bold text-[#090E4A] text-left">
+              <p className="w-full md:w-3/12 text-2xl sm:text-lg md:text-2xl lg:text-3xl font-bold text-[#090E4A] text-left">
                 Our Values
               </p>
               <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
@@ -297,7 +294,7 @@ export default function TextPage() {
             </div>
 
             <div className="flex flex-col md:flex-row mb-8 items-center">
-              <p className="w-full md:w-3/12 text-sm sm:text-lg md:text-2xl  font-bold text-[#090E4A] text-left">
+              <p className="w-full md:w-3/12 text-base sm:text-lg md:text-xl  font-bold text-[#090E4A] text-left">
                 On time & Accuracy
               </p>
               <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
@@ -307,7 +304,7 @@ export default function TextPage() {
             </div>
 
             <div className="flex flex-col md:flex-row mb-8 items-center">
-              <p className="w-full md:w-3/12 text-sm sm:text-lg md:text-2xl  font-bold text-[#090E4A] text-left">
+              <p className="w-full md:w-3/12 text-base sm:text-lg md:text-xl  font-bold text-[#090E4A] text-left">
                 Extra Mile
               </p>
               <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
@@ -317,7 +314,7 @@ export default function TextPage() {
             </div>
 
             <div className="flex flex-col md:flex-row mb-8 items-center">
-              <p className="w-full md:w-3/12 text-sm sm:text-lg md:text-2xl  font-bold text-[#090E4A] text-left">
+              <p className="w-full md:w-3/12 text-base sm:text-lg md:text-xl  font-bold text-[#090E4A] text-left">
                 Learning Organisation
               </p>
               <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
@@ -327,7 +324,7 @@ export default function TextPage() {
             </div>
 
             <div className="flex flex-col md:flex-row mb-8 items-start">
-              <p className="w-full md:w-3/12 text-sm sm:text-lg md:text-2xl  font-bold text-[#090E4A] text-left">
+              <p className="w-full md:w-3/12 text-base sm:text-lg md:text-xl  font-bold text-[#090E4A] text-left">
                 Community Building
               </p>
               <div className="flex flex-col gap-4 w-full md:w-9/12">
