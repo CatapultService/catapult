@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import People from "@/public/assets/people/people.png";
+import Anand from "@/public/assets/people/Anand.jpg";
+import Ashish from "@/public/assets/people/Ashish.jpg";
+import Nikunj from "@/public/assets/people/Nikunj.jpg";
 
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
@@ -24,8 +26,8 @@ export default function people() {
           <div className="grid grid-cols-1 sm:grid-cols-3 justify-between my-4">
             <div className=" hover:shadow-lg hover:border-1 border-gray-200">
               <div className="flex flex-col mt-4 mx-3 md:mx-10">
-                <div className="flex flex-col lg:flex-row items-center my-6 mx-2 gap-4">
-                  <img src={People.src} alt="people" className="w-40 h-full" />
+                <div className="flex flex-col lg:flex-row items-center my-6 gap-4">
+                  <img src={Ashish.src} alt="people" className="h-40 w-40 object-cover" />
                   <div className="flex flex-col justify-center  md:items-start items-cente">
                     <p className="text-4xl sm:text-xl md:text-2xl font-bold text-[#090E4A]">
                       {" "}
@@ -67,7 +69,7 @@ export default function people() {
             <div className="hover:shadow-lg hover:border-1 border-gray-200">
               <div className="flex flex-col mt-4 mx-3 md:mx-10">
                 <div className="flex flex-col lg:flex-row items-center my-6 gap-4">
-                  <img src={People.src} alt="people" className="w-40 h-full" />
+                  <img src={Nikunj.src} alt="people" className="h-40 w-40 object-cover" />
                   <div className="flex flex-col justify-center md:items-start items-cente">
                     <p className="text-4xl sm:text-xl md:text-2xl font-bold text-[#090E4A]">
                       {" "}
@@ -111,7 +113,7 @@ export default function people() {
             <div className="hover:shadow-lg hover:border-1 border-gray-200">
               <div className="flex flex-col mt-4 mx-3 md:mx-10 text-pretty">
                 <div className="flex flex-col lg:flex-row items-center  my-6 gap-4">
-                  <img src={People.src} alt="people" className="w-40 h-full" />
+                  <img src={Anand.src} alt="people" className="h-40 w-40 object-cover" />
                   <div className="flex flex-col justify-center md:items-start items-center">
                     <p className="text-4xl sm:text-xl md:text-2xl font-bold text-[#090E4A]">
                       {" "}
