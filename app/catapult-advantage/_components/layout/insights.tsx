@@ -23,14 +23,14 @@ export default function TextPage() {
       <RoleOfFinance />
       <Approach page="catapult-advantage" />
       <HowWorks />
-      <div className="px-10 md:px-20 text-black flex flex-col  bg-[#090E4A]">
+      <div className="px-10 md:px-20 text-black flex flex-col">
        
-        <div className="w-full flex items-center justify-center mb-10">
+        {/* <div className="w-full flex items-center justify-center mb-10">
           <Separator className="w-96 bg-[#d9d9d9]" />
-        </div>
+        </div> */}
 
-        <div className="max-w-8xl">
-          <p className="text-base leading-relaxed text-left text-white">
+        <div className="max-w-8xl flex items-center h-16">
+          <p className="text-base leading-relaxed text-left">
             Our Unique AI as a Service Model for Digital Transformation solves
             for the typical barriers to startng this journey :
           </p>
