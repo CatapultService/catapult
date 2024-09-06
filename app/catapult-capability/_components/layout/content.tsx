@@ -76,7 +76,7 @@ export default function TextPage() {
         </div>
       </div>
 
-      <div className="px-0 md:px-20 mb-6">
+      {/* <div className="px-0 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl overflow-x-auto">
           <table className="w-full h-full text-sm text-center ">
             <thead className="bg-[#808080] text-white ">
@@ -110,7 +110,7 @@ export default function TextPage() {
               </tr>
             </thead>
             <tbody className="text-black">
-              <tr className="border-y-1 border-black bg-[#D9D9D9]">
+              <tr className="border-y-1 border-black bg-[#f1f1f1]">
                 <td className="py-2 text-xs md:text-base text-left pl-6 font-semibold">
                   Insource
                 </td>
@@ -119,7 +119,7 @@ export default function TextPage() {
                 <td className="py-2 text-center text-base font-semibold">Y</td>
                 <td className="py-2 text-center text-base font-semibold">Y</td>
               </tr>
-              <tr className="border-y-1 border-black bg-[#D9D9D9]">
+              <tr className="border-y-1 border-black bg-[#f1f1f1]">
                 <td className="py-2 text-xs md:text-base text-left pl-6 font-semibold">
                   Outsource
                 </td>
@@ -131,7 +131,7 @@ export default function TextPage() {
             </tbody>
           </table>
         </div>
-      </div>
+      </div> */}
 
       <div className="px-10 md:px-20 mb-6">
         <div className="mx-auto max-w-8xl my-5">
@@ -219,12 +219,12 @@ export default function TextPage() {
                 {FeaturedCapabilities.map((item, index) => (
                   <tr
                     key={index}
-                    className="border-y-1 border-black bg-[#D9D9D9]"
+                    className="border-y-1 border-black bg-[#f1f1f1]"
                   >
-                    <td className="py-3 md:pl-5 pl-1 text-xs md:text-base text-left font-semibold">
+                    <td className="py-2 md:pl-5 pl-1 text-xs md:text-base text-left font-semibold">
                       {item.title}
                     </td>
-                    <td className="py-3 text-center font-semibold">
+                    <td className="py-2 text-center font-semibold">
                       <div className="flex justify-center">
                         {item.audit ? (
                           <Check className="w-6 h-6 text-black" />
@@ -233,7 +233,7 @@ export default function TextPage() {
                         )}
                       </div>
                     </td>
-                    <td className="py-3 text-center font-semibold">
+                    <td className="py-2 text-center font-semibold">
                       <div className="flex justify-center">
                         {item.dueDilligence ? (
                           <Check className="w-6 h-6 text-black" />
@@ -242,7 +242,7 @@ export default function TextPage() {
                         )}
                       </div>
                     </td>
-                    <td className="py-3 text-center font-semibold">
+                    <td className="py-2 text-center font-semibold">
                       <div className="flex justify-center">
                         {item.technicalAccounting ? (
                           <Check className="w-6 h-6 text-black" />
