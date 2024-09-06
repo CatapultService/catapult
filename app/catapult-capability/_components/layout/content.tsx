@@ -304,7 +304,7 @@ let WhatWeDo = [
   {
     title: "Month Close :",
     description:
-      "Chart of accounts Design, Account postings & clearing, Reconcile GL, Accrual/provisioning, Inter-company reonciliation, GL Specific Assurance processes, JV Creation, Prepare financial statements (balance sheet, income statement & statement of cash flow), ",
+      "Chart of accounts Design, Account postings & clearing, Reconcile GL, Accrual/provisioning, Inter-company reconciliation, GL Specific Assurance processes, JV Creation, Prepare financial statements (balance sheet, income statement & statement of cash flow), ",
   },
   {
     title: "Tax Compliance :",
