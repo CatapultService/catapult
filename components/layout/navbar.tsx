@@ -77,13 +77,7 @@ const Navbar = () => {
                         Capbility Centres
                       </Link>
                     </div>
-                    <div className="">
-                      <Link href="/m&a" className="w-fit">
-                        <div className="hover:border-[#FFE600] hover:border-b-4 pb-1 w-56">
-                          M&A, Private Equity & Investor Relations
-                        </div>
-                      </Link>
-                    </div>
+                    
                     <div>
                       <Link
                         href="/data-cloud"
@@ -98,6 +92,13 @@ const Navbar = () => {
                         className="hover:border-[#FFE600] hover:border-b-4 pb-1 pr-4"
                       >
                         Performance Improvement
+                      </Link>
+                    </div>
+                    <div className="">
+                      <Link href="/m&a" className="w-fit">
+                        <div className="hover:border-[#FFE600] hover:border-b-4 pb-1 w-56">
+                          M&A, Private Equity & Investor Relations
+                        </div>
                       </Link>
                     </div>
                   </div>

@@ -18,7 +18,7 @@ export default function people() {
         {/* <div className="mx-auto min-w-6xl mb-8 px-0 xl:px-14"> */}
         <div className="flex flex-col ">
           <p className="text-left text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-bold text-[#090E4A] ">
-            Our People
+            Our Leadership
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 justify-between my-4">
@@ -35,27 +35,31 @@ export default function people() {
                       Co-founder & Exec Chair
                     </p>
 
-                    {/* <Link href="#" className="hover:text-yellow-500">
-                    <FaLinkedin className="w-6 h-6" />
-                  </Link> */}
+                    <Link
+                      href="https://www.linkedin.com/in/ashish-khanna-1908644?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BcqGIPWzKR%2FqwmP3Ec8ZnEw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
+                      target="_blank"
+                      className="hover:text-yellow-500"
+                    >
+                      <FaLinkedin className="w-6 h-6" />
+                    </Link>
                   </div>
                 </div>
 
                 <p className=" text-sm lg:text-base font-normal">
                   Ashish helps clients in managing complex transformation
-                  programmes involving new technology adoption, business &
+                  programs involving new technology adoption, business &
                   operating model transformation & new product launch.
                 </p>
                 <p className=" text-lg font-semibold mt-4 mb-1">
                   Key assignments :{" "}
                 </p>
                 <p className=" text-sm lg:text-base font-normal mb-6">
-                  CEO - Global Services, Amongst largest global network for
-                  marketing & advertising <br />
-                  COO - $1.6B operating P&L of a world leader in Consulintg &
-                  BPO <br />
-                  CEO - Setting up to scaling to10,000+ team for top IT &
-                  Consulting company.
+                  CEO- Dentsu Global Services, Amongst largest global network
+                  for marketing & advertising <br />
+                  COO- Genpact: $1.6B operating P&L of a world leader in
+                  Consulting & BPO <br />
+                  Managing Partner- Accenture, Setting up to scaling to10,000+
+                  team
                 </p>
               </div>
             </div>
@@ -72,26 +76,34 @@ export default function people() {
                     <p className="py-2 text-xs lg:text-base font-normal">
                       Co-founder & CEO
                     </p>
-                    {/* <Link href="#" className="hover:text-yellow-500">
-                    <FaLinkedin className="w-6 h-6" />
-                  </Link> */}
+                    <Link
+                      href="https://www.linkedin.com/in/nikunj-gupta-2920694?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BOd4hLLnES3%2BTciXKkjDYgw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
+                      target="_blank"
+                      className="hover:text-yellow-500"
+                    >
+                      <FaLinkedin className="w-6 h-6" />
+                    </Link>
                   </div>
                 </div>
                 <p className=" text-xs lg:text-base font-normal">
                   Nikunj has a comprehensive understanding on scaling up
-                  businesses incuding Finance Ops, Capital Raise, M&A & Investor
-                  relations, Strategy development & Execution, Enterprise
-                  Performance Management, GTM, Channel Management & Sales,
-                  Operating & Digital transformation
+                  businesses including Finance Ops, Capital Raise, M&A &
+                  Investor relations, Strategy development & Execution,
+                  Enterprise Performance Management, GTM, Channel Management &
+                  Sales, Operating & Digital transformation
                 </p>
                 <p className=" text-lg font-semibold mt-4 mb-1">
                   Key assignments :{" "}
                 </p>
                 <p className=" text-xs lg:text-base font-normal mb-6">
-                  Co-founder & CFO, Beverage platform (150+ Stores & 5,000+
-                  Brewing Bot installations) <br />
-                  CF0-Largest PE owned Education Chain in India Setting up &
-                  scaling to10,000+ team for top IT & Consulting company.
+                  Co-founder & CFO-Chai Point, (150+ Stores & 5,000+ Brewing Bot
+                  installations)
+                  <br />
+                  CF0-Lighthouse, Largest PE owned Education Chain in India{" "}
+                  <br />
+                  ELT-Accenture: Setting up & scaling to10,000+ team for top IT
+                  & Consulting company <br />
+                  Senior Consultant at Arthur Andersen & PWC
                 </p>
               </div>
             </div>
@@ -106,11 +118,11 @@ export default function people() {
                       Anand Shetty
                     </p>
                     <p className="py-2 text-xs lg:text-base font-normal">
-                      Co-founder & COO
+                      Co-founder & CCCL
                     </p>
-                    {/* <Link href="#" className="hover:text-yellow-500">
-                    <FaLinkedin className="w-6 h-6" />
-                  </Link> */}
+                    <Link href="#"target="_blank" className="hover:text-yellow-500">
+                      <FaLinkedin className="w-6 h-6" />
+                    </Link>
                   </div>
                 </div>
 
@@ -125,7 +137,7 @@ export default function people() {
                   Key assignments :{" "}
                 </p>
                 <p className=" text-xs lg:text-base font-normal mb-6">
-                  F&A Bak Office head - Global Media company <br />
+                  F&A Back Office head - Global Media company <br />
                   15+ Years of experience in working working with growth stage
                   companies & Big 4 Auditors across US, UK, Australia & India.
                 </p>

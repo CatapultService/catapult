@@ -85,7 +85,7 @@ export function TeamCarousel() {
 
 const Card = [
   {
-    client: "Shibaji – CFO / Jeffrey – Founder & CEO",
+    client: "Jeffrey – Founder & CEO / Shibaji – CFO",
     description:
       "Catapult who operated our F&A Glocal Capability Centre, displayed exceptional professionalism during our exit pocess. They supported the sell-side due diligence within stringent timelines, efficiently managed the data room ensuring high-quality data. Their pointed responses, backed by thorough supporting documentation ensured seamless communication with auditors, lawyers, and advisors. As a result, the exit process was executed without any valuation adjustments, reflecting Catapult's commitment to client success.",
     clientDesc:

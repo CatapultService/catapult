@@ -1,10 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import Food from "@/public/assets/aboutUs/food.png";
-import People from "@/public/assets/aboutUs/people.png";
-import Work from "@/public/assets/aboutUs/work.png";
 
-import Link from "next/link";
-import { ChevronRight, ChevronLeft } from "lucide-react";
+import Opportunity from "@/components/layout/homePage/opportunity";
+import RoleOfFinance from "@/components/layout/homePage/role";
+import Approach from "@/components/layout/homePage/approach";
 
 import Article1 from "@/public/assets/insights/Article_1.png";
 import Article2 from "@/public/assets/insights/Article_2.png";
@@ -16,14 +14,18 @@ import Article6 from "@/public/assets/insights/Article_6.png";
 export default function TextPage() {
   return (
     <>
+      <Opportunity />
+      <RoleOfFinance />
+      <Approach page="catapult-advantage" />
+
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
-          <p className="mt-16 mb-8 text-base leading-relaxed text-left">
-            Our Unique AI as a Service Model for Digital Transformation
-            solves for the typical barriers to startng this journey :
+          <p className="mt-6 mb-6 text-base leading-relaxed text-left">
+            Our Unique AI as a Service Model for Digital Transformation solves
+            for the typical barriers to startng this journey :
           </p>
 
-          <div className="flex flex-col mb-8">
+          {/* <div className="flex flex-col mb-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 ">
               {Card.map((card, index) => (
                 <div
@@ -31,21 +33,18 @@ export default function TextPage() {
                   className="md:px-6 py-6 my-2 rounded-lg hover:md:shadow-2xl"
                 >
                   <img src={card.image} alt="blog" className="w-full mb-2" />
-                  {/* <Link href={card.link} className=""> */}
-                    <h2 className=" flex items-center text-2xl font-bold mb-2 ">
-                      {card.title}
-                      {/* <span>
-                        <ChevronRight className="w-6  text-[#2251FF]" />
-                      </span> */}
-                    </h2>
-                  {/* </Link> */}
+
+                  <h2 className=" flex items-center text-2xl font-bold mb-2 ">
+                    {card.title}
+                  </h2>
+
                   <p className="text-base leading-relaxed text-left">
                     {card.description}
                   </p>
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -20,9 +20,10 @@ export default function TextPage() {
             </p>
             <p className="text-base leading-relaxed text-left">
               Engaging with investors is a critical task that requires foremost
-              data integrity combined with transpranecy, consistency & a clear
+              data integrity combined with transparency, consistency & a clear
               story. We understand the specific requirements of the investor
-              community
+              community and act as a bridge between them and the company to
+              tailor information needs.
             </p>
           </div>
 
@@ -140,7 +141,6 @@ let WhatWeDo = [
   },
 ];
 
-
 const Card = [
   {
     title: "Post Merger Integration",
@@ -163,5 +163,4 @@ const Card = [
     image: Article3.src,
     link: "/insights/articles/listing-support-on-aim-lse",
   },
-  
 ];

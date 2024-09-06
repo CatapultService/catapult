@@ -13,16 +13,65 @@ import Article3 from "@/public/assets/insights/Article_9.png";
 export default function TextPage() {
   return (
     <>
-      <div className=" bg-white px-10 md:px-20 text-black flex items-center">
-        <div className="mx-auto max-w-8xl my-5">
-          <p className="mt-6 mb-8 text-base leading-relaxed text-left">
-            In an increasingly compeitive world, with accentuated war for
-            talent, thoughtful choices on structuring your teams for excellence,
-            has a substantial impact on business & financial outcomes. Making
-            the right choices on outsourcing will not only free your teams to
-            focus on the core of your growth capabilities, but also provide
-            access to global talent poools & reduce your total cost of
-            ownership.
+      <div className="bg-white px-10 md:px-20 text-black flex items-center">
+        <div className="mx-auto max-w-8xl my-5 leading-loose">
+          <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-4 font-bold text-[#090E4A] text-left">
+            The Catapult Capability Centers: Unleashing the Power of Human
+            Connection and Innovation
+          </p>
+          <p className="text-base leading-loose text-left">
+            The Catapult Capability Centers (CCC) have drawn inspiration from
+            two seemingly unrelated concepts: Gore-Tex and the Dunbar Number to
+            foster innovation and collaboration within our teams and clients.
+          </p>
+
+          <p className="text-base leading-loose text-left">
+            Gore-Tex, a revolutionary fabric known for its waterproof,
+            windproof, and breathable properties, is the product of a unique
+            corporate culture at Gore Associates. This culture is characterized
+            by a &quot;flat&quot; hierarchy, where employees are empowered to
+            make decisions and innovate. No Gore-Tex factory is greater that 150
+            employees.
+          </p>
+
+          <p className="text-base leading-loose text-left">
+            The Dunbar Number, on the other hand, is a theoretical limit on the
+            number of people with whom any one person can maintain meaningful
+            trust-based relationships. Proposed by anthropologist Robin Dunbar,
+            this number is often estimated to be around 150-250.
+          </p>
+
+          <p className="text-base leading-loose text-left">
+            How do these concepts intersect and create value for CCC?
+          </p>
+
+          <ul className="leading-loose list-square marker:text-[#FFF600] ml-4 text-base">
+            <li>
+              <span className="font-semibold">
+                Innovation and Collaboration:{" "}
+              </span>
+              No individual CCC would exceed 150 people (“CCC POD”) to enable
+              fostering strong social networks and a culture of innovation.
+            </li>
+            <li>
+              <span className="font-semibold">Ownership and Trust: </span>
+              Each CCC POD has their own P&L, profit & equity share, formal say
+              in Company level policy formulation, Independence to formulate POD
+              level policies. This creates an environment of “Nested
+              Entrepreneurship”, thereby motivating our teams to make decisions
+              and innovate, which contributes to our client’s success.
+            </li>
+            <li>
+              <span className="font-semibold">Purpose led organization: </span>
+              The CCC POD programmatically runs initiatives to serve the
+              community they are a part of. This creates a sense of purpose
+              thereby lowering attrition, higher employee engagement, greater
+              self-esteem and superior value creation for clients.
+            </li>
+          </ul>
+
+          <p className="mt-2 text-base leading-loose text-left">
+            These ultimately result in higher Net Promoter Scores (NPS).
           </p>
         </div>
       </div>

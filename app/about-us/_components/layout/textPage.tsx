@@ -31,7 +31,7 @@ export default function TextPage() {
                     that may have faced challenges due to factors beyond their
                     control, often referred to as &quot;Ovarian Lottery.&quot;
                   </p>
-                  <p className=" text-base leading-relaxed text-left">
+                  <p className="mt-2 text-base leading-relaxed text-left">
                     Consequently, our focus is more on identifying talented
                     individuals who possess skills & drive to succeed, rather
                     than certifications. We offer comprehensive training
@@ -45,7 +45,7 @@ export default function TextPage() {
                       Anand Shetty
                     </p>
                     <p className="text-base leading-relaxed text-left">
-                      Co-Founder & COO
+                    Co-founder & CCCL
                     </p>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function TextPage() {
                   showValueLabel={true}
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
-                  Hiring Criteria
+                  Hiring
                 </h2>
                 <ul className="text-gray-700 list-square marker:text-[#FFF600] ml-4 text-base">
                   <li>Tier 2 - 3 Cities</li>
@@ -211,7 +211,7 @@ export default function TextPage() {
                   showValueLabel={true}
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
-                  Level: Process Executive & Delivery Manager
+                  Process Executive & Delivery Manager
                 </h2>
                 <p className="font-bold text-gray-700">
                   Internal Certifications:
@@ -238,7 +238,7 @@ export default function TextPage() {
                   valueLabel="PH3"
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
-                  Level: Account Delivery Manager
+                  Account Delivery Manager
                 </h2>
                 <p className="font-bold text-gray-700 ">
                   Internal Certifications:
@@ -265,11 +265,11 @@ export default function TextPage() {
                   valueLabel="PH4"
                 />
                 <h2 className="text-xl font-bold mb-2 text-[#090E4A]">
-                  Level: Pod Leader
+                  Pod Leader
                 </h2>
 
                 <p className="font-bold text-gray-700">
-                  Criterea: Min 2 Yrs in Account Delivery
+                  {/* Criterea: Min 2 Yrs in Account Delivery */}
                 </p>
                 <p className="font-bold text-gray-700">Added Benefits:</p>
 
@@ -289,7 +289,7 @@ export default function TextPage() {
                 Our Values
               </p>
               <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
-                ...
+                
               </p>
             </div>
 

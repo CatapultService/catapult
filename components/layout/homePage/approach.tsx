@@ -1,7 +1,10 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 
-export default function Performance() {
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
+
+export default function Performance({ page }: { page: string }) {
   const sectionRef = useRef(null);
   const svgRef = useRef(null);
 
@@ -160,6 +163,19 @@ export default function Performance() {
               it&apos;s proprietary data cloud, Ai co-pilots and catapult
               capability-centres, to drive business outcomes.
             </p>
+
+            { page === "homePage" ? (
+            <div className="flex mt-2">
+              <Link href="/catapult-advantage" className="">
+                <p className=" flex items-center text-lg font-bold hover:text-[#2251FF] hover:underline">
+                  Learn More
+                  <span>
+                    <ChevronRight className="w-6  text-[#2251FF]" />
+                  </span>
+                </p>
+              </Link>
+            </div>
+            ) : null }
           </div>
         </div>
       </div>
@@ -191,7 +207,6 @@ export default function Performance() {
         ref={sectionRef}
         className="hidden sm:flex justify-center items-center pb-10 pt-28 mb-20 relative"
       >
-       
         <svg
           ref={svgRef}
           xmlns="http://www.w3.org/2000/svg"
@@ -199,9 +214,33 @@ export default function Performance() {
           aria-hidden="true"
           className=" h-32 md:h-40 lg:h-52 block overflow-visible"
         >
-          <text x="-50" y="190" fill="black" font-size="20" transform="rotate(-48 80,90)">0 to 3 months</text>
-          <text x="280" y="100" fill="black" font-size="20" transform="rotate(-15 180, 50)">4 to 6 months</text>
-          <text x="580" y="0" fill="black" font-size="20" transform="rotate(15 435, 0)">7 to 8 months</text>
+          <text
+            x="-50"
+            y="190"
+            fill="black"
+            font-size="20"
+            transform="rotate(-48 80,90)"
+          >
+            0 to 3 months
+          </text>
+          <text
+            x="280"
+            y="100"
+            fill="black"
+            font-size="20"
+            transform="rotate(-15 180, 50)"
+          >
+            4 to 6 months
+          </text>
+          <text
+            x="580"
+            y="0"
+            fill="black"
+            font-size="20"
+            transform="rotate(15 435, 0)"
+          >
+            7 to 8 months
+          </text>
 
           <defs>
             <linearGradient
@@ -228,21 +267,22 @@ export default function Performance() {
             transform="translate(3 3)"
           ></path>
           <g id="dotsContainer"></g>
-
         </svg>
 
-        
-        
         <div className="flex flex-col items-center justify-center absolute sm:bottom-10 md:bottom-8 lg:bottom-12 animated-div">
           <p className="text-center sm:text-sm md:text-base lg:text-xl font-bold w-full">
             A comprehensive approach
             <br />
-            <span className="text-xs lg:text-sm font-normal w-full text-center">Enables</span>
+            <span className="text-xs lg:text-sm font-normal w-full text-center">
+              Enables
+            </span>
           </p>
           <p className="md:text-3xl lg:text-5xl font-bold text-[#090E4A] w-full text-center">
             20-30%
           </p>
-          <p className="text-xs lg:text-sm font-normal w-full text-center">Margin uplift</p>
+          <p className="text-xs lg:text-sm font-normal w-full text-center">
+            Margin uplift
+          </p>
         </div>
       </div>
 

@@ -32,21 +32,6 @@ export default function howHelp() {
         </div>
         <div
           className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
-          style={{ backgroundImage: `url(${SecondImg.src})` }}
-        >
-          <Link href="/m&a">
-            <h3 className="text-3xl font-bold text-[#FFE600]">
-              M&A, Private Equity & Investor Relations
-            </h3>
-          </Link>
-          {/* <p className="text-lg max-w-sm font-medium hidden group-hover:block">
-            Catapult combines the tech application eco system of clients with
-            it&apos;s proprietary data cloud, Ai co-pilots and catapult
-            capability-centres, to drive business outcomes.
-          </p> */}
-        </div>
-        <div
-          className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
           style={{ backgroundImage: `url(${ThirdImg.src})` }}
         >
           <Link href="/data-cloud">
@@ -75,6 +60,21 @@ export default function howHelp() {
             capability-centres, to drive business outcomes.
           </p> */}
         </div>
+        <div
+          className="flex-1 p-6 h-[30rem] transition-all bg-black duration-300 hover:flex-[2] bg-cover group flex flex-col justify-between relative"
+          style={{ backgroundImage: `url(${SecondImg.src})` }}
+        >
+          <Link href="/m&a">
+            <h3 className="text-3xl font-bold text-[#FFE600]">
+              M&A, Private Equity & Investor Relations
+            </h3>
+          </Link>
+          {/* <p className="text-lg max-w-sm font-medium hidden group-hover:block">
+            Catapult combines the tech application eco system of clients with
+            it&apos;s proprietary data cloud, Ai co-pilots and catapult
+            capability-centres, to drive business outcomes.
+          </p> */}
+        </div>
       </div>
 
       <div className="grid grid-cols-1  sm:grid-cols-2 text-white lg:hidden">
@@ -84,19 +84,6 @@ export default function howHelp() {
         >
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
             Capability Centres
-          </h3>
-          {/* <p className="text-lg max-w-sm font-medium">
-            Catapult combines the tech application eco system of clients with
-            it&apos;s proprietary data cloud, Ai co-pilots and catapult
-            capability-centres, to drive business outcomes.
-          </p> */}
-        </div>
-        <div
-          className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
-          style={{ backgroundImage: `url(${SecondImg.src})` }}
-        >
-          <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
-            M&A, Private Equity & Investor Relations
           </h3>
           {/* <p className="text-lg max-w-sm font-medium">
             Catapult combines the tech application eco system of clients with
@@ -123,6 +110,19 @@ export default function howHelp() {
         >
           <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
             Performance Improvement
+          </h3>
+          {/* <p className="text-lg max-w-sm font-medium">
+            Catapult combines the tech application eco system of clients with
+            it&apos;s proprietary data cloud, Ai co-pilots and catapult
+            capability-centres, to drive business outcomes.
+          </p> */}
+        </div>
+        <div
+          className="flex-1 p-6 h-[30rem] transition-all duration-300 hover:flex-[2] bg-cover flex flex-col justify-center "
+          style={{ backgroundImage: `url(${SecondImg.src})` }}
+        >
+          <h3 className="text-3xl font-bold text-[#FFE600] mb-4">
+            M&A, Private Equity & Investor Relations
           </h3>
           {/* <p className="text-lg max-w-sm font-medium">
             Catapult combines the tech application eco system of clients with
