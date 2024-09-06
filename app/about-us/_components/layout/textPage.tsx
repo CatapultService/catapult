@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
-import Food from "@/public/assets/aboutUs/food.png";
-import People from "@/public/assets/aboutUs/people.png";
-import Work from "@/public/assets/aboutUs/work.png";
+import Community1 from "@/public/assets/aboutUs/Community1.jpg";
+import Community2 from "@/public/assets/aboutUs/Community2.jpg";
+import Community3 from "@/public/assets/aboutUs/Community3.jpg";
 import Image from "next/image";
 import { CircularProgress } from "@nextui-org/react";
 import { PiQuotesFill } from "react-icons/pi";
@@ -67,10 +68,7 @@ export default function TextPage() {
 
               <div className="flex justify-center items-center border ">
                 {/* <p className="text-2xl">VIDEO</p> */}
-                <video
-                  className="w-full h-full object-cover z-0"
-                  controls
-                >
+                <video className="w-full h-full object-cover z-0" controls>
                   <source src="assets/aboutUs/Anand.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -118,10 +116,7 @@ export default function TextPage() {
                   now | manage a US$ 30 Mn credit control for a Europeanclient.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
                 </p> */}
-                 <video
-                  className="w-full h-full object-cover z-0"
-                  controls
-                >
+                <video className="w-full h-full object-cover z-0" controls>
                   <source src="assets/aboutUs/Chetan.mp4" type="video/mp4" />
                 </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
@@ -138,10 +133,7 @@ export default function TextPage() {
                   manage book close for one ot the clients and I am very happy.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
                 </p> */}
-                <video
-                  className="w-full h-full object-cover z-0"
-                  controls
-                >
+                <video className="w-full h-full object-cover z-0" controls>
                   <source src="assets/aboutUs/Pradeep.mp4" type="video/mp4" />
                 </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
@@ -160,10 +152,7 @@ export default function TextPage() {
                   flexible work timing.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
                 </p> */}
-                <video
-                  className="w-full h-full object-cover z-0"
-                  controls
-                >
+                <video className="w-full h-full object-cover z-0" controls>
                   <source src="assets/aboutUs/Roopa.mp4" type="video/mp4" />
                 </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
@@ -182,10 +171,7 @@ export default function TextPage() {
                   now and enjoy my work.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
                 </p> */}
-                <video
-                  className="w-full h-full object-cover z-0"
-                  controls
-                >
+                <video className="w-full h-full object-cover z-0" controls>
                   <source src="assets/aboutUs/Vinita.mp4" type="video/mp4" />
                 </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
@@ -362,30 +348,9 @@ export default function TextPage() {
                   Building sustainable communities
                 </p>
                 <div className="flex flex-row gap-4">
-                  <Image
-                    src={Food}
-                    alt="food"
-                    width={160}
-                    height={160}
-                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, 20vw"
-                    className="h-full"
-                  />
-                  <Image
-                    src={People}
-                    alt="people"
-                    width={160}
-                    height={160}
-                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, 20vw"
-                    className="h-full"
-                  />
-                  <Image
-                    src={Work}
-                    alt="work"
-                    width={160}
-                    height={160}
-                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, 20vw"
-                    className="h-full"
-                  />
+                  <img src={Community1.src} alt="Community1" className="h-52" />
+                  <img src={Community2.src} alt="Community1" className="h-52" />
+                  <img src={Community3.src} alt="Community1" className="h-52" />
                 </div>
               </div>
             </div>
