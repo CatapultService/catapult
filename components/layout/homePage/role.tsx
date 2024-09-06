@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import ProgressBar from "@ramonak/react-progress-bar";
-import TableImg from "@/public/assets//homePage/role/table.svg"
+import TableImg from "@/public/assets//homePage/role/table.png"
 
 export default function role() {
   return (
