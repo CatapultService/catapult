@@ -12,8 +12,10 @@ export default function TextPage() {
       <div className=" bg-white px-10 md:px-20 text-black items-center">
         <div className="mx-auto max-w-8xl my-5">
           <p className="mt-6 mb-8 text-base leading-relaxed text-left">
-          Our ethos is to nurture leaders who have missed out on the Ovarian Lottery by leveraging our  proprietary operating 
-          model powered by AI to help deliver superior client outcomes and build lasting relationships.
+            Our ethos is to nurture leaders who have missed out on the Ovarian
+            Lottery by leveraging our proprietary operating model powered by AI
+            to help deliver superior client outcomes and build lasting
+            relationships.
           </p>
 
           <div className="flex flex-col mb-8">
@@ -45,7 +47,7 @@ export default function TextPage() {
                       Anand Shetty
                     </p>
                     <p className="text-base leading-relaxed text-left">
-                    Co-founder & CCCL
+                      Co-founder & CCCL
                     </p>
                   </div>
                 </div>
@@ -63,8 +65,14 @@ export default function TextPage() {
               </p> */}
               </div>
 
-              <div className="flex justify-center items-center border m-10">
-                <p className="text-2xl">VIDEO</p>
+              <div className="flex justify-center items-center border ">
+                {/* <p className="text-2xl">VIDEO</p> */}
+                <video
+                  className="w-full h-full object-cover z-0"
+                  controls
+                >
+                  <source src="assets/aboutUs/Anand.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>
@@ -125,7 +133,7 @@ export default function TextPage() {
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
                 </p>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
-                  Chetan - Executive
+                  Pradeep - Executive
                 </p>
               </div>
 
@@ -288,9 +296,7 @@ export default function TextPage() {
               <p className="w-full md:w-3/12 text-2xl sm:text-lg md:text-2xl lg:text-3xl font-bold text-[#090E4A] text-left">
                 Our Values
               </p>
-              <p className="w-full md:w-9/12 text-base leading-relaxed text-left">
-                
-              </p>
+              <p className="w-full md:w-9/12 text-base leading-relaxed text-left"></p>
             </div>
 
             <div className="flex flex-col md:flex-row mb-8 items-center">
