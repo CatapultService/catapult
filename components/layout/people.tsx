@@ -140,7 +140,7 @@ export default function people() {
                 </p>
                 <p className=" text-xs lg:text-base font-normal mb-6">
                   F&A Back Office head - Global Media company <br />
-                  15+ Years of experience in working working with growth stage
+                  15+ Years of experience in working with growth stage
                   companies & Big 4 Auditors across US, UK, Australia & India.
                 </p>
               </div>

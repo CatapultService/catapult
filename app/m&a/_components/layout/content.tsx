@@ -112,7 +112,7 @@ export default function TextPage() {
 let WhatWeDo = [
   {
     title: "Strategic 5 Year Business Plans :",
-    description: `Building a comprehensive plan that not only articulates the "What" but also the "How" is critical to a positive investor conversation. Our strategic planning framework ensures adquate detailing on Unit economics, Growth Levers & Sensitivity analysis (Positioning, Brand, Market, Product, Pricing, COGS & Assortment, Go to Market design, G&A Org design), Capital Requirement Assessment, Return & Margin Profile benchmarking.`,
+    description: `Building a comprehensive plan that not only articulates the "What" but also the "How" is critical to a positive investor conversation. Our strategic planning framework ensures adequate detailing on Unit economics, Growth Levers & Sensitivity analysis (Positioning, Brand, Market, Product, Pricing, COGS & Assortment, Go to Market design, G&A Org design), Capital Requirement Assessment, Return & Margin Profile benchmarking.`,
   },
   {
     title: "Deal Driver Analytics & Risk Assessment  :",
@@ -122,7 +122,7 @@ let WhatWeDo = [
   {
     title: "Data Room Readiness & DD Management :",
     description:
-      "We can help you set up the dataroom for the prior 3 Year data along with interacting with the DD agencies helping you load balance finance bandwidth. ",
+      "We can help you set up the data room for the prior 3 Year data along with interacting with the DD agencies helping you load balance finance bandwidth. ",
   },
   {
     title: "Post Deal Integration Support :",
@@ -132,7 +132,7 @@ let WhatWeDo = [
   {
     title: "Compliance Monitoring & Reporting  :",
     description:
-      "Through data & Ai led reporting tools, we can help cretae a comprehensive one stop solution for all applicable compliances.",
+      "Through data & Ai led reporting tools, we can help create a comprehensive one stop solution for all applicable compliances.",
   },
   {
     title: "Value stream mapping, Risk Assessment & internal controls :",

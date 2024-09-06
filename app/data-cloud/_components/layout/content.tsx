@@ -57,11 +57,11 @@ let WhatWeDo = [
   {
     title: "Enterprise Data Cloud for Ai readiness: ",
     description:
-      "Journey of Ai is a non-starter without entrprise level data availability from a single source of truth. However, reality of most organisations is a multi vendor SaaS ecosystem, leading to fragmented data. Basis our understanding of data available to Catapult Capability Centres we can integrate the information flow with our proprietory Enterprise Data Cloud, that can help you lay the foundation of data readiness for your Ai journey, in a seamless manner, without breaking the bank. ",
+      "Journey of Ai is a non-starter without enterprise level data availability from a single source of truth. However, reality of most organisations is a multi vendor SaaS ecosystem, leading to fragmented data. Basis our understanding of data available to Catapult Capability Centres we can integrate the information flow with our proprietary Enterprise Data Cloud, that can help you lay the foundation of data readiness for your Ai journey, in a seamless manner, without breaking the bank. ",
   },
   {
     title: "Action & insights engine : ",
     description:
-      "Our library of Machine Learning algorithims can be customised to automate processes, generate reports, insights & reccommendations",
+      "Our library of Machine Learning algorithms can be customised to automate processes, generate reports, insights & recommendations",
   },
 ];

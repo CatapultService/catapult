@@ -102,8 +102,8 @@ let WhatWeDo = [
       <>
         <p className="mb-3">
           <span className="font-bold">DSO Reduction</span> by integrating our
-          proprietory alogorthims for &quot;Customer Risk Scores&quot; that
-          scientifically priorotise invoices to chase.
+          proprietary algorithms for &quot;Customer Risk Scores&quot; that
+          scientifically prioritise invoices to chase.
         </p>
         <p>
           <span className="font-bold">Days of Inventory Reduction</span> by
@@ -130,11 +130,11 @@ let WhatWeDo = [
         </p>
         <p className="mb-3">
           <span className="font-bold">Capital Structure optimisation</span>{" "}
-          through our proprietory{" "}
+          through our proprietary{" "}
           <span className="font-bold">&quot;Cash Flow Profiler&quot;</span> to
           profile cash flows at the Cash Generating <br />
           <span>
-            Unit level can seggregate which cash flows have predictability and
+            Unit level can segregate which cash flows have predictability and
             can be financed through debt.{" "}
           </span>
         </p>
@@ -145,7 +145,7 @@ let WhatWeDo = [
           the{" "}
           <span className="font-bold">&quot;Enterprise Data Cloud&quot;</span>{" "}
           to prepare audit schedules concurrently ensuring an observation free &
-          on-time Big 4 Audit without dependancy on senior resources.
+          on-time Big 4 Audit without dependency on senior resources.
         </p>
       </>
     ),
@@ -156,9 +156,9 @@ let WhatWeDo = [
       <>
         <p className="mb-3">
           <span className="font-bold">Revenue Growth (&quot;RG&quot;)</span>{" "}
-          identification through proprietory algorithims Automated
+          identification through proprietary algorithms Automated
           &quot;Customer Cohorts&quot; basis interplay across Category ,
-          Ocassions, Channels, Micromarkets, Vintage, Socio-Economic to generate
+          Occasions, Channels, Micro markets, Vintage, Socio-Economic to generate
           Growth & Risk insights.
         </p>
         <p>
@@ -178,7 +178,7 @@ let WhatWeDo = [
         <p className="mb-3">
           <span className="font-bold">Margin Improvement</span> by integrated
           analysis of Pricing, Inventory, Discounts overlayed with dimensions of
-          Category, Use Cases, Channels, Ocassions, Micromarkets, etc.
+          Category, Use Cases, Channels, Occasions, Micro markets, etc.
         </p>
 
         <p>

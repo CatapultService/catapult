@@ -84,7 +84,7 @@ export default function TextPage() {
           </span>{" "}
           focuses on individuals who have potential but are marginalised due to
           circumstances that could be on account of socioeconomic factors,
-          learning disabilities, health contraints, family issues, etc.
+          learning disabilities, health constraints, family issues, etc.
         </p>
       </div>
 
@@ -94,8 +94,8 @@ export default function TextPage() {
             &quot;Lend an ear Programme&quot;
           </span>{" "}
           focuses on women candidates who are left out due to their family
-          committmets towards the children, ageing parents or relocation due to
-          family dependancy.
+          commitments towards the children, ageing parents or relocation due to
+          family dependency.
         </p>
       </div>
 

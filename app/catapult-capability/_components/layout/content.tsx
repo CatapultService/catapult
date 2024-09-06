@@ -16,11 +16,11 @@ export default function TextPage() {
       <div className="bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5 leading-loose">
           <p className="text-xl mt-3 sm:text-lg md:text-2xl lg:text-3xl mb-4 font-bold text-[#090E4A] text-left">
-            The Catapult Capability Centers: Unleashing the Power of Human
+            The Catapult Capability Centres: Unleashing the Power of Human
             Connection and Innovation
           </p>
           <p className="text-base leading-loose text-left">
-            The Catapult Capability Centers (CCC) have drawn inspiration from
+            The Catapult Capability Centres (CCC) have drawn inspiration from
             two seemingly unrelated concepts: Gore-Tex and the Dunbar Number to
             foster innovation and collaboration within our teams and clients.
           </p>
@@ -294,12 +294,12 @@ let WhatWeDo = [
   {
     title: "Accounts Payable :",
     description:
-      "End to end management of Accounts Payable process including rasing POs, Vendor Master Updates, 3-Way match & Invoice entry, Payables scheduling, Wire-transfers, Vendor SOA reconciliation, Travel & expense claims. Document archival for audit.",
+      "End to end management of Accounts Payable process including raising POs, Vendor Master Updates, 3-Way match & Invoice entry, Payables scheduling, Wire-transfers, Vendor SOA reconciliation, Travel & expense claims. Document archival for audit.",
   },
   {
-    title: "Accounts Recievable :",
+    title: "Accounts Receivable :",
     description:
-      "Customer Master updates, Invoice Creation, Send I Upload invoice, Record Invoice, Outsanding Report, Customer SOA reconciliation, Collections entry, Document archival for audit. ",
+      "Customer Master updates, Invoice Creation, Send I Upload invoice, Record Invoice, Outstanding Report, Customer SOA reconciliation, Collections entry, Document archival for audit. ",
   },
   {
     title: "Month Close :",
@@ -309,7 +309,7 @@ let WhatWeDo = [
   {
     title: "Tax Compliance :",
     description:
-      "UK VAT, UK PAYE, US Sales Tax, 1099, India GST, India TDS, Germay VAT, France  VAT, Australia VAT.",
+      "UK VAT, UK PAYE, US Sales Tax, 1099, India GST, India TDS, Germany VAT, France  VAT, Australia VAT.",
   },
   {
     title: "Financial Planning & Analysis :",
@@ -318,7 +318,7 @@ let WhatWeDo = [
   {
     title: "Procurement :",
     description:
-      "Vendor identification, Zero based Costing, Vendor Negotiations, Vendor Dilligence, Sample testing & approval, Issuing Purchase Orders, Order tracking.",
+      "Vendor identification, Zero based Costing, Vendor Negotiations, Vendor Diligence, Sample testing & approval, Issuing Purchase Orders, Order tracking.",
   },
   {
     title: "Inventory Planning :",

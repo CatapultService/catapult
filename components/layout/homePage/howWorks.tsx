@@ -63,7 +63,7 @@ export default function HowWorks() {
                         </p>
                         <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
                           Unstructured data is a barrier to AI implementation.
-                          Our proprietory models & workflow tools transform
+                          Our proprietary models & workflow tools transform
                           unstructured data.
                         </p>
                       </div>
@@ -217,7 +217,7 @@ export default function HowWorks() {
                           </p>
                           <p className="text-left leading-relaxed text-xs sm:text-sm md:text-base  text-white font-light">
                             Unstructured data is a barrier to AI implementation.
-                            Our proprietory models & workflow tools transform
+                            Our proprietary models & workflow tools transform
                             unstructured data.
                           </p>
                         </div>
