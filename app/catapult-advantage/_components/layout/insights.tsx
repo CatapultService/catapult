@@ -20,12 +20,11 @@ export default function TextPage() {
 
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
-          <p className="mt-6 mb-6 text-base leading-relaxed text-left">
+          {/* <p className="mt-6 mb-6 text-base leading-relaxed text-left">
             Our Unique AI as a Service Model for Digital Transformation solves
             for the typical barriers to startng this journey :
           </p>
-
-          {/* <div className="flex flex-col mb-8">
+          <div className="flex flex-col mb-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 ">
               {Card.map((card, index) => (
                 <div
