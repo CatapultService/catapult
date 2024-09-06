@@ -110,35 +110,47 @@ export default function TextPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 p-4">
               <div className="">
-                <p className=" text-base leading-relaxed  text-justify">
+                {/* <p className=" text-base leading-relaxed  text-justify">
                   <PiQuotesFill className="inline text-[#FFE600] text-lg rotate-180 transform -translate-y-2" />{" "}
                   I used to work in a grocery store. Anand sir&apos;s wife, who
                   used to come to my shop, felt that I have the talent to do
                   more. I got an opportunity and patient training in Catapultand
                   now | manage a US$ 30 Mn credit control for a Europeanclient.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
-                </p>
+                </p> */}
+                 <video
+                  className="w-full h-full object-cover z-0"
+                  controls
+                >
+                  <source src="assets/aboutUs/Chetan.mp4" type="video/mp4" />
+                </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
                   Chetan - Executive
                 </p>
               </div>
 
               <div className="">
-                <p className=" text-base leading-relaxed  text-justify">
+                {/* <p className=" text-base leading-relaxed  text-justify">
                   <PiQuotesFill className="inline text-[#FFE600] text-lg rotate-180 transform -translate-y-2" />{" "}
                   Despite being qualified I was not able to get a good
                   accounting job due to my poor English. I heard about
                   Catapultand reached out and they gave me an opportunity. I now
                   manage book close for one ot the clients and I am very happy.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
-                </p>
+                </p> */}
+                <video
+                  className="w-full h-full object-cover z-0"
+                  controls
+                >
+                  <source src="assets/aboutUs/Pradeep.mp4" type="video/mp4" />
+                </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
                   Pradeep - Executive
                 </p>
               </div>
 
               <div className="">
-                <p className=" text-base leading-relaxed  text-justify">
+                {/* <p className=" text-base leading-relaxed  text-justify">
                   <PiQuotesFill className="inline text-[#FFE600] text-lg rotate-180 transform -translate-y-2" />{" "}
                   After a 4 years break due to my marriage and kids, I had to
                   take a break. When I wanted to get a job again I was not able
@@ -147,14 +159,20 @@ export default function TextPage() {
                   only gave me an opportunity but also agreed to giving me a
                   flexible work timing.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
-                </p>
+                </p> */}
+                <video
+                  className="w-full h-full object-cover z-0"
+                  controls
+                >
+                  <source src="assets/aboutUs/Roopa.mp4" type="video/mp4" />
+                </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
                   Roopa - Executive
                 </p>
               </div>
 
               <div className="">
-                <p className=" text-base leading-relaxed  text-justify">
+                {/* <p className=" text-base leading-relaxed  text-justify">
                   <PiQuotesFill className="inline text-[#FFE600] text-lg rotate-180 transform -translate-y-2" />{" "}
                   My mother lives alone in Hubli and she was not keeping well.
                   Being away from her made me unhappy and I was not enjoying my
@@ -163,7 +181,13 @@ export default function TextPage() {
                   though Catapult does not have an office there. I am very happy
                   now and enjoy my work.
                   <PiQuotesFill className="inline text-[#FFE600] text-lg transform -translate-y-2" />
-                </p>
+                </p> */}
+                <video
+                  className="w-full h-full object-cover z-0"
+                  controls
+                >
+                  <source src="assets/aboutUs/Vinita.mp4" type="video/mp4" />
+                </video>
                 <p className="text-xl pt-2 leading-relaxed text-left text-[#FFE600]">
                   Vinita - Executive
                 </p>
