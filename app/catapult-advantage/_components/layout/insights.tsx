@@ -5,6 +5,8 @@ import RoleOfFinance from "@/components/layout/homePage/role";
 import Approach from "@/components/layout/homePage/approach";
 import HowWorks from "@/components/layout/homePage/howWorks";
 
+import { Separator } from "@/components/ui/separator";
+
 // import Article1 from "@/public/assets/insights/Article_1.png";
 // import Article2 from "@/public/assets/insights/Article_2.png";
 // import Article3 from "@/public/assets/insights/Article_3.png";
@@ -21,8 +23,12 @@ export default function TextPage() {
       <RoleOfFinance />
       <Approach page="catapult-advantage" />
       <HowWorks />
+      <div className="px-10 md:px-20 text-black flex flex-col  bg-[#090E4A]">
+       
+        <div className="w-full flex items-center justify-center mb-10">
+          <Separator className="w-96 bg-[#d9d9d9]" />
+        </div>
 
-      <div className="px-10 md:px-20 text-black flex items-center bg-[#090E4A]">
         <div className="max-w-8xl">
           <p className="text-base leading-relaxed text-left text-white">
             Our Unique AI as a Service Model for Digital Transformation solves
@@ -50,8 +56,11 @@ export default function TextPage() {
           </div> */}
         </div>
       </div>
-      <img src={AiAsAService.src} alt="ai as a service" className="w-full bg-[#090E4A] py-10 px-10" />
-
+      <img
+        src={AiAsAService.src}
+        alt="ai as a service"
+        className="w-full bg-[#090E4A] py-10 px-10"
+      />
     </>
   );
 }
@@ -62,41 +71,41 @@ export default function TextPage() {
 //     description:
 //       "Digital Transformation can cost millions in Upfront implementation costs and ongoing license fees. Our unique AI as a Service model eliminates cost barriers.",
 //     image: Article1.src,
-//     link: "", 
+//     link: "",
 //   },
 //   {
 //     title: "People",
 //     description:
 //       "Digital Transformations requires client senior management bandwidth for years. Our unique AI as a Service model eliminates any need for client teams for Project Management.",
 //     image: Article2.src,
-//     link: "", 
+//     link: "",
 //   },
 //   {
 //     title: "Expertise",
 //     description:
 //       "Digital Transformation can requires deep domain expertise as well as technology skills. Our unique AI as a Service model eliminates any need for clients to possess these skills.",
 //     image: Article3.src,
-//     link: "", 
+//     link: "",
 //   },
 //   {
 //     title: "Data",
 //     description:
 //       "Foundation for Ai readiness is data. Substantial resources & expertise are needed to aggregate enterprise data, As part of our unique AI as a Service model our teams manage the entire process of building your data layer.",
 //     image: Article4.src,
-//     link: "", 
+//     link: "",
 //   },
 //   {
 //     title: "User Adoption",
 //     description:
 //       "Majority of Digital Transformations fail due to failure of User Adoption. This causes loss of investments & competitive advantage. Our unique AI as a Service model integrates Catapult Capability Centre teams trained & incentivized for smooth implementation.",
 //     image: Article5.src,
-//     link: "", 
+//     link: "",
 //   },
 //   {
 //     title: "Speed",
 //     description:
 //       "Digital Transformation can take years to implement allowing competition and large companies an advantage. Our unique AI as a Service model eliminates this by bringing pre-built assets, frameworks, algorithm libraries & trained teams.",
 //     image: Article6.src,
-//     link: "", 
+//     link: "",
 //   },
 // ];
