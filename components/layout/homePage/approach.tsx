@@ -163,19 +163,6 @@ export default function Performance({ page }: { page: string }) {
               it&apos;s proprietary data cloud, Ai co-pilots and catapult
               capability-centres, to drive business outcomes.
             </p>
-
-            { page === "homePage" ? (
-            <div className="flex mt-2">
-              <Link href="/catapult-advantage" className="">
-                <p className=" flex items-center text-lg font-bold hover:text-[#2251FF] hover:underline">
-                  Learn More
-                  <span>
-                    <ChevronRight className="w-6  text-[#2251FF]" />
-                  </span>
-                </p>
-              </Link>
-            </div>
-            ) : null }
           </div>
         </div>
       </div>
@@ -205,7 +192,7 @@ export default function Performance({ page }: { page: string }) {
       `}</style>
       <div
         ref={sectionRef}
-        className="hidden sm:flex justify-center items-center pb-10 pt-28 mb-20 relative"
+        className="hidden sm:flex flex-col justify-center items-center pb-10 pt-28 relative"
       >
         <svg
           ref={svgRef}
@@ -332,6 +319,19 @@ export default function Performance({ page }: { page: string }) {
           </div>
         </div>
       </div>
+
+      {page === "homePage" ? (
+          <div className="flex justify-center items-center mb-10">
+            <Link href="/catapult-advantage" className="">
+              <p className=" flex items-center text-lg font-bold hover:text-[#2251FF] hover:underline">
+                Learn More
+                <span>
+                  <ChevronRight className="w-6  text-[#2251FF]" />
+                </span>
+              </p>
+            </Link>
+          </div>
+        ) : null}
     </>
   );
 }
