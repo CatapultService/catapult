@@ -25,12 +25,11 @@ export default function Home() {
       <div className=" bg-white px-10 md:px-20 text-black flex items-center">
         <div className="mx-auto max-w-8xl my-5">
           <p className="mt-6 text-base leading-relaxed mx-auto text-left">
-            Our ethos is to nurture leaders who have missed out on the Ovarian
-            Lottery by leveraging our proprietary operating model powered by AI
-            to help deliver superior client outcomes and build lasting
-            relationships.
+            Catapult is a Finance Transformation expert that partners with
+            Growth Stage Companies through a unique Purpose Led Talent Model
+            powered by Data & AI enabled Managed Services model.
           </p>
-          <div className="flex mb-6 mt-1">
+          <div className="flex mb-6 mt-1 w-full justify-center">
             <Link href="/about-us" className="">
               <p className=" flex items-center text-lg font-bold hover:text-[#2251FF] hover:underline">
                 Learn More

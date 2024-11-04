@@ -32,7 +32,7 @@ export default function TextPage() {
                     circumstances, deserves the opportunity to reach their full
                     potential. This is why we are committed to hiring talent
                     that may have faced challenges due to factors beyond their
-                    control, often referred to as &quot;Ovarian Lottery.&quot;
+                    control.
                   </p>
                   <p className="mt-2 text-base leading-relaxed text-left">
                     Consequently, our focus is more on identifying talented
