@@ -13,10 +13,10 @@ export default function TextPage() {
       <div className=" bg-white px-10 md:px-20 text-black items-center">
         <div className="mx-auto max-w-8xl my-5">
           <p className="mt-6 mb-8 text-base leading-relaxed text-left">
-            Our ethos is to nurture leaders who have missed out on the Ovarian
-            Lottery by leveraging our proprietary operating model powered by AI
-            to help deliver superior client outcomes and build lasting
-            relationships.
+            Our ethos is to nurture leaders who have missed out due to
+            circumstances beyond their control by leveraging our proprietary
+            operating model powered by AI to help deliver superior client
+            outcomes and build lasting relationships.
           </p>
 
           <div className="flex flex-col mb-8">
