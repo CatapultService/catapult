@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
 import Navbar from "@/components/layout/navbar";
-import Footer from "@/components/layout/footer";
 
 export default function BestWishes() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -41,18 +40,18 @@ export default function BestWishes() {
   };
 
   return (
-    <main className="flex flex-col w-full min-h-screen" onClick={handleUnmute}>
-      <Navbar />
+    <main className="flex flex-col w-full min-h-screen bg-[#fffff2]" onClick={handleUnmute}>
+      <Navbar className="bg-[#fffff2]" textColor="text-[#090E4A]" useDarkLogo />
 
-      <div className="flex-1 flex items-center justify-center bg-gradient-to-b from-[#090E4A] via-black to-[#090E4A] px-4 py-2 pt-20">
+      <div className="flex-1 flex items-center justify-center bg-[#fffff2] pt-20">
         <div className="w-full max-w-5xl">
           <div className="mb-3 text-center">
-            <p className="text-white text-base md:text-lg font-semibold">
-              Wishing you a Merry Christmas & a Prosperous New Year 2026!
+            <p className="text-black text-base md:text-lg font-semibold">
+              Wishing you a Merry Christmas & a Prosperous New Year!
             </p>
           </div>
 
-          <div className="relative w-full rounded-lg overflow-hidden shadow-2xl">
+          <div className="relative w-full overflow-hidden">
             <video
               ref={videoRef}
               className="w-full"
@@ -86,7 +85,6 @@ export default function BestWishes() {
         </div>
       </div>
 
-      <Footer />
     </main>
   );
 }
