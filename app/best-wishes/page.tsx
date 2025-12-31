@@ -5,28 +5,43 @@ import Footer from "@/components/layout/footer";
 
 export default function BestWishes() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [showUnmuteButton, setShowUnmuteButton] = useState(true);
+  const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
     const video = videoRef.current;
-    if (video) {
-      // Ensure video plays (it will be muted initially due to autoPlay + muted attributes)
-      video.play().catch((error) => {
-        console.log("Autoplay failed:", error);
-      });
-    }
+    if (!video) return;
+
+    // Start playing muted
+    video.muted = true;
+    video.play().catch((error) => {
+      console.log("Autoplay failed:", error);
+    });
+
+    // Unmute on keypress (any key)
+    const handleKeydown = () => {
+      if (video.muted) {
+        video.muted = false;
+        video.play();
+        setIsMuted(false);
+        window.removeEventListener('keydown', handleKeydown);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeydown);
+    return () => window.removeEventListener('keydown', handleKeydown);
   }, []);
 
   const handleUnmute = () => {
     const video = videoRef.current;
-    if (video) {
+    if (video && isMuted) {
       video.muted = false;
-      setShowUnmuteButton(false);
+      video.play();
+      setIsMuted(false);
     }
   };
 
   return (
-    <main className="flex flex-col w-full min-h-screen">
+    <main className="flex flex-col w-full min-h-screen" onClick={handleUnmute}>
       <Navbar />
 
       <div className="flex-1 flex items-center justify-center bg-gradient-to-b from-[#090E4A] via-black to-[#090E4A] px-4 py-2 pt-20">
@@ -52,7 +67,7 @@ export default function BestWishes() {
               Your browser does not support the video tag.
             </video>
 
-            {showUnmuteButton && (
+            {isMuted && (
               <div
                 className="absolute top-4 right-4 bg-[#FFE600] hover:bg-[#FFD700] text-black px-6 py-3 rounded-full cursor-pointer shadow-lg transform transition-all hover:scale-105 flex items-center gap-2 font-semibold"
                 onClick={handleUnmute}
